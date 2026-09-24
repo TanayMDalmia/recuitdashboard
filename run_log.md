@@ -9,3 +9,9 @@
 ## 2026-09-24 — Cycle 16, checkpoint 2 (apm_rotational_tech)
 - Added 13 new APM postings via tracker_cache (GitHub trackers): Globus Medical, Owens & Minor, Red Ventures (x2), PlanetArt, IDeaS, Kyndryl, L3Harris, Lowe's, Stanley Black & Decker, Hard Rock Digital, Solace Health, Alto-Shaam. All link_verified=true (authoritative ATS source).
 - Existing Roblox/Disney/Databricks/Meta/Visa/Google APM postings already tracked and current, no changes needed.
+
+## 2026-09-24 — Cycle 16, checkpoint 3 (product_management) — final for this run
+- Added 25 new product_management postings via tracker_cache: GlobalFoundries, Cisco, Uncountable, Micron, Workday, Amazon (2027 ALA), NXP, TikTok (x6 distinct PM Graduate roles), CSI, EBSCO, Procter & Gamble, Tesla, FourKites, Aptiv, Halma, FieldPulse, FIS, Ernst & Young, Harper Group.
+- Skipped Figma "Early Career APM (2026)" greenhouse link — title suggested a stale/redirected posting ("Back to jobs"), could not confirm live, so left out per verification rules.
+- Top picks recomputed and appended to top_picks_history (final checkpoint of this run).
+- Budget of 3 batches for this run reached (sources_refresh, apm_rotational_tech, product_management). Remaining batches this cycle: strategy_bizops, consulting, corporate_rotational, quant_trading, pe_investing, venture_capital, entertainment, energy, financial_services, space, sports, aviation, alumni_outreach, supplemental_search_and_cleanup — next run resumes from strategy_bizops.
