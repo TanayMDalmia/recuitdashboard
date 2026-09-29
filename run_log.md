@@ -1,5 +1,14 @@
 # Run log
 
+## 2026-09-29 — Cycle 17, checkpoint 4 (energy, financial_services, space)
+- Resumed cycle 17 (checkpoints 1-3 already covered sources_refresh through entertainment).
+- This environment's WebFetch is currently blocking essentially all external domains (confirmed EGRESS_BLOCKED on boards.greenhouse.io, jobs.lever.co, amazon.jobs, ubs.com, careers.gevernova.com, firefly.hrmdirect.com, and even en.wikipedia.org as a control) — only raw.githubusercontent.com/github.com and the WebSearch backend are reachable this run (same restriction noted in the 2026-09-24 log, still in effect).
+- energy: 2 WebSearch queries (general rotational programs; Constellation/NextEra/GE Vernova) surfaced only postings already tracked or internship/co-op programs (not full-time new-grad) — no verifiable new additions.
+- financial_services: WebSearch on UBS/RBC/Northern Trust/Schwab surfaced summer-analyst/intern programs and a UBS general early-careers page, nothing resolvable to a specific verifiable full-time 2027 req not already tracked.
+- space: WebSearch on Firefly/Sierra Space/Redwire/Relativity surfaced only internship programs or generic careers pages; checked both cached GitHub new-grad trackers (vanshb03/New-Grad-2027, SimplifyJobs/New-Grad-Positions) for energy/financial_services/space-relevant entries — all matches were either already tracked (BlackRock AMRS program, State Street/Amex/SpaceX/Blue Origin SWE roles) or software-engineering roles that don't fit these categories' business/analyst/rotational profile for an ORFE background.
+- Net result: 0 new postings added across all 3 batches this checkpoint, per the mandatory-verification rule (skip silently rather than guess when a live page can't be confirmed). top_picks left unchanged (job pool didn't change). LINK UPGRADE backlog checked: 0 jobright.ai-linked postings unresolved, 0 bad_link, only 3 unverified-but-non-aggregator postings remain (well under the ~20 threshold) — deferred to the cycle's last checkpoint, and WebFetch verification for those is blocked this run regardless.
+- Marked energy, financial_services, space complete for cycle 17. Published dashboard update (cycle progress now 13/17 batches) and committed state.
+
 ## 2026-09-24 — Cycle 16, checkpoint 1 (sources_refresh)
 - Started cycle 16 (cycle 15 completed all 17 batches).
 - Processed 3 pending flags: IXL Learning APM (unavailable), Google APM University Grad (good -> liked), Disney AFRP Financial Analyst (bad_link -> fixed to stable program page).
