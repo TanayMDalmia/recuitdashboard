@@ -1,5 +1,5 @@
 {
- "last_refreshed": "2026-10-02",
+ "last_refreshed": "2026-10-03",
  "cycle": {
   "started": "2026-09-30",
   "batches_order": [
@@ -34,7 +34,10 @@
    "entertainment",
    "energy",
    "financial_services",
-   "space"
+   "space",
+   "sports",
+   "aviation",
+   "alumni_outreach"
   ],
   "cycle_number": 18
  },
@@ -276,9 +279,9 @@
    "applied_note": "",
    "note": "Link-upgrade retry on 2026-10-01: re-confirmed as a genuine Red Ventures posting via multiple mirrors (ZipRecruiter, Purpose.Jobs, Vaia, TealHQ) but no listing found on careers.redventures.com or RV's own Greenhouse board \u2014 LinkedIn remains the most direct link available.",
    "link_verified": false,
-   "flag_note": null,
+   "flag_note": "Could not verify this posting is still live as of 2026-10-03 \u2014 original source was unreliable: re-researched this run and confirmed this is actually a Summer 2027 internship talent-pipeline program for students graduating Summer 2028 (Red Ventures 'Launch Program'), not a full-time 2027-start role, so it does not belong on this dashboard.",
    "job_id": "red_venturesbusiness_analyst_talent_pipeline_2027_charlotte_nc",
-   "flag_status": null,
+   "flag_status": "unavailable",
    "resume_doc_url": null,
    "cover_letter_doc_url": null
   },
@@ -881,12 +884,12 @@
    "company": "RSM US LLP",
    "title": "Technology Risk Consulting Associate",
    "location": "Cincinnati, OH",
-   "link": "https://www.linkedin.com/jobs/view/technology-risk-consulting-associate-summer-2027-at-rsm-us-llp-4462347200",
+   "link": "https://rsm.wd1.myworkdayjobs.com/en-US/RSMCareers/job/Technology-Risk-Consulting-Associate---Summer-2027_JR117138",
    "category": "consulting",
    "source": "primary",
    "first_seen": "2026-07-24",
    "applied_note": "",
-   "note": "Link-upgrade retry on 2026-10-01: RSM's own ATS (jobs.rsmus.com) does host this exact role title and has posted Cincinnati versions in prior cycles, but no current Cincinnati-specific requisition ID could be confirmed without guessing \u2014 LinkedIn remains the most direct link available.",
+   "note": "Link upgraded 2026-10-03: moved from a LinkedIn mirror to RSM's own Workday ATS posting (req JR117138). Confirmed via research this run that RSM runs a distinct 'Technology Risk Consulting Associate - Summer 2027' full-time track (expected completion by Dec 2026/June 2027) separate from its own 'Technology Risk Consulting Intern - Summer 2027' listing \u2014 this is the full-time new-grad track, not the internship. (WebSearch-corroboration substitute; direct WebFetch blocked by network egress this session.)",
    "link_verified": false,
    "flag_note": null,
    "job_id": "rsm_us_llptechnology_risk_consulting_associatecincinnati_oh",
@@ -12273,9 +12276,9 @@
    "applied_note": "Tracker: Applied",
    "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. NYC rotational at the league office \u2014 the sports category's flagship program and it was completely uncovered.",
    "link_verified": true,
-   "flag_note": null,
+   "flag_note": "Could not verify this posting is still live as of 2026-10-03 \u2014 application window closed 2026-09-30 per NFL's own Greenhouse listing and multiple career-services mirrors (confirmed via research this run).",
    "job_id": "national_football_league_nfl_2027_nfl_rotational_programnew_york_ny",
-   "flag_status": null,
+   "flag_status": "unavailable",
    "resume_doc_url": null,
    "cover_letter_doc_url": null
   },
@@ -16470,9 +16473,9 @@
    "applied_note": "",
    "note": "WebSearch-corroboration substitute (link_verified false): identical posting (req 5419863008, July 2027 start, $72K, 4 rotations over 2 years, eligible Winter 2026/Spring 2027 grads) corroborated by Harvard FAS, St. John's, and American University career-services pages plus a Handshake mirror, all pointing to the same Greenhouse req.",
    "link_verified": false,
-   "flag_note": null,
+   "flag_note": "Could not verify this posting is still live as of 2026-10-03 \u2014 application window closed 2026-09-30 per NFL's own Greenhouse listing and multiple career-services mirrors (confirmed via research this run).",
    "job_id": "national_football_league_nfl_2027_nfl_rotational_programnew_york_ny_rotational_a",
-   "flag_status": null,
+   "flag_status": "unavailable",
    "liked": false,
    "resume_doc_url": null,
    "cover_letter_doc_url": null
@@ -16718,71 +16721,89 @@
    "flag_status": null,
    "resume_doc_url": null,
    "cover_letter_doc_url": null
+  },
+  {
+   "company": "Spirit AeroSystems",
+   "title": "Associate Staff Analyst",
+   "location": "Wichita, KS",
+   "link": "https://careers.spiritaero.com/jobs/17235?lang=en-us",
+   "category": "aviation",
+   "source": "websearch_corroborated",
+   "first_seen": "2026-10-03",
+   "applied_note": "",
+   "note": "WebSearch-corroboration substitute (link_verified false; direct WebFetch blocked by network egress this session): standing full-time training/workforce-analytics analyst req on Spirit's own ATS, mirrored identically on bebee.com. Not explicitly branded as a 2027 new-grad program \u2014 moderate confidence.",
+   "link_verified": false,
+   "flag_note": null,
+   "job_id": "spirit_aerosystemsassociate_staff_analystwichita_ks",
+   "flag_status": null,
+   "liked": false,
+   "resume_doc_url": null,
+   "cover_letter_doc_url": null
   }
  ],
  "top_picks": [
   {
+   "company": "Spirit AeroSystems",
+   "title": "Associate Staff Analyst",
+   "location": "Wichita, KS",
+   "link": "https://careers.spiritaero.com/jobs/17235?lang=en-us",
+   "category": "aviation",
+   "job_id": "spirit_aerosystemsassociate_staff_analystwichita_ks",
+   "reason": "New today; fills a gap in the thin aviation category with a direct company-ATS analytics role (training/workforce analytics), though moderate confidence since it's not explicitly branded as a 2027 grad program."
+  },
+  {
    "company": "Citi",
-   "title": "Markets - Sales and Trading, Full Time Analyst, 2027",
+   "title": "Banking - Investment Banking, Full Time Analyst, 2027",
+   "location": "Los Angeles, CA",
+   "link": "https://jobs.citi.com/job/los-angeles/banking-investment-banking-full-time-analyst-los-angeles-usa-2027/287/97845637888",
+   "category": "financial_services",
+   "job_id": "citi_banking_investment_banking_full_time_analyst_2027_los_angeles_ca",
+   "reason": "Citi has an active Princeton alumni hiring signal; direct jobs.citi.com ATS link; the LA companion seat to Citi's already-tracked NYC Markets posting."
+  },
+  {
+   "company": "Wells Fargo",
+   "title": "2027 Finance Analyst Rotational Program - Early Careers",
+   "location": "Charlotte, NC / Irving, TX / Minneapolis, MN",
+   "link": "https://www.wellsfargojobs.com/en/jobs/r-573947/2027-finance-analyst-rotational-program-early-careers/",
+   "category": "financial_services",
+   "job_id": "wells_fargo_2027_finance_analyst_rotational_program_early_careers",
+   "reason": "Wells Fargo has an active Princeton alumni hiring signal; direct wellsfargojobs.com ATS link; a true finance rotational program across three major US hubs."
+  },
+  {
+   "company": "Two Sigma",
+   "title": "Quantitative Researcher - Full-Time Campus Hire",
    "location": "New York, NY",
-   "link": "https://jobs.citi.com/job/new-york/markets-sales-and-trading-full-time-analyst-new-york-usa-2027/287/97890231824",
-   "category": "financial_services",
-   "job_id": "citi_markets_sales_and_trading_full_time_analyst_2027_new_york_ny",
-   "reason": "New today; Citi has an active Princeton alumni hiring signal; NYC Markets Sales & Trading seat with a direct jobs.citi.com ATS link."
+   "link": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Full-Time-Campus-Hire/13946",
+   "category": "quant_trading",
+   "job_id": "two_sigmaquantitative_researcher_full_time_campus_hirenew_york_ny",
+   "reason": "NYC quant_trading seat, strong brand fit for ORFE, direct company-ATS link, explicitly a full-time campus hire channel."
   },
   {
-   "company": "Bank of America",
-   "title": "Global Investment Banking Analyst Program - 2027",
-   "location": "Multiple US Locations",
-   "link": "https://careers.bankofamerica.com/en-us/students/job-detail/14628/global-investment-banking-analyst-program-x2013-2027-multiple-locations",
-   "category": "financial_services",
-   "job_id": "bank_of_america_global_investment_banking_analyst_program_2027_multiple_us_locations",
-   "reason": "New today; BofA has multiple live 2027 class postings and an active alumni hiring signal; direct careers.bankofamerica.com link, multiple US locations including NYC."
-  },
-  {
-   "company": "Barclays",
-   "title": "International Corporate Banking Analyst Graduate Program 2027",
+   "company": "DRW",
+   "title": "Quantitative Researcher",
    "location": "New York, NY",
-   "link": "https://search.jobs.barclays/job/new-york/international-corporate-banking-analyst-graduate-program-2027-new-york/13015/100098127792",
-   "category": "financial_services",
-   "job_id": "barclays_international_corporate_banking_analyst_graduate_program_2027_new_york_ny",
-   "reason": "New today; Barclays has an active alumni hiring signal (postings reportedly up ~43% YoY); direct search.jobs.barclays link, NYC."
+   "link": "https://job-boards.greenhouse.io/drweng/jobs/8030406",
+   "category": "quant_trading",
+   "job_id": "drwquantitative_researchernew_york_ny",
+   "reason": "NYC quant_trading seat with a direct Greenhouse ATS link, verified live by construction."
   },
   {
-   "company": "Deutsche Bank",
-   "title": "Graduate Program - Investment Bank & Capital Markets: Investment Bank Coverage - New York 2027",
-   "location": "New York, NY",
-   "link": "https://db.recsolu.com/external/requisitions/JIkU4EX_XpVcHMakTXQZng",
-   "category": "financial_services",
-   "job_id": "deutsche_bank_graduate_program_ibcm_coverage_new_york_2027",
-   "reason": "New today; Deutsche Bank is on a reported hiring spree per its active alumni signal; NYC Investment Bank Coverage seat on DB's own branded ATS."
+   "company": "Alvarez & Marsal",
+   "title": "2027 Analyst, Corporate Performance Improvement (CPI)",
+   "location": "Washington, DC",
+   "link": "https://careers.alvarezandmarsal.com/jobs/17884278-2027-analyst-corporate-performance-improvement-cpi",
+   "category": "consulting",
+   "job_id": "alvarez_marsal2027_analyst_corporate_performance_improvement_cpi_washington_dc",
+   "reason": "Alvarez & Marsal now has an active Princeton alumni hiring signal from this run (20%+ revenue growth, aggressive expansion); direct company-ATS link."
   },
   {
-   "company": "NextEra Energy",
-   "title": "Rotational Assignment - Ignite Digital",
-   "location": "Palm Beach Gardens, FL",
-   "link": "https://jobs.nexteraenergy.com/job/Palm-Beach-Gardens-Rotational-Assignment-Ignite-Digital-FL-33410/1429707900/",
-   "category": "energy",
-   "job_id": "nextera_energy_rotational_assignment_ignite_digital_palm_beach_gardens_fl",
-   "reason": "New today; NextEra Energy has an active alumni hiring signal tied to its growing renewable generation business; a second rotational track beyond the Finance/LAUNCH programs already tracked."
-  },
-  {
-   "company": "T. Rowe Price",
-   "title": "2027 CFO Rotational Program",
-   "location": "Owings Mills, MD",
-   "link": "https://troweprice.gr8people.com/jobs/21976/2027-cfo-rotational-program",
-   "category": "financial_services",
-   "job_id": "t_rowe_price_2027_cfo_rotational_program_owings_mills_md",
-   "reason": "New today; a new company for financial_services \u2014 a well-regarded East Coast asset manager with a genuine full-time rotational CFO program."
-  },
-  {
-   "company": "GE Vernova",
-   "title": "Nuclear Edison Engineering Development Program - US 2027",
-   "location": "Wilmington, NC",
-   "link": "https://careers.gevernova.com/ge-vernova-nuclear-edison-engineering-development-program-us-2027/job/R5045476",
-   "category": "energy",
-   "job_id": "ge_vernova_nuclear_edison_engineering_development_program_us_2027_wilmington_nc",
-   "reason": "New today; fills a gap in GE Vernova's Edison Engineering Development Program coverage (Nuclear track) at a fast-growing energy/power brand."
+   "company": "Axon Enterprise",
+   "title": "Leadership Development Program 2027",
+   "location": "Boston, MA",
+   "link": "https://www.axon.com/careers/ldp",
+   "category": "corporate_rotational",
+   "job_id": "axon_enterpriseleadership_development_program_2027boston_ma",
+   "reason": "Axon now has an active Princeton alumni hiring signal from this run (named LDP 2027 cohort, August 2027 start); Boston location is a highlighted metro."
   }
  ],
  "top_picks_history": [
@@ -19953,6 +19974,170 @@
      "source_url": "https://www.generalatlantic.com/people/walker-carpenter/",
      "found_at": "2026-09-29",
      "email_draft": "Subject: Princeton grad, question about General Atlantic\n\nHi Walker,\n\nI'm Tanay, a junior at Princeton studying ORFE, class of 2027. I saw you started at General Atlantic as a summer analyst back in 2016 and have stayed and grown into a VP role on the life sciences side, which stood out to me since a lot of people talk about growth equity as a stepping stone rather than somewhere people actually stay and build a career.\n\nI've been looking more into growth equity lately and would love to hear what kept you there and how the life sciences focus came about. If you ever have fifteen or twenty minutes I'd appreciate the chance to talk, but no pressure if you're swamped.\n\nThanks,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    }
+   ]
+  },
+  "Block": {
+   "hiring_signal": null,
+   "hiring_signal_source_url": null,
+   "checked_at": "2026-10-03",
+   "alums": []
+  },
+  "BNP Paribas": {
+   "hiring_signal": "BNP Paribas has a live, named 2027 Summer Internship (Coverage, Global Banking) posting in London plus its two-year Analyst & Associate Training Program/Graduate Programme explicitly tied to 2027 cohorts.",
+   "hiring_signal_source_url": "https://group.bnpparibas/en/careers/job-offer/london-2027-summer-internship-coverage-global-banking",
+   "checked_at": "2026-10-03",
+   "alums": [
+    {
+     "alum_id": "bnp_paribasty_whalen",
+     "name": "Ty Whalen",
+     "title": "Incoming 2026 Corporate Finance & Investment Banking Summer Analyst, BNP Paribas",
+     "source_url": "https://goprincetontigers.com/sports/wrestling/roster/ty-whalen/19901",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Ty,\n\nI'm Tanay, a junior at Princeton studying ORFE. I saw you wrestled for Princeton and are heading into corporate finance and investment banking at BNP Paribas as a summer analyst, and I wanted to say congrats on that. I've been looking seriously at banking for after graduation and BNP's platform keeps coming up in my research. Juggling a varsity sport with recruiting sounds like it was its own grind, so I'm curious how you managed that timeline. If you have 15 or 20 minutes sometime in the next few weeks, I'd love to hear how you landed there and what the analyst seat has been like so far. No worries at all if things are too busy right now.\n\nBest,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    },
+    {
+     "alum_id": "bnp_paribasluke_freeman",
+     "name": "Luke Freeman",
+     "title": "Compliance Intern, BNP Paribas",
+     "source_url": "https://jrc.princeton.edu/people/freeman",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Luke,\n\nMy name is Tanay and I'm a junior at Princeton in ORFE. I came across your work and saw you studied econ with a finance certificate and did research on the net-zero transition before heading to BNP Paribas as a compliance intern. That mix of sustainability-focused research and a role on the compliance side at a global bank isn't a combination I see often, and I'd like to understand how those two interests connected for you. I'm trying to figure out where I fit within banking, and compliance is one of the paths I know the least about. Would you be open to a short call, maybe 15 minutes, in the next couple weeks? Totally fine if now isn't a good time.\n\nThanks,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    }
+   ]
+  },
+  "Applied Materials": {
+   "hiring_signal": "Applied Materials has a live 'New College Graduate 2027' requisition, and on its Q3 2026 earnings call it said it hired 1,500+ in manufacturing/customer support and is training teams to double quarterly system output by 2028.",
+   "hiring_signal_source_url": "https://www.dreamworkhq.com/job/c382ac9e-98bc-405e-bcf8-462a608a0632",
+   "checked_at": "2026-10-03",
+   "alums": [
+    {
+     "alum_id": "applied_materialskellen_cao",
+     "name": "Kellen Cao",
+     "title": "Process Engineering Intern (thin-film characterization, PVD), Applied Materials",
+     "source_url": "https://www.princetonpianists.com/kellen-cao",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Kellen,\n\nI'm Tanay, a junior ORFE major at Princeton. I read that you worked on thin-film characterization and PVD process optimization as a process engineering intern at Applied Materials, and that you're headed to Cornell for materials science next. Semiconductor manufacturing isn't somewhere I have much exposure to, but between the hiring push I've seen on Applied Materials' new grad postings and how central the chip industry feels right now, I've started paying closer attention. I'd be curious how the Princeton physics background set you up for that internship and what convinced you to go to grad school instead of staying in industry right away. If you have 15 minutes in the next few weeks I'd really appreciate hearing your take. No pressure if you're swamped.\n\nBest,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    },
+    {
+     "alum_id": "applied_materialssidney_huey",
+     "name": "Sidney Huey",
+     "title": "Director, Applied Materials",
+     "source_url": "https://www.linkedin.com/in/sidney-huey-3b7362b/",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Sidney,\n\nI'm Tanay, a junior studying ORFE at Princeton. I noticed you went to Princeton as well and are now a director at Applied Materials, and I wanted to reach out since I've been looking more closely at the semiconductor equipment space lately. It's a part of the industry I didn't know much about until recently, and getting the view of someone who's been there a while and started at Princeton too would help a lot. If you have 15 or 20 minutes somewhere in your schedule over the next few weeks, I'd love to ask a few questions about how you think about the business side of the industry. Completely understand if your schedule doesn't allow it right now.\n\nThanks,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    }
+   ]
+  },
+  "BMO": {
+   "hiring_signal": "BMO is actively recruiting for its Leadership Rotational Development Program (New Grad), a 16-month program with three 5-month rotations exposing trainees to executive leadership.",
+   "hiring_signal_source_url": "https://builtin.com/job/leadership-rotational-development-program-new-grad/7566953",
+   "checked_at": "2026-10-03",
+   "alums": [
+    {
+     "alum_id": "bmofinn_evans",
+     "name": "Finn Evans",
+     "title": "BMO Capital Markets",
+     "source_url": "https://www.linkedin.com/in/finn-evans-7883aa272/",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Finn,\n\nI'm Tanay, a junior at Princeton majoring in ORFE. I saw you went to Princeton too and are now at BMO Capital Markets, and I'm trying to learn more about what the desks and groups there actually look like day to day. I've gone back and forth on which banks to focus my search on this fall, and hearing from someone who was in my shoes a few years ago would help me sort through it. Would you have 15 minutes sometime in the next couple weeks to talk through your path to BMO and what's kept you there? No worries if this isn't a good time, I know recruiting season gets busy for everyone.\n\nBest,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    },
+    {
+     "alum_id": "bmoemma_trauber",
+     "name": "Emma Trauber",
+     "title": "BMO Launch Summer 2024 Intern (now incoming IB Summer Analyst at Goldman Sachs)",
+     "source_url": "https://goprincetontigers.com/news/2025/2/13/womens-squash-zein-chadwick-trauber-earn-all-ivy-league-honors",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Emma,\n\nI'm Tanay, a junior at Princeton studying ORFE. I saw you play squash for Princeton and did the BMO Launch program the summer before your junior year, and I'm trying to get a better sense of what that kind of rotational internship actually involves before I apply anywhere. Balancing a varsity season with internship recruiting is something I'm starting to deal with myself, and it would help to hear how you managed both. If you have 15 minutes sometime soon, I'd love to ask a few quick questions about your experience with BMO and anything you'd tell a junior just starting to look at banks. Totally understand if your schedule is packed with squash and recruiting right now.\n\nBest,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    }
+   ]
+  },
+  "Atlanta Hawks": {
+   "hiring_signal": "Atlanta Hawks posted a Trainee - Analytics (Research & Insights) role through TeamWork Online, an entry-level analytics opening consistent with recent front-office/analytics expansion.",
+   "hiring_signal_source_url": "https://www.teamworkonline.com/basketball-jobs/atlanta-hawks-jobs/atlanta-hawks-jobs/trainee-analytics-research-insights-1958123",
+   "checked_at": "2026-10-03",
+   "alums": []
+  },
+  "Axon Enterprise": {
+   "hiring_signal": "Axon is recruiting for its Leadership Development Program 2027 cohort, a selective two-year rotational program with an August 2027 start requiring a June 2027 graduation date.",
+   "hiring_signal_source_url": "https://zapply.jobs/jobs/d8a5cfa4-1dde-410c-84bc-2fd2dd35a62e/",
+   "checked_at": "2026-10-03",
+   "alums": [
+    {
+     "alum_id": "axon_enterprisejulia_m_boyle",
+     "name": "Julia M. Boyle",
+     "title": "Director, M&A Integrations, Axon (previously Chief of Staff, People Operations)",
+     "source_url": "https://goprincetontigers.com/sports/field-hockey/roster/julia-boyle/9116",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Julia,\n\nI'm Tanay, a junior at Princeton in ORFE. I saw you played field hockey for Princeton and have built a career at Axon that moved from HR business partner into Chief of Staff for People Operations and now M&A integrations, which is a path I haven't seen laid out quite like that before. I've been looking into Axon given how much the company has been expanding lately, and I'm interested in how the business and operations side works at a company growing this fast. If you have 15 or so minutes in the next few weeks, I'd love to hear how you moved between those roles and what's kept things interesting. No pressure if the timing doesn't work out.\n\nBest,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    }
+   ]
+  },
+  "Alvarez & Marsal": {
+   "hiring_signal": "Alvarez & Marsal reported 20%+ revenue growth in a year when most consulting firms were flat, and has been aggressively expanding into new practice areas and geographies while hiring on a rolling basis.",
+   "hiring_signal_source_url": "https://managementconsulted.com/alvarez-marsal-interviews-and-culture/",
+   "checked_at": "2026-10-03",
+   "alums": [
+    {
+     "alum_id": "alvarez_marsalmarissa_law_cfa",
+     "name": "Marissa Law, CFA",
+     "title": "Strategy consultant, Alvarez & Marsal",
+     "source_url": "https://my.linkedin.com/in/marissa-law-cfa-914989115",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Marissa,\n\nI'm Tanay, a junior studying ORFE at Princeton. I saw you also went to Princeton and have spent the past several years as a strategy consultant across management consulting and research before landing at Alvarez & Marsal, and your path sounded like exactly the kind of thing I'm trying to understand better. Consulting is on my shortlist right now, and A&M's growth lately has made me curious what the day to day actually looks like there compared to the bigger firms. If you had 15 or 20 minutes sometime in the next few weeks, I'd really appreciate hearing how you ended up at A&M and what's different about it. Completely fine if you don't have the bandwidth right now.\n\nBest,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    },
+    {
+     "alum_id": "alvarez_marsaleliot_sawyer",
+     "name": "Eliot Sawyer",
+     "title": "Senior Manager, Deals Strategy & Value Creation, Alvarez & Marsal",
+     "source_url": "https://www.linkedin.com/in/eliot-sawyer-144193146/",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Eliot,\n\nI'm Tanay, a junior at Princeton studying ORFE. I saw you also went to Princeton and moved from valuation work in biotech and pharma at Strategy& into deals strategy and value creation at Alvarez & Marsal, and I'd like to understand how that transition happened. I've been digging into consulting and corporate advisory work lately, and the valuation side specifically has caught my interest given the quant background I'm building in ORFE. If you have 15 minutes sometime in the next few weeks, I'd really value hearing about how you chose that path and what A&M has been like so far. No worries at all if now isn't a good time.\n\nBest,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    }
+   ]
+  },
+  "Balyasny Asset Management": {
+   "hiring_signal": "Balyasny just launched 'Catalyst,' a new early-career program for Equities that takes graduating students through an internship and a 9-month rotational program, open to students graduating between Winter 2027 and Spring 2028.",
+   "hiring_signal_source_url": "https://www.getsmartresume.com/article/balyasny-asset-management-early-careers",
+   "checked_at": "2026-10-03",
+   "alums": [
+    {
+     "alum_id": "balyasny_asset_managementalex_aronovich",
+     "name": "Alex Aronovich",
+     "title": "Macro Analyst, Balyasny Asset Management (Princeton MFin '23)",
+     "source_url": "https://economics.princeton.edu/news/alex-aronovich-mfin-23-reflects-on-his-time-at-princeton-on-the-heels-of-graduation/",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Alex,\n\nI'm Tanay, a junior at Princeton studying ORFE. I read the piece Princeton's econ department put out on you reflecting on your time there, and your path from research work into macro analysis at Balyasny stood out to me. I'm an ORFE major trying to figure out whether the macro side or the more systematic side of markets is a better fit for me, and hearing from someone who did real research before moving to the buy side would help a lot. Would you have 15 or 20 minutes in the next few weeks to talk through how that move happened? Completely understand if things are too busy right now.\n\nBest,\nTanay",
+     "contacted": false,
+     "manually_added": false
+    },
+    {
+     "alum_id": "balyasny_asset_managementkai_he",
+     "name": "Kai He",
+     "title": "Quantitative Researcher, Balyasny Asset Management (mid-frequency equities statistical arbitrage)",
+     "source_url": "https://www.linkedin.com/in/kai-he-572492a1/",
+     "found_at": "2026-10-03",
+     "email_draft": "Hi Kai,\n\nI'm Tanay, a junior studying ORFE at Princeton. I saw you did your Master in Finance at Princeton before moving into quantitative research, first at Squarepoint and now on equities statistical arbitrage at Balyasny. That's close to the kind of work I've been trying to get exposure to through my coursework, and I'd like to hear more about how the research actually runs on a pod like yours day to day. If you have 15 minutes somewhere in your schedule over the next few weeks, I'd really appreciate the chance to ask a few questions. No pressure if you're busy.\n\nBest,\nTanay",
      "contacted": false,
      "manually_added": false
     }
