@@ -1,5 +1,5 @@
 {
-  "last_refreshed": "2026-10-04",
+  "last_refreshed": "2026-10-05",
   "cycle": {
     "started": "2026-10-04",
     "batches_order": [
@@ -27,7 +27,10 @@
       "product_management",
       "strategy_bizops",
       "consulting",
-      "corporate_rotational"
+      "corporate_rotational",
+      "quant_trading",
+      "pe_investing",
+      "venture_capital"
     ],
     "cycle_number": 19
   },
@@ -17311,6 +17314,42 @@
       "resume_doc_url": null,
       "cover_letter_doc_url": null,
       "liked": false
+    },
+    {
+      "company": "PEAK6",
+      "title": "Trading Associate - 2027",
+      "location": "Chicago, IL",
+      "link": "https://careers.peak6.com/jobs/trading-clearing-services/chicago-illinois-united-states-of-america/trading-associate-2027/JR105060",
+      "category": "quant_trading",
+      "source": "websearch_corroborated",
+      "first_seen": "2026-10-05",
+      "applied_note": "",
+      "note": "18-month options-trading training program; requires grad Dec 2026-Jun 2027, Aug 2027 start, Series 57 within 2 months of hire. Confirmed on PEAK6's own ATS (careers.peak6.com) with live req number; corroborated by BuiltIn, TheLadders, ZipRecruiter, LinkedIn. WebFetch to this domain is blocked by this session's network egress policy, so this is WebSearch-corroboration only, not a direct page fetch.",
+      "link_verified": false,
+      "flag_note": null,
+      "job_id": "peak6trading_associate_2027chicago_il",
+      "flag_status": null,
+      "resume_doc_url": null,
+      "cover_letter_doc_url": null,
+      "liked": false
+    },
+    {
+      "company": "Vatic Labs",
+      "title": "Quantitative Trader",
+      "location": "New York, NY",
+      "link": "https://job-boards.greenhouse.io/vaticlabs/jobs/6770694",
+      "category": "quant_trading",
+      "source": "websearch_corroborated",
+      "first_seen": "2026-10-05",
+      "applied_note": "",
+      "note": "Entry-level quant trader role (ML/statistical trading strategy research); degree in Econ/Math/Stats or related. New company for this category. Confirmed on Vatic Labs' own Greenhouse board; corroborated by TheLadders and Vaia. WebFetch to this domain is blocked by this session's network egress policy, so this is WebSearch-corroboration only, not a direct page fetch.",
+      "link_verified": false,
+      "flag_note": null,
+      "job_id": "vatic_labsquantitative_tradernew_york_ny",
+      "flag_status": null,
+      "resume_doc_url": null,
+      "cover_letter_doc_url": null,
+      "liked": false
     }
   ],
   "top_picks": [
@@ -17369,6 +17408,20 @@
       "link": "https://baincapital.wd1.myworkdayjobs.com/en-US/External_Public/job/XMLNAME-2027-North-America-Private-Equity-Analyst-Associate-Program_REQ_108270-1",
       "category": "pe_investing",
       "reason": "Boston-based PE analyst program at a brand-name shop with an active alumni hiring signal."
+    },
+    {
+      "company": "PEAK6",
+      "title": "Trading Associate - 2027",
+      "link": "https://careers.peak6.com/jobs/trading-clearing-services/chicago-illinois-united-states-of-america/trading-associate-2027/JR105060",
+      "category": "quant_trading",
+      "reason": "Brand-new today, direct link on PEAK6's own ATS, and a new company for quant_trading with a structured 18-month options-trading program explicitly open to Spring 2027 grads."
+    },
+    {
+      "company": "Vatic Labs",
+      "title": "Quantitative Trader",
+      "link": "https://job-boards.greenhouse.io/vaticlabs/jobs/6770694",
+      "category": "quant_trading",
+      "reason": "Brand-new today, NYC-based, direct Greenhouse link, and a new company for quant_trading fitting an ORFE quant-research profile well."
     }
   ],
   "top_picks_history": [
