@@ -30,7 +30,10 @@
       "corporate_rotational",
       "quant_trading",
       "pe_investing",
-      "venture_capital"
+      "venture_capital",
+      "entertainment",
+      "energy",
+      "financial_services"
     ],
     "cycle_number": 19
   },
