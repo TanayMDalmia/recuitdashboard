@@ -37,7 +37,8 @@
       "space",
       "sports",
       "aviation",
-      "alumni_outreach"
+      "alumni_outreach",
+      "supplemental_search_and_cleanup"
     ],
     "cycle_number": 19
   },
@@ -12496,10 +12497,10 @@
       "first_seen": "2026-09-21",
       "applied_note": "",
       "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. ",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "vanguardfinancial_advisor_development_programmalvern_pa",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -12513,10 +12514,10 @@
       "first_seen": "2026-09-21",
       "applied_note": "",
       "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. ",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "new_york_lifegroup_benefit_solutions_underwriting_launch_program_june_2027phoeni",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -12530,10 +12531,10 @@
       "first_seen": "2026-09-21",
       "applied_note": "",
       "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. ",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "navy_federal_credit_unionfinance_rotation_programvienna_va",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -12541,13 +12542,13 @@
       "company": "Northrop Grumman",
       "title": "2027 Associate Business Management / Business Management Analyst \u2014 Pathways Program",
       "location": "Sunnyvale, CA",
-      "link": "https://www.linkedin.com/jobs/view/2027-associate-business-management-business-management-analyst-%E2%80%93-pathways-program-%E2%80%93-sunnyvale-ca-at-northrop-grumman-4460593776",
+      "link": "https://jobs.northropgrumman.com/careers/job/1340073998901-2027-associate-business-management-business-management-analyst-%E2%80%93-pathways-program-%E2%80%93-sunnyvale-ca-united-states-california-sunnyvale?domain=ngc.com",
       "category": "aviation",
       "source": "primary",
       "first_seen": "2026-09-21",
       "applied_note": "",
-      "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. The business (non-engineering) track of Northrop's Pathways rotational.",
-      "link_verified": true,
+      "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. The business (non-engineering) track of Northrop's Pathways rotational. Link upgraded from an unreliable (LinkedIn) source on 2026-10-06: Direct Northrop Grumman careers-site posting matches title/location exactly; corroborated by a workopia.io mirror. (WebSearch-corroboration substitute; direct WebFetch blocked by network egress this session.)",
+      "link_verified": false,
       "flag_note": null,
       "job_id": "northrop_grumman2027_associate_business_management_business_management_analyst_p",
       "flag_status": null,
@@ -12564,10 +12565,10 @@
       "first_seen": "2026-09-21",
       "applied_note": "",
       "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. ",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "northrop_grumman2027_associate_program_cost_schedule_control_analystlayton_ut",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -12581,10 +12582,10 @@
       "first_seen": "2026-09-21",
       "applied_note": "",
       "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. Non-technical LDP track.",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "textron2027_textron_leadership_development_program_integrated_supply_chainfort_w",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -12598,10 +12599,10 @@
       "first_seen": "2026-09-21",
       "applied_note": "",
       "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. ",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "textron2027_financial_analystaugusta_ga",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -12615,10 +12616,10 @@
       "first_seen": "2026-09-21",
       "applied_note": "",
       "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. ",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "rockwell_automationedge_information_technology_rotational_programmilwaukee_wi",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -12626,13 +12627,13 @@
       "company": "Stanley Black & Decker",
       "title": "Leadership Program \u2014 Sales, January 2027",
       "location": "Towson, MD",
-      "link": "https://www.linkedin.com/jobs/view/stanley-black-decker-leadership-program-sales-january-2027-at-stanley-black-decker-inc-4399476608",
+      "link": "https://sbdinc.wd1.myworkdayjobs.com/en-US/Stanley_Black_Decker_Career_Site/job/Stanley-Black---Decker-Leadership-Program---Sales---January-2027_REQ-1000047611",
       "category": "corporate_rotational",
       "source": "primary",
       "first_seen": "2026-09-21",
       "applied_note": "",
-      "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. Sales track \u2014 lower fit, listed for coverage.",
-      "link_verified": true,
+      "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. Sales track \u2014 lower fit, listed for coverage. Link upgraded from an unreliable (LinkedIn) source on 2026-10-06: Direct Workday posting (SBD's own ATS instance) matches title exactly (REQ-1000047611); corroborated by a workopia.io mirror. (WebSearch-corroboration substitute; direct WebFetch blocked by network egress this session.)",
+      "link_verified": false,
       "flag_note": null,
       "job_id": "stanley_black_deckerleadership_program_sales_january_2027towson_md",
       "flag_status": null,
@@ -12643,13 +12644,13 @@
       "company": "Texas Instruments",
       "title": "Human Resources Development Program",
       "location": "Dallas, TX",
-      "link": "https://www.linkedin.com/jobs/view/human-resources-development-program-at-texas-instruments-4461696642",
+      "link": "https://careers.ti.com/job/20929683/human-resources-development-program-dallas-tx/",
       "category": "corporate_rotational",
       "source": "primary",
       "first_seen": "2026-09-21",
       "applied_note": "",
-      "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. HR track \u2014 lower fit, listed for coverage.",
-      "link_verified": true,
+      "note": "From the Princeton CCD Rotational Programs list, verified live on LinkedIn 2026-09-21. HR track \u2014 lower fit, listed for coverage. Link upgraded from an unreliable (LinkedIn) source on 2026-10-06: Direct Texas Instruments careers site; corroborated by career.com and Prosple mirrors. (WebSearch-corroboration substitute; direct WebFetch blocked by network egress this session.)",
+      "link_verified": false,
       "flag_note": null,
       "job_id": "texas_instrumentshuman_resources_development_programdallas_tx",
       "flag_status": null,
@@ -13069,13 +13070,13 @@
       "company": "Google",
       "title": "Customer Growth Associate, Google Customer Solutions \u2014 University Graduate, 2027 Start",
       "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/customer-growth-associate-google-customer-solutions-university-graduate-2027-start-english-at-google-4442201218",
+      "link": "https://careers.google.com/jobs/results/121628144896484038-customer-growth-associate/",
       "category": "strategy_bizops",
       "source": "primary",
       "first_seen": "2026-09-23",
       "applied_note": "",
-      "note": "Posted 2026-09-23, 200+ applicants within 12 hours. Minimum quals allow experience gained \"through full time roles, INTERNSHIPS, PROJECTS OR ACADEMIC CLASSES\" \u2014 new-grad eligible. B2B sales/advertising track, so lower fit than APM, but it is an NYC Google seat with a 2027 start.",
-      "link_verified": true,
+      "note": "Posted 2026-09-23, 200+ applicants within 12 hours. Minimum quals allow experience gained \"through full time roles, INTERNSHIPS, PROJECTS OR ACADEMIC CLASSES\" \u2014 new-grad eligible. B2B sales/advertising track, so lower fit than APM, but it is an NYC Google seat with a 2027 start. Link upgraded from an unreliable (LinkedIn) source on 2026-10-06: Direct Google careers posting, exact title match; listing names New York as one of two eligible office locations. (WebSearch-corroboration substitute; direct WebFetch blocked by network egress this session.)",
+      "link_verified": false,
       "flag_note": null,
       "job_id": "googlecustomer_growth_associate_google_customer_solutions_university_graduate_20",
       "flag_status": null,
@@ -13086,13 +13087,13 @@
       "company": "Mastercard",
       "title": "Associate Product Specialist, Product Management \u2014 Launch Program 2027",
       "location": "Arlington, VA",
-      "link": "https://www.linkedin.com/jobs/view/associate-product-specialist-product-management-launch-program-2027-united-states-at-mastercard-4469356932",
+      "link": "https://careers.mastercard.com/us/en/job/R-287623/Associate-Product-Specialist-Product-Management-Launch-Program-2027-United-States",
       "category": "apm_rotational_tech",
       "source": "primary",
       "first_seen": "2026-09-23",
       "applied_note": "",
-      "note": "Posted 2026-09-23. EXACT GRAD WINDOW: \"anticipated graduation date between Dec 2026 - June 2027\". No experience floor. Mastercard's Launch Program is their named rotational \u2014 this is the product-management track.",
-      "link_verified": true,
+      "note": "Posted 2026-09-23. EXACT GRAD WINDOW: \"anticipated graduation date between Dec 2026 - June 2027\". No experience floor. Mastercard's Launch Program is their named rotational \u2014 this is the product-management track. Link upgraded from an unreliable (LinkedIn) source on 2026-10-06: Direct Mastercard careers posting; corroborated by a matching Workday req under the same req ID (R-287623) and a TheLadders mirror naming Arlington, VA. (WebSearch-corroboration substitute; direct WebFetch blocked by network egress this session.)",
+      "link_verified": false,
       "flag_note": null,
       "job_id": "mastercardassociate_product_specialist_product_management_launch_program_2027arl",
       "flag_status": null,
@@ -13109,10 +13110,10 @@
       "first_seen": "2026-09-23",
       "applied_note": "",
       "note": "Posted 2026-09-23. No experience floor \u2014 Bachelor's in IT/CS/Engineering/Business, and \"Experience in Product Management OR equivalent practical experience building or deploying products\".",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "ibmentry_level_product_management_2027poughkeepsie_ny",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -13126,10 +13127,10 @@
       "first_seen": "2026-09-23",
       "applied_note": "",
       "note": "No experience floor. ELH = IBM's Early Level Hire track. Lifecycle service offerings across hardware/software.",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "ibmproduct_manager_early_level_hire_elh_rtp_2027durham_nc",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -13961,10 +13962,10 @@
       "first_seen": "2026-09-27",
       "applied_note": "",
       "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). Major PE seat, NYC. Your board already has Blackstone Infrastructure; this is the Real Estate acquisitions track.",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "blackstone2027_blackstone_real_estate_acquisitions_analystnew_york_ny",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -13978,10 +13979,10 @@
       "first_seen": "2026-09-27",
       "applied_note": "",
       "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). Named CAMPUS undergrad track, product management, NYC.",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "american_expresscampus_undergraduate_full_time_associate_2027_digital_product_ma",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -13989,13 +13990,13 @@
       "company": "PwC",
       "title": "Management Consulting \u2014 Finance Solutions Associate, Winter 2027",
       "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/management-consulting-finance-solutions-associate-winter-2027-at-pwc-4470985680",
+      "link": "https://jobs-us.pwc.com/us/en/job/PUVPUIUS763820WDEXTERNALENUS/Management-Consulting-Finance-Solutions-Associate-Winter-2027",
       "category": "consulting",
       "source": "primary",
       "first_seen": "2026-09-27",
       "applied_note": "",
-      "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). First PwC 2027 req to surface \u2014 they run campus hiring on their own portal, so this is the rare LinkedIn appearance.",
-      "link_verified": true,
+      "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). First PwC 2027 req to surface \u2014 they run campus hiring on their own portal, so this is the rare LinkedIn appearance. Link upgraded from an unreliable (LinkedIn) source on 2026-10-06: Direct PwC careers site, matched by the identical req (763820WD) on PwC's Workday instance; NY eligibility plausible via multi-office campus req but not separately confirmed (search snippet also showed an IL-Rosemont tag). (WebSearch-corroboration substitute; direct WebFetch blocked by network egress this session.)",
+      "link_verified": false,
       "flag_note": null,
       "job_id": "pwcmanagement_consulting_finance_solutions_associate_winter_2027new_york_ny",
       "flag_status": null,
@@ -14012,10 +14013,10 @@
       "first_seen": "2026-09-27",
       "applied_note": "",
       "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). Named investment analyst program at a major logistics REIT, NYC.",
-      "link_verified": true,
-      "flag_note": null,
+      "link_verified": false,
+      "flag_note": "Could not verify this posting is still live as of 2026-10-06 \u2014 original source was unreliable",
       "job_id": "prologisinvestment_analyst_program_iap_2027new_york_ny",
-      "flag_status": null,
+      "flag_status": "unavailable",
       "resume_doc_url": null,
       "cover_letter_doc_url": null
     },
@@ -14023,13 +14024,13 @@
       "company": "Deutsche Bank",
       "title": "Graduate Program \u2014 Corporate Bank, New York 2027",
       "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/deutsche-bank-graduate-program-corporate-bank-new-york-2027-at-deutsche-bank-4461189541",
+      "link": "https://db.recsolu.com/external/requisitions/qQ4J59_6543UBfqPTTsi2Q",
       "category": "financial_services",
       "source": "primary",
       "first_seen": "2026-09-27",
       "applied_note": "",
-      "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). NYC seat (your board previously only had the Jacksonville posting).",
-      "link_verified": true,
+      "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). NYC seat (your board previously only had the Jacksonville posting). Link upgraded from an unreliable (LinkedIn) source on 2026-10-06: Direct posting on Deutsche Bank's own recruiting platform (db.recsolu.com); corroborated by two independent university career-center mirrors (Suffolk, Tulane). (WebSearch-corroboration substitute; direct WebFetch blocked by network egress this session.)",
+      "link_verified": false,
       "flag_note": null,
       "job_id": "deutsche_bankgraduate_program_corporate_bank_new_york_2027new_york_ny",
       "flag_status": null,
@@ -14040,13 +14041,13 @@
       "company": "Deutsche Bank",
       "title": "Graduate Program \u2014 Chief Risk Office, New York 2027",
       "location": "New York, NY",
-      "link": "https://www.linkedin.com/jobs/view/deutsche-bank-graduate-program-chief-risk-office-new-york-2027-at-deutsche-bank-4459560180",
+      "link": "https://db.recsolu.com/external/requisitions/4BfQ-trnO3LsHVL643vuzA",
       "category": "financial_services",
       "source": "primary",
       "first_seen": "2026-09-27",
       "applied_note": "",
-      "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). Risk track \u2014 quantitative.",
-      "link_verified": true,
+      "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). Risk track \u2014 quantitative. Link upgraded from an unreliable (LinkedIn) source on 2026-10-06: Direct posting on Deutsche Bank's own recruiting platform (db.recsolu.com); corroborated by a Prosple mirror (which referenced a Jul 2026 start \u2014 confirm 2027 NY cohort timing before applying). (WebSearch-corroboration substitute; direct WebFetch blocked by network egress this session.)",
+      "link_verified": false,
       "flag_note": null,
       "job_id": "deutsche_bankgraduate_program_chief_risk_office_new_york_2027new_york_ny",
       "flag_status": null,
@@ -17425,9 +17426,59 @@
       "flag_status": null,
       "resume_doc_url": null,
       "cover_letter_doc_url": null
+    },
+    {
+      "company": "Instacart",
+      "title": "Associate Product Manager (APM) Program",
+      "location": "San Francisco, CA",
+      "link": "https://www.instacart.careers/apm",
+      "category": "apm_rotational_tech",
+      "source": "supplemental",
+      "first_seen": "2026-10-06",
+      "applied_note": "",
+      "note": "Found via WebSearch-corroboration substitute (direct WebFetch blocked by network egress this session): 18-month rotational APM program for new/recent grads, no prior PM experience required; corroborated by joinleland.com guide. New company for this category. Confirm exact cohort/grad-year window on the live posting.",
+      "link_verified": false,
+      "flag_note": null,
+      "job_id": "instacartassociate_product_manager_apm_programsan_francisco_ca",
+      "flag_status": null,
+      "resume_doc_url": null,
+      "cover_letter_doc_url": null,
+      "liked": null
+    },
+    {
+      "company": "Bombardier",
+      "title": "Engineering Career Accelerated Program (ECAP) \u2014 United States",
+      "location": "United States",
+      "link": "https://bombardier.com/en/careers/new-graduate-programs/engineering-career-accelerated-program-united-states",
+      "category": "aviation",
+      "source": "supplemental",
+      "first_seen": "2026-10-06",
+      "applied_note": "",
+      "note": "Found via WebSearch-corroboration substitute (direct WebFetch blocked by network egress this session): 24-month rotational engineering program (Design, Stress, Methods, In-Service Engineering, Projects Management, Loads, Liaison, or Materials & Processes) across Bombardier's own career hub; corroborated by prosple.com. Cohort 2027 explicitly open per search results with an application deadline around Oct 16, 2026 \u2014 time-sensitive. New company for this category.",
+      "link_verified": false,
+      "flag_note": null,
+      "job_id": "bombardierengineering_career_accelerated_program_ecap_united_statesunited_states",
+      "flag_status": null,
+      "resume_doc_url": null,
+      "cover_letter_doc_url": null,
+      "liked": null
     }
   ],
   "top_picks": [
+    {
+      "company": "Bombardier",
+      "title": "Engineering Career Accelerated Program (ECAP) \u2014 United States",
+      "link": "https://bombardier.com/en/careers/new-graduate-programs/engineering-career-accelerated-program-united-states",
+      "category": "aviation",
+      "reason": "New today; direct company career-hub link, time-sensitive 2027 cohort (deadline ~Oct 16), new company for aviation."
+    },
+    {
+      "company": "Instacart",
+      "title": "Associate Product Manager (APM) Program",
+      "link": "https://www.instacart.careers/apm",
+      "category": "apm_rotational_tech",
+      "reason": "New today; new company for apm_rotational_tech, rotational APM program explicitly for new/recent grads."
+    },
     {
       "company": "Google",
       "title": "Associate Product Manager, University Graduate, 2027 Start",
@@ -17483,76 +17534,9 @@
       "link": "https://hl.wd1.myworkdayjobs.com/Campus/job/XMLNAME-2027-Financial-Analyst--Class-of-2027---Portfolio-Valuation-and-Fund-Advisory-Services---Multiple-Locations_R3496",
       "category": "financial_services",
       "reason": "Brand-new alumni outreach hiring signal this checkpoint (record FY26 revenue, active deal pipeline), direct Workday ATS link."
-    },
-    {
-      "company": "Roblox",
-      "title": "Associate Product Manager, Early Career",
-      "link": "https://careers.roblox.com/jobs/7167343",
-      "category": "apm_rotational_tech",
-      "reason": "Brand-new alumni outreach hiring signal this checkpoint, direct company-domain link."
-    },
-    {
-      "company": "T. Rowe Price",
-      "title": "2027 CFO Rotational Program",
-      "link": "https://troweprice.gr8people.com/jobs/21976/2027-cfo-rotational-program",
-      "category": "financial_services",
-      "reason": "Brand-new alumni outreach hiring signal this checkpoint, explicitly targets Dec 2026-Jun 2027 grads."
     }
   ],
   "top_picks_history": [
-    {
-      "run_at": "2026-09-16T00:00:00Z",
-      "picks": [
-        {
-          "company": "Warburg Pincus",
-          "title": "2027 US Analyst Program (full-time)",
-          "link": "https://job-boards.greenhouse.io/warburgpincusllc/jobs/4922162008",
-          "category": "pe_investing"
-        },
-        {
-          "company": "Bain Capital",
-          "title": "2027 North America Private Equity Analyst-Associate Program",
-          "link": "https://baincapital.wd1.myworkdayjobs.com/en-US/External_Public/job/XMLNAME-2027-North-America-Private-Equity-Analyst-Associate-Program_REQ_108270-1",
-          "category": "pe_investing"
-        },
-        {
-          "company": "KKR",
-          "title": "KKR Infrastructure \u2014 2027 Full-Time Associate",
-          "link": "https://www.kkr.com/careers/student-careers/student-career-opportunities/post?gh_jid=6140554004",
-          "category": "pe_investing"
-        },
-        {
-          "company": "Bessemer Venture Partners",
-          "title": "Full Time Analyst 2027",
-          "link": "https://job-boards.greenhouse.io/bvpanalyst/jobs/4726962005",
-          "category": "venture_capital"
-        },
-        {
-          "company": "Insight Partners",
-          "title": "2027 Full Time Investment Analyst",
-          "link": "https://jobs.ashbyhq.com/insight-partners/2b216733-7804-4899-993d-be9298c110a7",
-          "category": "venture_capital"
-        },
-        {
-          "company": "NBCUniversal",
-          "title": "Page Program (Spring 2027 Cohort)",
-          "link": "https://www.nbcunicareers.com/pageprogram",
-          "category": "entertainment"
-        },
-        {
-          "company": "Disney",
-          "title": "Associate Product Manager Program",
-          "link": "https://www.disneycareers.com/en/job/-/-/391/85823385568",
-          "category": "entertainment"
-        },
-        {
-          "company": "Citi",
-          "title": "Banking \u2014 Financial Strategy Group, Full Time Analyst, 2027",
-          "link": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/New-York-New-York-United-States/Banking---Financial-Strategy-Group--Full-Time-Analyst--New-York---USA--2027_26979062",
-          "category": "financial_services"
-        }
-      ]
-    },
     {
       "run_at": "2026-09-17T01:30:00Z",
       "picks": [
@@ -18599,6 +18583,71 @@
           "title": "2027 Full Time Investment Analyst",
           "link": "https://jobs.ashbyhq.com/insight-partners/2b216733-7804-4899-993d-be9298c110a7",
           "category": "venture_capital"
+        }
+      ]
+    },
+    {
+      "run_at": "2026-10-06T00:00:00Z",
+      "picks": [
+        {
+          "company": "Bombardier",
+          "title": "Engineering Career Accelerated Program (ECAP) \u2014 United States",
+          "link": "https://bombardier.com/en/careers/new-graduate-programs/engineering-career-accelerated-program-united-states",
+          "category": "aviation"
+        },
+        {
+          "company": "Instacart",
+          "title": "Associate Product Manager (APM) Program",
+          "link": "https://www.instacart.careers/apm",
+          "category": "apm_rotational_tech"
+        },
+        {
+          "company": "Google",
+          "title": "Associate Product Manager, University Graduate, 2027 Start",
+          "link": "https://www.google.com/about/careers/applications/jobs/results/107272685397910214-associate-product-manager-university-graduate-2027-start",
+          "category": "apm_rotational_tech"
+        },
+        {
+          "company": "Meta",
+          "title": "Rotational Product Manager (RPM) Program",
+          "link": "https://www.metacareers.com/profile/job_details/1090585757172959/",
+          "category": "apm_rotational_tech"
+        },
+        {
+          "company": "Jane Street",
+          "title": "Cybersecurity Analyst",
+          "link": "https://www.janestreet.com/join-jane-street/position",
+          "category": "quant_trading"
+        },
+        {
+          "company": "Bain Capital",
+          "title": "2027 North America Private Equity Analyst-Associate Program",
+          "link": "https://baincapital.wd1.myworkdayjobs.com/en-US/External_Public/job/XMLNAME-2027-North-America-Private-Equity-Analyst-Associate-Program_REQ_108270-1",
+          "category": "pe_investing"
+        },
+        {
+          "company": "Charles River Associates",
+          "title": "Economics Consulting Analyst/Associate (2027 Bachelor's/Master's Graduates)",
+          "link": "https://job-boards.greenhouse.io/charlesriverassociates/jobs/7894191",
+          "category": "consulting"
+        },
+        {
+          "company": "Two Sigma",
+          "title": "Quantitative Researcher - Full-Time Campus Hire",
+          "link": "https://careers.twosigma.com/careers/JobDetail/New-York-New-York-United-States-Quantitative-Researcher-Full-Time-Campus-Hire/13946",
+          "category": "quant_trading"
+        },
+        {
+          "company": "Oliver Wyman",
+          "title": "Full-Time Consultant 2027 - US",
+          "link": "https://careers.marsh.com/global/en/job/R_353997/Oliver-Wyman-Full-Time-Consultant-2027-US",
+          "category": "consulting"
+        },
+        {
+          "company": "Houlihan Lokey",
+          "title": "2027 Financial Analyst (Class of 2027), Portfolio Valuation & Fund Advisory",
+          "link": "https://hl.wd1.myworkdayjobs.com/Campus/job/XMLNAME-2027-Financial-Analyst--Class-of-2027---Portfolio-Valuation-and-Fund-Advisory-Services---Multiple-Locations_R3496",
+          "category": "financial_services"
         }
       ]
     }
