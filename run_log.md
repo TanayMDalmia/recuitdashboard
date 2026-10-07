@@ -320,3 +320,10 @@
 - Most of the GitHub tracker haul (dozens of generic "Software Engineer, New Grad" postings at Google/Amazon/Uber/Adobe/Stripe/etc.) is out of scope for this dashboard, which tracks APM/rotational/PM/strategy/consulting/quant/PE/VC/etc. roles specifically, not general SWE new-grad roles.
 - LINK UPGRADE: still blocked (see checkpoint 1), no changes.
 - TOP PICKS unchanged (no new first_seen-today postings to reconsider).
+
+## Cycle 20 checkpoint 3: product_management (2026-10-07) — end of this run (3-batch budget)
+
+- Checked GitHub tracker haul + 2 more targeted WebSearch queries (Snowflake/Cloudflare PM, ServiceNow/Intuit rotational PM) for product_management companies with no current posting. Intuit RPM applications for the fall 2027 cohort are explicitly "expected to open September 2026" (not yet live) and is already tracked from a prior flag; everything else was either already tracked, out of category (generic SWE), or unconfirmable without a blocked WebFetch.
+- Net result: 0 new postings this batch, for the same honest network-constraint reason as checkpoints 1-2.
+- Appended this run's top_picks to top_picks_history (last checkpoint of the run — budget of 3 batches reached: sources_refresh, apm_rotational_tech, product_management).
+- Next run resumes at strategy_bizops.
