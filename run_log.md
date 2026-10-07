@@ -311,3 +311,12 @@
 - Created `companies.json` in the repo (didn't exist before) seeded from the standing company list per category, for future-cycle persistence.
 - TOP PICKS recomputed fresh (10 picks): since 0 postings were first_seen today, backfilled entirely from existing verified, unflagged postings — prioritized liked:true (Google APM), NYC/Boston location, and companies with an active alumni-outreach hiring signal (Jane Street, Bain Capital, Citadel Securities, BlackRock, Insight Partners, NBCUniversal, DoorDash, Point72, Boston Red Sox).
 - Published checkpoint; state.json/companies.json/run_log.md committed.
+
+## Cycle 20 checkpoint 2: apm_rotational_tech (2026-10-07)
+
+- Checked tracker data pulled via background agent (GitHub READMEs vanshb03/New-Grad-2027, SimplifyJobs/New-Grad-Positions, zapplyjobs/New-Grad-Jobs-2027) for apm_rotational_tech seed companies missing current postings (Amazon, Airbnb, Notion, Figma, Snap, Pinterest). The only APM/rotational-program-shaped hit (LinkedIn Associate Product Builder (APB) Rotational Program) was independently re-verified by me directly against the raw GitHub README (not just the agent's summarized transcription, given the known risk of an LLM-mediated fetch mistranscribing a long ATS id) — confirmed byte-for-byte, but it turned out to already be tracked under both its locations.
+- Ran 4 targeted WebSearch queries (Amazon APM, Figma/Notion APM, Palantir/DoorDash PM, Robinhood APM) for companies with no current apm_rotational_tech/product_management posting. Found candidate leads (Figma "Early Career APM (2026)" on Greenhouse, Robinhood APM New Grad on Greenhouse) but Robinhood's was already tracked, and both would require a direct WebFetch to confirm they're open/eligible for a 2027 start — which is blocked for greenhouse.io this session (see checkpoint 1). Per the mandatory-verification rule, skipped rather than added either.
+- Net result: 0 new postings this batch. This is the correct, honest outcome given the network constraint, not a research gap — every lead found was either already tracked or unconfirmable.
+- Most of the GitHub tracker haul (dozens of generic "Software Engineer, New Grad" postings at Google/Amazon/Uber/Adobe/Stripe/etc.) is out of scope for this dashboard, which tracks APM/rotational/PM/strategy/consulting/quant/PE/VC/etc. roles specifically, not general SWE new-grad roles.
+- LINK UPGRADE: still blocked (see checkpoint 1), no changes.
+- TOP PICKS unchanged (no new first_seen-today postings to reconsider).
