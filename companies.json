@@ -1,5 +1,5 @@
 {
-  "apm_rotational_tech": ["Google", "Meta", "Microsoft", "Amazon", "Uber", "Airbnb", "Salesforce", "Adobe", "Atlassian", "Stripe", "Notion", "Figma", "Robinhood", "DoorDash", "Instacart", "Affirm", "Block", "LinkedIn", "Snap", "Pinterest", "Apple", "Tesla"],
+  "apm_rotational_tech": ["Google", "Meta", "Microsoft", "Amazon", "Uber", "Airbnb", "Salesforce", "Adobe", "Atlassian", "Stripe", "Notion", "Figma", "Robinhood", "DoorDash", "Instacart", "Affirm", "Block", "LinkedIn", "Snap", "Pinterest", "Apple", "Tesla", "Capital One"],
   "product_management": ["Google", "Meta", "Microsoft", "Amazon", "Salesforce", "ServiceNow", "Workday", "Intuit", "PayPal", "Shopify", "HubSpot", "Twilio", "Snowflake", "Datadog", "Palantir", "Asana", "Dropbox", "Zoom", "Okta", "MongoDB", "Cloudflare", "Block", "Robinhood", "Affirm", "DoorDash", "Instacart", "Snap", "Pinterest", "LinkedIn", "Uber", "Airbnb", "Apple", "Tesla", "LPL Financial Holdings", "TikTok"],
   "strategy_bizops": ["Google", "Meta", "Uber", "DoorDash", "Amazon", "Netflix", "Spotify", "Airbnb", "Stripe", "Coinbase", "Affirm"],
   "consulting": ["McKinsey", "BCG", "Bain", "Deloitte", "Accenture", "PwC", "EY", "KPMG", "Oliver Wyman", "L.E.K.", "Kearney", "Strategy&", "Charles River Associates", "Cornerstone Research", "Analysis Group"],
