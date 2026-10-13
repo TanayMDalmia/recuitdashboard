@@ -22,7 +22,8 @@
    "supplemental_search_and_cleanup"
   ],
   "completed_this_cycle": [
-   "sources_refresh"
+   "sources_refresh",
+   "apm_rotational_tech"
   ],
   "cycle_number": 22
  },
@@ -24314,36 +24315,61 @@
    "liked": false,
    "resume_doc_url": null,
    "cover_letter_doc_url": null
+  },
+  {
+   "company": "Capital One",
+   "title": "Product Development Program Associate - 2027",
+   "location": "McLean, VA",
+   "link": "https://www.capitalonecareers.com/job/mclean/product-development-program-associate-2027/31238/97421687328",
+   "category": "apm_rotational_tech",
+   "source": "primary",
+   "first_seen": "2026-10-13",
+   "applied_note": "",
+   "note": "Capital One's rotational product-management program for new grads (branded 'Product Development Program', analogous to an APM program). 2027 cohort starts August 2027, pay ~\\9k-119k + equity. Corroborated by 4 independent sources (Capital One's own careers site, BuiltIn NYC, BuiltIn Chicago, AnitaB.org); link_verified left false since direct WebFetch to capitalonecareers.com is blocked this session (standing network egress block).",
+   "link_verified": false,
+   "flag_note": null,
+   "job_id": "capital_oneproduct_development_program_associate_2027mclean_va",
+   "flag_status": null,
+   "liked": false,
+   "resume_doc_url": null,
+   "cover_letter_doc_url": null
   }
  ],
  "top_picks": [
+  {
+   "company": "Capital One",
+   "title": "Product Development Program Associate - 2027",
+   "link": "https://www.capitalonecareers.com/job/mclean/product-development-program-associate-2027/31238/97421687328",
+   "category": "apm_rotational_tech",
+   "reason": "New rotational APM-style program at a company not previously tracked for this category; strong corroboration across 4 independent sources."
+  },
   {
    "company": "Bessemer Venture Partners",
    "title": "Full-Time Analyst Program (2027)",
    "link": "https://job-boards.greenhouse.io/bvpanalyst/jobs/4633431005",
    "category": "venture_capital",
-   "reason": "New, genuinely open VC analyst seat in NYC at a firm with an active alumni hiring signal this cycle \u2014 note the stated deadline may have passed to a waitlist, so apply ASAP and confirm status."
+   "reason": "New, genuinely open VC analyst seat in NYC at a firm with an active alumni hiring signal this cycle -- note the stated deadline may have passed to a waitlist, so apply ASAP and confirm status."
   },
   {
    "company": "Sportradar",
    "title": "Broadcast Research Analyst",
    "link": "https://www.builtinnyc.com/job/broadcast-research-analyst/10015046",
    "category": "sports",
-   "reason": "Brand-new entry-level sports-data role in NYC, fills a persistently thin category with a genuine full-time opening (no prior experience required)."
+   "reason": "Brand-new entry-level sports-data role in NYC, fills a persistently thin category with a genuine full-time opening."
   },
   {
    "company": "Honeywell Aerospace",
    "title": "Future Finance Leaders Program (Recent Grad/Full-Time)",
    "link": "https://blackcareernetwork.com/job/future-finance-leaders-program-recent-gradfull-time-us-person-required",
    "category": "aviation",
-   "reason": "Rare non-engineering rotational finance program in aviation \u2014 a thin category \u2014 with a real full-time recent-grad track."
+   "reason": "Rare non-engineering rotational finance program in aviation -- a thin category -- with a real full-time recent-grad track."
   },
   {
    "company": "Google",
    "title": "Associate Product Manager, University Graduate, 2027 Start",
    "link": "https://www.google.com/about/careers/applications/jobs/results/107272685397910214-associate-product-manager-university-graduate-2027-start",
    "category": "apm_rotational_tech",
-   "reason": "Marked liked by Tanay \u2014 confirmed good posting, NYC among its locations, verified direct link."
+   "reason": "Marked liked by Tanay -- confirmed good posting, NYC among its locations, verified direct link."
   },
   {
    "company": "Goldman Sachs",
@@ -24365,81 +24391,9 @@
    "link": "https://www.citadelsecurities.com/careers/details/quantitative-trader/",
    "category": "quant_trading",
    "reason": "Top-tier NYC quant-trading seat, verified direct link, alumni hiring signal active at Citadel Securities."
-  },
-  {
-   "company": "BlackRock",
-   "title": "2027 Full-Time Analyst Program \u2014 AMRS",
-   "link": "https://www.linkedin.com/jobs/view/2027-full-time-analyst-program-amrs-at-blackrock-4446750631",
-   "category": "financial_services",
-   "reason": "NYC-based flagship analyst program, verified link, alumni hiring signal active at BlackRock this cycle."
   }
  ],
  "top_picks_history": [
-  {
-   "run_at": "2026-09-25T01:08:23Z",
-   "picks": [
-    {
-     "company": "Google",
-     "title": "Associate Product Manager, University Graduate, 2027 Start",
-     "link": "https://www.google.com/about/careers/applications/jobs/results/107272685397910214-associate-product-manager-university-graduate-2027-start",
-     "category": "apm_rotational_tech"
-    },
-    {
-     "company": "Meta",
-     "title": "Rotational Product Manager (RPM) Program",
-     "link": "https://www.metacareers.com/profile/job_details/1090585757172959/",
-     "category": "apm_rotational_tech"
-    },
-    {
-     "company": "Hudson River Trading",
-     "title": "Algorithm Developer / Quantitative Researcher",
-     "link": "https://www.hudsonrivertrading.com/hrt-job/algorithm-developer-quant-researcher-2026-grads/",
-     "category": "quant_trading"
-    },
-    {
-     "company": "Bain Capital",
-     "title": "2027 North America Private Equity Analyst-Associate Program",
-     "link": "https://baincapital.wd1.myworkdayjobs.com/en-US/External_Public/job/XMLNAME-2027-North-America-Private-Equity-Analyst-Associate-Program_REQ_108270-1",
-     "category": "pe_investing"
-    },
-    {
-     "company": "Jane Street",
-     "title": "Cybersecurity Analyst",
-     "link": "https://www.janestreet.com/join-jane-street/position",
-     "category": "quant_trading"
-    },
-    {
-     "company": "NBCUniversal",
-     "title": "Page Program (Spring 2027 Cohort)",
-     "link": "https://www.nbcunicareers.com/pageprogram",
-     "category": "entertainment"
-    },
-    {
-     "company": "Warburg Pincus",
-     "title": "2027 US Analyst Program (full-time)",
-     "link": "https://job-boards.greenhouse.io/warburgpincusllc/jobs/4922162008",
-     "category": "pe_investing"
-    },
-    {
-     "company": "Insight Partners",
-     "title": "2027 Full Time Investment Analyst",
-     "link": "https://jobs.ashbyhq.com/insight-partners/2b216733-7804-4899-993d-be9298c110a7",
-     "category": "venture_capital"
-    },
-    {
-     "company": "DoorDash",
-     "title": "Partner Operations Analyst",
-     "link": "https://job-boards.greenhouse.io/doordashusa/jobs/8080784",
-     "category": "strategy_bizops"
-    },
-    {
-     "company": "Mondelez International",
-     "title": "Sales Leadership Development Associate (24-month Rotational Program)",
-     "link": "https://www.mondelezinternational.com/careers/jobs/job/index.html?jobid=r-147391&jobtitle=sales+leadership+development+associate+(24-month+rotational+program)",
-     "category": "corporate_rotational"
-    }
-   ]
-  },
   {
    "run_at": "2026-09-25T14:05:36Z",
    "picks": [
@@ -25521,6 +25475,59 @@
      "company": "Jane Street",
      "title": "Quantitative Trader",
      "link": "https://www.janestreet.com/join-jane-street/position/4794171002/",
+     "category": "quant_trading"
+    }
+   ]
+  },
+  {
+   "run_at": "2026-10-13T01:34:23.379879Z",
+   "picks": [
+    {
+     "company": "Capital One",
+     "title": "Product Development Program Associate - 2027",
+     "link": "https://www.capitalonecareers.com/job/mclean/product-development-program-associate-2027/31238/97421687328",
+     "category": "apm_rotational_tech"
+    },
+    {
+     "company": "Bessemer Venture Partners",
+     "title": "Full-Time Analyst Program (2027)",
+     "link": "https://job-boards.greenhouse.io/bvpanalyst/jobs/4633431005",
+     "category": "venture_capital"
+    },
+    {
+     "company": "Sportradar",
+     "title": "Broadcast Research Analyst",
+     "link": "https://www.builtinnyc.com/job/broadcast-research-analyst/10015046",
+     "category": "sports"
+    },
+    {
+     "company": "Honeywell Aerospace",
+     "title": "Future Finance Leaders Program (Recent Grad/Full-Time)",
+     "link": "https://blackcareernetwork.com/job/future-finance-leaders-program-recent-gradfull-time-us-person-required",
+     "category": "aviation"
+    },
+    {
+     "company": "Google",
+     "title": "Associate Product Manager, University Graduate, 2027 Start",
+     "link": "https://www.google.com/about/careers/applications/jobs/results/107272685397910214-associate-product-manager-university-graduate-2027-start",
+     "category": "apm_rotational_tech"
+    },
+    {
+     "company": "Goldman Sachs",
+     "title": "New Analyst Program (Americas)",
+     "link": "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/new-analyst-program",
+     "category": "financial_services"
+    },
+    {
+     "company": "Evercore",
+     "title": "2027 Private Capital Advisory & Fundraising: Private Capital Advisory GP Full Time Analyst Program",
+     "link": "https://evercore.tal.net/vx/mobile-0/appcentre-ext/brand-4/candidate/so/pm/1/pl/3/opp/1708-GP-Analyst-Private-Capital-Advisory/en-GB",
+     "category": "financial_services"
+    },
+    {
+     "company": "Citadel Securities",
+     "title": "Quantitative Trader (University Graduate)",
+     "link": "https://www.citadelsecurities.com/careers/details/quantitative-trader/",
      "category": "quant_trading"
     }
    ]
