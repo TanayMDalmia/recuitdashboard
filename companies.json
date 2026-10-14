@@ -115,7 +115,8 @@
     "John Deere",
     "Eaton",
     "Emerson Electric",
-    "Textron"
+    "Textron",
+    "Capital One"
   ],
   "quant_trading": [
     "Jane Street",
@@ -134,7 +135,9 @@
     "XTX Markets",
     "Point72 (Cubist/Academy)",
     "Chicago Trading Company",
-    "TransMarket Group"
+    "TransMarket Group",
+    "Balyasny Asset Management",
+    "Aquatic Capital Management"
   ],
   "pe_investing": [
     "Bain Capital",
@@ -150,7 +153,8 @@
     "Balyasny Asset Management",
     "Citadel (Equities/Surveyor)",
     "Long Ridge Equity Partners",
-    "Turn River Capital"
+    "Turn River Capital",
+    "Partners Group"
   ],
   "venture_capital": [
     "Insight Partners",
