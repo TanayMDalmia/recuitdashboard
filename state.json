@@ -23,7 +23,8 @@
   ],
   "completed_this_cycle": [
    "sources_refresh",
-   "apm_rotational_tech"
+   "apm_rotational_tech",
+   "product_management"
   ],
   "cycle_number": 23
  },
@@ -14018,9 +14019,9 @@
    "applied_note": "",
    "note": "Re-verification attempt made via WebSearch on 2026-10-13; inconclusive. Found an aggregator (iagora.com) describing a matching NY Corporate Bank 2027 program (July 2027 start, $100k) pointing to careers.db.com, but no specific direct posting URL located.",
    "link_verified": false,
-   "flag_note": null,
+   "flag_note": "Could not verify this posting is still live as of 2026-10-15 \u2014 original source was unreliable",
    "job_id": "deutsche_bankgraduate_program_corporate_bank_new_york_2027new_york_ny",
-   "flag_status": null,
+   "flag_status": "unavailable",
    "resume_doc_url": null,
    "cover_letter_doc_url": null
   },
@@ -14035,9 +14036,9 @@
    "applied_note": "",
    "note": "Re-verification attempt made via WebSearch on 2026-10-13; inconclusive. Found only aggregator listings for this program; no direct db.com URL for the NY CRO 2027 cohort located.",
    "link_verified": false,
-   "flag_note": null,
+   "flag_note": "Could not verify this posting is still live as of 2026-10-15 \u2014 original source was unreliable",
    "job_id": "deutsche_bankgraduate_program_chief_risk_office_new_york_2027new_york_ny",
-   "flag_status": null,
+   "flag_status": "unavailable",
    "resume_doc_url": null,
    "cover_letter_doc_url": null
   },
@@ -14062,13 +14063,13 @@
    "company": "Wells Fargo",
    "title": "2027 Finance Analyst Rotational Program \u2014 Early Careers",
    "location": "Charlotte, NC",
-   "link": "https://www.linkedin.com/jobs/search/?keywords=Wells%20Fargo%202027%20Finance%20Analyst%20Rotational%20Program%20%E2%80%94%20Early%20Careers",
+   "link": "https://www.wellsfargojobs.com/en/jobs/r-573947/2027-finance-analyst-rotational-program-early-careers/",
    "category": "corporate_rotational",
    "source": "primary",
    "first_seen": "2026-09-27",
    "applied_note": "",
-   "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). Rotational finance track. \u26a0\ufe0f LINK REPLACED 2026-10-05: the LinkedIn URL previously on this row was a hand-typed job ID and did not point at this posting. I no longer have the captured URL for this req, so this is a LinkedIn keyword search for the company and title instead \u2014 it will land you on the real listing if it is still open. Eligibility notes above were read from the genuine posting at sweep time.",
-   "link_verified": false,
+   "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). Rotational finance track. \u26a0\ufe0f LINK REPLACED 2026-10-05: the LinkedIn URL previously on this row was a hand-typed job ID and did not point at this posting. I no longer have the captured URL for this req, so this is a LinkedIn keyword search for the company and title instead \u2014 it will land you on the real listing if it is still open. Eligibility notes above were read from the genuine posting at sweep time. | Link upgrade 2026-10-15: found the real direct URL via WebSearch (wellsfargojobs.com req r-573947), replacing the LinkedIn keyword-search fallback. Note: this appears to be a duplicate of job_id wells_fargo_2027_finance_analyst_rotational_program_early_careers (financial_services category) -- same program, same req -- left both rows in place rather than deleting one, since this run's scope is link verification not dedup cleanup.",
+   "link_verified": true,
    "flag_note": null,
    "job_id": "wells_fargo2027_finance_analyst_rotational_program_early_careerscharlotte_nc",
    "flag_status": null,
@@ -14096,13 +14097,13 @@
    "company": "STX Group",
    "title": "2027 Rotational Program \u2014 Environmental Commodities Sales & Trading",
    "location": "New York, NY",
-   "link": "https://www.linkedin.com/jobs/search/?keywords=STX%20Group%202027%20Rotational%20Program%20%E2%80%94%20Environmental%20Commodities%20Sales%20%26%20Trading",
+   "link": "https://stxgroup.com/careers/vacancy/2027-rotational-program-environmental-commodities-sales-trading/",
    "category": "quant_trading",
    "source": "primary",
    "first_seen": "2026-09-27",
    "applied_note": "",
-   "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). Commodities trading rotational, NYC \u2014 sits between your quant and energy interests. \u26a0\ufe0f LINK REPLACED 2026-10-05: the LinkedIn URL previously on this row was a hand-typed job ID and did not point at this posting. I no longer have the captured URL for this req, so this is a LinkedIn keyword search for the company and title instead \u2014 it will land you on the real listing if it is still open. Eligibility notes above were read from the genuine posting at sweep time.",
-   "link_verified": false,
+   "note": "LinkedIn sweep 2026-09-27 (posted in the last 5 days). Commodities trading rotational, NYC \u2014 sits between your quant and energy interests. \u26a0\ufe0f LINK REPLACED 2026-10-05: the LinkedIn URL previously on this row was a hand-typed job ID and did not point at this posting. I no longer have the captured URL for this req, so this is a LinkedIn keyword search for the company and title instead \u2014 it will land you on the real listing if it is still open. Eligibility notes above were read from the genuine posting at sweep time. | Link upgrade 2026-10-15: found and confirmed directly on STX's own careers site -- exact match, 1-year program starting Sept 2027 in NY -- replaced prior LinkedIn keyword-search fallback link. Note: an older STX posting for the same-named program listed a Sept 2026 start / Fall 2027 desk placement, so double-check the current cohort timing before applying.",
+   "link_verified": true,
    "flag_note": null,
    "job_id": "stx_group2027_rotational_program_environmental_commodities_sales_tradingnew_york",
    "flag_status": null,
@@ -14220,7 +14221,7 @@
    "source": "primary",
    "first_seen": "2026-09-27",
    "applied_note": "",
-   "note": "Re-verification attempt made via WebSearch on 2026-10-13; inconclusive. Found only aggregator postings for this exact role in Irving, TX; no direct careers.caterpillar.com posting located.",
+   "note": "Re-verification attempt made via WebSearch on 2026-10-13; inconclusive. Found only aggregator postings for this exact role in Irving, TX; no direct careers.caterpillar.com posting located. | Link upgrade 2026-10-15: WebSearch corroborates this role via multiple professional-org job boards (ALPFA, HBCU Career Center) with consistent descriptions, and Caterpillar's own careers site confirms its Finance Leadership Development Program (FLDP) is real and includes an Irving, TX rotation site -- but no official careers.caterpillar.com URL for this specific 2027 req was found. Direct WebFetch blocked by network policy. Kept unverified pending direct confirmation.",
    "link_verified": false,
    "flag_note": null,
    "job_id": "caterpillar_inc_2027_entry_level_finance_analyst_finance_leadership_development_",
@@ -14358,11 +14359,11 @@
    "source": "primary",
    "first_seen": "2026-09-27",
    "applied_note": "",
-   "note": "Quant + fundamental-research sweep 2026-09-27 (ATS boards + LinkedIn). **APPLY BY SEP 30, 2026 \u2014 3 DAYS.** Verified in body: two-year program for recent college grads with econ/math/stats background; BA in economics, math, statistics or CS. $78,000. Wants transcript + writing sample (an undergrad econ paper or thesis qualifies). Strongest pure-research fit on the board for an ORFE degree. \u26a0\ufe0f LINK REPLACED 2026-10-05: the LinkedIn URL previously on this row was a hand-typed job ID and did not point at this posting. I no longer have the captured URL for this req, so this is a LinkedIn keyword search for the company and title instead \u2014 it will land you on the real listing if it is still open. Eligibility notes above were read from the genuine posting at sweep time.",
+   "note": "Quant + fundamental-research sweep 2026-09-27 (ATS boards + LinkedIn). **APPLY BY SEP 30, 2026 \u2014 3 DAYS.** Verified in body: two-year program for recent college grads with econ/math/stats background; BA in economics, math, statistics or CS. $78,000. Wants transcript + writing sample (an undergrad econ paper or thesis qualifies). Strongest pure-research fit on the board for an ORFE degree. \u26a0\ufe0f LINK REPLACED 2026-10-05: the LinkedIn URL previously on this row was a hand-typed job ID and did not point at this posting. I no longer have the captured URL for this req, so this is a LinkedIn keyword search for the company and title instead \u2014 it will land you on the real listing if it is still open. Eligibility notes above were read from the genuine posting at sweep time. | Link upgrade 2026-10-15: confirmed real on bostonfed.org (2-year program, June 2027 start, $78k) but that same official page states the application deadline was September 30, 2026 -- already passed as of today. Flagging unavailable since the current cycle's window has closed; a future cohort posting would be a new entry.",
    "link_verified": false,
-   "flag_note": null,
+   "flag_note": "Could not verify this posting is still live as of 2026-10-15 \u2014 original source was unreliable",
    "job_id": "federal_reserve_bank_of_bostonresearch_associate_2027boston_ma",
-   "flag_status": null,
+   "flag_status": "unavailable",
    "resume_doc_url": null,
    "cover_letter_doc_url": null
   },
@@ -16651,8 +16652,8 @@
    "source": "websearch",
    "first_seen": "2026-10-02",
    "applied_note": "",
-   "note": "Direct company ATS link found via WebSearch; could not WebFetch-confirm live status this session (egress blocked).",
-   "link_verified": false,
+   "note": "Direct company ATS link found via WebSearch; could not WebFetch-confirm live status this session (egress blocked). | Link upgrade 2026-10-15: re-confirmed via WebSearch -- exact req r-573947 URL, official wellsfargojobs.com page.",
+   "link_verified": true,
    "flag_note": null,
    "job_id": "wells_fargo_2027_finance_analyst_rotational_program_early_careers",
    "flag_status": null,
@@ -27822,6 +27823,23 @@
    "flag_status": "",
    "resume_doc_url": "",
    "cover_letter_doc_url": ""
+  },
+  {
+   "company": "Audible",
+   "title": "Product Manager (ADBL196)",
+   "location": "Cambridge, MA",
+   "link": "https://www.linkedin.com/jobs/search/?keywords=Audible%20Product%20Manager%20ADBL196",
+   "category": "product_management",
+   "source": "primary",
+   "first_seen": "2026-10-15",
+   "applied_note": "",
+   "note": "On Tanay's own FT Job Application Tracker watchlist (Sheet2 'To Apply to that's live'). WebSearch found the exact req code ADBL196 corroborated via a TheLadders mirror (Amazon/Audible, Cambridge MA, $146K-$184K) but could not find Audible/Amazon's own direct jobs.amazon.jobs or Audible careers URL for it, nor confirm it is genuinely entry-level (the mirror's description asks for ~2 years of digital product management experience, which may mean this is not new-grad-eligible -- worth double-checking before treating as a target role). Direct WebFetch blocked by network policy. Stored as a keyword-search fallback link per standing rule 3(b) since no direct URL could be located.",
+   "link_verified": false,
+   "flag_note": null,
+   "job_id": "audibleproduct_manager_adbl196cambridge_ma",
+   "flag_status": null,
+   "resume_doc_url": null,
+   "cover_letter_doc_url": null
   }
  ],
  "top_picks": [
@@ -27897,47 +27915,6 @@
   }
  ],
  "top_picks_history": [
-  {
-   "run_at": "2026-09-26T14:07:00Z",
-   "picks": [
-    {
-     "company": "WME (Endeavor)",
-     "title": "Rotational Assistant - New York",
-     "link": "https://wmeimg.wd1.myworkdayjobs.com/en-US/WME/job/Rotational-Assistant--New-York_JR14946-3",
-     "category": "entertainment"
-    },
-    {
-     "company": "Gunvor Group",
-     "title": "Global Graduate Program \u2013 Trading & Supply Chain",
-     "link": "https://gunvorgroup.com/careers/graduate-program/",
-     "category": "energy"
-    },
-    {
-     "company": "Glencore",
-     "title": "Commercial Graduate Programme",
-     "link": "https://www.glencore.com/en/careers/jobs/R200001648",
-     "category": "energy"
-    },
-    {
-     "company": "Barclays",
-     "title": "2027 Finance Analyst Graduate Program",
-     "link": "https://barclays.wd3.myworkdayjobs.com/external_career_site_barclays/job/New-York-745-7th-Avenue/XMLNAME-2027-Finance-Analyst-Graduate-Program-New-York_JR-0000131451",
-     "category": "financial_services"
-    },
-    {
-     "company": "Barclays",
-     "title": "2027 Quantitative Analytics Analyst Graduate Program",
-     "link": "https://search.jobs.barclays/job/new-york/2027-quantitative-analytics-analyst-graduate-program-new-york/13015/100189841520",
-     "category": "financial_services"
-    },
-    {
-     "company": "Carolina Hurricanes",
-     "title": "Business Strategy & Data Analyst - NHL",
-     "link": "https://www.teamworkonline.com/hockey-jobs/hockeyjobs/carolina-hurricanes/business-strategy-data-analyst-2115527",
-     "category": "sports"
-    }
-   ]
-  },
   {
    "run_at": "2026-09-27T00:00:00Z",
    "picks": [
@@ -29056,6 +29033,71 @@
      "title": "Campus Undergraduate Full-Time Analyst - 2027 Data & Analytics, Enterprise Technology Services- New York, NY",
      "link": "https://www.linkedin.com/jobs/view/campus-undergraduate-full-time-analyst-2027-data-analytics-enterprise-technology-services-new-york-ny-at-american-express-4460682219",
      "category": "strategy_bizops"
+    }
+   ]
+  },
+  {
+   "run_at": "2026-10-15T00:00:00Z",
+   "picks": [
+    {
+     "company": "Formlabs",
+     "title": "Fulfillment Coordinator - May 2027 Graduates",
+     "link": "https://careers.formlabs.com/job/8249635/apply/?gh_jid=8249635",
+     "category": "corporate_rotational"
+    },
+    {
+     "company": "CoreWeave",
+     "title": "Manager, Strategic Finance",
+     "link": "https://coreweave.com/careers/job?4718607006&board=coreweave&gh_jid=4718607006",
+     "category": "financial_services"
+    },
+    {
+     "company": "Kodiak Robotics",
+     "title": "Product Strategy & Operations Associate",
+     "link": "https://job-boards.greenhouse.io/kodiak/jobs/4418166009",
+     "category": "strategy_bizops"
+    },
+    {
+     "company": "Vestwell",
+     "title": "Associate, Saver Operations",
+     "link": "https://job-boards.greenhouse.io/vestwell/jobs/7989135003",
+     "category": "fintech"
+    },
+    {
+     "company": "GMO",
+     "title": "Quantitative Technology Associate - Class of 2027",
+     "link": "https://jobs.lever.co/gmo/df44f4c5-cb3f-4960-a984-5b26acc72962",
+     "category": "quant_trading"
+    },
+    {
+     "company": "Palantir",
+     "title": "Deployment Strategist",
+     "link": "https://jobs.lever.co/palantir/e0ab8226-b928-4e3a-bf87-08fe7b1ea595",
+     "category": "strategy_bizops"
+    },
+    {
+     "company": "Cubist Point72",
+     "title": "Fundamental Researcher - Canvas",
+     "link": "https://boards.greenhouse.io/point72/jobs/4644225002?gh_jid=4644225002",
+     "category": "quant_trading"
+    },
+    {
+     "company": "CTC Chicago Trading",
+     "title": "Quant Trading Associate - 2027 Start",
+     "link": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708724005",
+     "category": "quant_trading"
+    },
+    {
+     "company": "LionTree",
+     "title": "Capital Markets - Research Associate",
+     "link": "https://job-boards.greenhouse.io/liontree/jobs/5153692007",
+     "category": "financial_services"
+    },
+    {
+     "company": "WHOOP",
+     "title": "Product Analyst",
+     "link": "https://jobs.ashbyhq.com/whoop/412ef632-7883-4100-bb3c-501accf1fcf0",
+     "category": "sports"
     }
    ]
   }
