@@ -1,0 +1,15 @@
+{
+ "cached_at": "2026-10-15",
+ "company_industry_sheet": {
+  "fileId": "1WGUBHqG0u6zLlNrAorn9v0UmEAbucnpXIcNoe_WC-T0",
+  "note": "All companies/industries listed in the Company/Industry tab already present in companies.json as of this read -- no new additions needed.",
+  "expected_drop_dates": {
+   "Netflix": "Sep/Oct 2026",
+   "Meta PM Rotational Program": "Fall 2026"
+  }
+ },
+ "ft_job_application_tracker": {
+  "fileId": "1T7kNdflgtNtNOCupQVhkFFRiIhuIgIUwB7IRkRyQs_I",
+  "note": "Sheet2 'To Apply to that's live' / 'Soon to be live' columns contain a personal watchlist of specific roles Tanay wants (Meta Rotational PM Program [Sep 23 live date -- should be live now], Stripe PM, TikTok PM Graduate [Sales/Ops], Jefferies 2027 Risk Mgmt Associate, Audible PM, CAP Associate 2027, Glade Brook Investment Analyst, Alton Associate, WHOOP APM Pace Setters, GMO 2027 Investment Research Associate, Red Ventures 2027 APM AI NYC, Sony Pictures FP&A Analyst, Left Lane Capital, AUI APM AI Agents, Keystone Associates 2027, Two Sigma Data Scientist, Anthropic). Used as a signal boost for upcoming category batches -- not a mandatory search source per the batch definition, but worth checking opportunistically when covering apm_rotational_tech/product_management/pe_investing/venture_capital/financial_services in future batches this cycle."
+ }
+}

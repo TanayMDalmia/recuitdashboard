@@ -1,0 +1,45 @@
+{
+ "cached_at": "2026-10-15",
+ "sources": {
+  "vanshb03/New-Grad-2027": {
+   "url": "https://raw.githubusercontent.com/vanshb03/New-Grad-2027/main/README.md",
+   "row_count": 1078,
+   "note": "Direct ATS links (greenhouse/lever/workday/etc), no redirect layer. Most rows are generic SWE roles; filtered subset relevant to our categories extracted separately."
+  },
+  "zapplyjobs/New-Grad-Jobs-2027": {
+   "url": "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Jobs-2027/main/README.md",
+   "row_count": 591,
+   "note": "CAUTION: apply links are zapply.jobs redirect URLs, not direct ATS links -- per standing rule 2/3, a redirect/mirror layer is never stored as a job's final link. Table also mixes internships with new-grad roles. Treated as a LEAD source only this cycle -- could not resolve redirects to real ATS URLs because direct WebFetch to non-GitHub domains is blocked by this environment's network egress policy (confirmed via WebFetch ENOTFOUND + agent-proxy connect_rejected on boards-api.greenhouse.io and boards.greenhouse.io). Not used for direct additions this run."
+  }
+ },
+ "vansh_rows_2027_explicit_open": [
+  {
+   "company": "Chicago Trading Company",
+   "title": "New Grad 2027: Associate Engineer",
+   "location": "Chicago, IL; New York, NY",
+   "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4709991005",
+   "date": "Aug 01"
+  },
+  {
+   "company": "Chicago Trading Company",
+   "title": "New Grad 2027: Quant Trading Associate",
+   "location": "Chicago, IL",
+   "url": "https://job-boards.greenhouse.io/ctccampusboard/jobs/4708724005",
+   "date": "Aug 01"
+  },
+  {
+   "company": "Appian",
+   "title": "New Grad 2027: Software Engineer \ud83d\udec2",
+   "location": "McLean, VA",
+   "url": "https://careers.appian.com/jobs/8041241-software-engineer--2027-graduates-",
+   "date": "Jul 30"
+  },
+  {
+   "company": "Appian",
+   "title": "New Grad 2027: Associate Solution Engineer \ud83c\uddfa\ud83c\uddf8",
+   "location": "McLean, VA",
+   "url": null,
+   "date": "Jul 24"
+  }
+ ]
+}
