@@ -1,10 +1,10 @@
 {
- "cached_at": "2026-10-15",
+ "cached_at": "2026-10-20",
  "sources": {
   "vanshb03/New-Grad-2027": {
    "url": "https://raw.githubusercontent.com/vanshb03/New-Grad-2027/main/README.md",
    "row_count": 1078,
-   "note": "Direct ATS links (greenhouse/lever/workday/etc), no redirect layer. Most rows are generic SWE roles; filtered subset relevant to our categories extracted separately."
+   "note": "Direct ATS links (greenhouse/lever/workday/etc), no redirect layer. Most rows are generic SWE roles; filtered subset relevant to our categories extracted separately. | Re-pulled 2026-10-20: checked energy/financial_services/space category companies against fresh readme, no new unseen postings found beyond what is already in state.json."
   },
   "zapplyjobs/New-Grad-Jobs-2027": {
    "url": "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Jobs-2027/main/README.md",
