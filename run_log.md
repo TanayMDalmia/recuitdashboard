@@ -724,3 +724,15 @@ The live dashboard (primary source of truth) shows cycle 23's `alumni_outreach` 
 - **top_picks_history:** appended this run's snapshot (last checkpoint of the cycle), trimmed to most recent 20.
 - **Concurrency-safe publish:** re-fetched the live board immediately before publishing; version id was unchanged from the one read at the start of this run, so no concurrent edits from other writers needed merging. Jobs count went from 1630 -> 1633 (net +3, no rows dropped).
 - Cycle 24 complete (17/17 batches). Next run starts Cycle 25 at sources_refresh.
+
+## Cycle 25 checkpoint 1: sources_refresh (2026-10-21)
+
+- Started Cycle 25 (previous cycle 24 fully completed last checkpoint).
+- Checked for pending `flag__*` files in Google Drive: all 39 found already match processed_flag_ids -- no new flags from Tanay this run.
+- Re-read both Company/Position Recruiting Dashboard Input tabs (Company/Industry, Places to Look, Roles, Expected Drop Dates) -- no new companies/industries beyond what's already in companies.json.
+- Re-read FT Job Application Tracker (Sheet1 + Sheet2 "to apply that's live" watchlist) and cross-checked Tanay's personal role watchlist against jobs[]: WHOOP, GMO, AUI, Two Sigma, Audible, Sony Pictures FP&A, Red Ventures APM AI, TikTok PM Graduate, Keystone Strategy, and Stripe PM are all already tracked with matching postings. Found 4 companies named in his watchlist that weren't formally in companies.json yet -- added Glade Brook Capital (pe_investing), Alton Aviation Consultancy (aviation), Left Lane Capital (venture_capital), and Jefferies (financial_services, had job rows already but wasn't in the company list).
+- WebSearch found a plausible Glade Brook "Investment Team Analyst" posting (Workable ATS, Greenwich CT / Miami FL, 2027 start) but could not WebFetch-confirm given this run's network constraint, so per the mandatory-verification rule it was NOT added -- flagged in sheet_sources.json notes for next attempt. No live posting found for Alton Aviation, Left Lane Capital, or a Jefferies "Risk Management Associate Program" (doesn't appear to exist as a distinct 2027 program; only IB Summer Associate roles for the 2028 grad class were found).
+- LINK UPGRADE (mandatory, backlog still >100): continued scope (b), attempted 5 more oldest unverified/unflagged postings (3x JPMorganChase equity research, 1x JPMorganChase CIO research, 1x Jefferies equity research) via WebSearch -- no official jpmorganchase.com or careers.jefferies.com page surfaced (network block prevents WebFetch confirmation either way), kept unverified with dated notes.
+- TOP PICKS: no new postings from this batch, top_picks unchanged.
+- Concurrency-safe publish: re-fetched live board immediately before publishing -- version id matched exactly what this session itself published last checkpoint, so no external edits to merge.
+- Remaining this cycle: apm_rotational_tech, product_management, strategy_bizops, consulting, corporate_rotational, quant_trading, pe_investing, venture_capital, entertainment, energy, financial_services, space, sports, aviation, alumni_outreach, supplemental_search_and_cleanup.

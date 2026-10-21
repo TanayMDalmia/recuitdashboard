@@ -154,7 +154,8 @@
   "Citadel (Equities/Surveyor)",
   "Long Ridge Equity Partners",
   "Turn River Capital",
-  "Partners Group"
+  "Partners Group",
+  "Glade Brook Capital"
  ],
  "venture_capital": [
   "Insight Partners",
@@ -173,7 +174,8 @@
   "NEA",
   "Battery Ventures",
   "Breakthrough Energy Ventures",
-  "Breakthrough Energy"
+  "Breakthrough Energy",
+  "Left Lane Capital"
  ],
  "entertainment": [
   "Disney",
@@ -195,7 +197,8 @@
   "Goldman Sachs",
   "Morgan Stanley",
   "Charles Schwab",
-  "Visa"
+  "Visa",
+  "Jefferies"
  ],
  "space": [
   "NASA",
@@ -242,6 +245,7 @@
   "General Dynamics (Gulfstream)",
   "Embraer",
   "Spirit AeroSystems",
-  "FAA"
+  "FAA",
+  "Alton Aviation Consultancy"
  ]
 }

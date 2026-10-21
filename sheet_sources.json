@@ -1,8 +1,8 @@
 {
- "cached_at": "2026-10-15",
+ "cached_at": "2026-10-21",
  "company_industry_sheet": {
   "fileId": "1WGUBHqG0u6zLlNrAorn9v0UmEAbucnpXIcNoe_WC-T0",
-  "note": "All companies/industries listed in the Company/Industry tab already present in companies.json as of this read -- no new additions needed.",
+  "note": "Re-read 2026-10-21: all companies/industries in the Company/Industry tab still already present in companies.json -- no new additions needed from this tab.",
   "expected_drop_dates": {
    "Netflix": "Sep/Oct 2026",
    "Meta PM Rotational Program": "Fall 2026"
@@ -10,6 +10,6 @@
  },
  "ft_job_application_tracker": {
   "fileId": "1T7kNdflgtNtNOCupQVhkFFRiIhuIgIUwB7IRkRyQs_I",
-  "note": "Sheet2 'To Apply to that's live' / 'Soon to be live' columns contain a personal watchlist of specific roles Tanay wants (Meta Rotational PM Program [Sep 23 live date -- should be live now], Stripe PM, TikTok PM Graduate [Sales/Ops], Jefferies 2027 Risk Mgmt Associate, Audible PM, CAP Associate 2027, Glade Brook Investment Analyst, Alton Associate, WHOOP APM Pace Setters, GMO 2027 Investment Research Associate, Red Ventures 2027 APM AI NYC, Sony Pictures FP&A Analyst, Left Lane Capital, AUI APM AI Agents, Keystone Associates 2027, Two Sigma Data Scientist, Anthropic). Used as a signal boost for upcoming category batches -- not a mandatory search source per the batch definition, but worth checking opportunistically when covering apm_rotational_tech/product_management/pe_investing/venture_capital/financial_services in future batches this cycle."
+  "note": "Re-read 2026-10-21: cross-checked Tanay's personal 'to apply that's live' / 'soon to be live' watchlist against jobs[] -- already covered and present: WHOOP APM Pace Setters, GMO 2027 Investment Research Associate, AUI APM AI Agents Implementation, Two Sigma Data Scientist (Campus Full-Time), Audible Product Manager (ADBL196), Sony Pictures Analyst FP&A, Red Ventures APM AI - NYC, TikTok PM Graduate (Sales and Operations Management Platform, 2027 Start), Keystone Strategy Associates and Consultants (2027 Graduates), Stripe PM New Grad Accelerator, Anthropic (general coverage). Genuinely new companies not yet tracked: Glade Brook Capital, Alton Aviation Consultancy, Left Lane Capital, Jefferies (had job rows but wasn't formally in companies.json) -- all 4 added to companies.json this run. WebSearch found a plausible Glade Brook Investment Team Analyst posting on apply.workable.com (Greenwich CT / Miami FL, 2027 start) but could not WebFetch-confirm it live (network policy blocks non-GitHub domains this run), so it was NOT added to jobs[] per the mandatory-verification rule -- worth a direct check once network access allows, or via pe_investing's next category batch. No live/confirmable posting found for Alton Aviation, Left Lane Capital, or Jefferies 'Risk Management Associate Program' (the last doesn't appear to exist as a named 2027 program -- only IB Summer Associate 2028-grad programs found under Jefferies)."
  }
 }
