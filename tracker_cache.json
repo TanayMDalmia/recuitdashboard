@@ -1,10 +1,10 @@
 {
- "cached_at": "2026-10-20",
+ "cached_at": "2026-10-22",
  "sources": {
   "vanshb03/New-Grad-2027": {
    "url": "https://raw.githubusercontent.com/vanshb03/New-Grad-2027/main/README.md",
    "row_count": 1078,
-   "note": "Direct ATS links (greenhouse/lever/workday/etc), no redirect layer. Most rows are generic SWE roles; filtered subset relevant to our categories extracted separately. | Re-pulled 2026-10-20: checked energy/financial_services/space category companies against fresh readme, no new unseen postings found beyond what is already in state.json."
+   "note": "Direct ATS links (greenhouse/lever/workday/etc), no redirect layer. Most rows are generic SWE roles; filtered subset relevant to our categories extracted separately. | Re-pulled 2026-10-20: checked energy/financial_services/space category companies against fresh readme, no new unseen postings found beyond what is already in state.json. | Re-pulled 2026-10-22 for cycle 25 venture_capital/entertainment/energy batches: scanned for all 18 VC-firm, 9 entertainment, and 5 energy seed-list companies. No VC or energy rows found at all (tracker is SWE-heavy). Only loose entertainment matches were generic Disney/Netflix/PlayStation Software Engineer I rows with no explicit new-grad/2027/full-time label -- not added."
   },
   "zapplyjobs/New-Grad-Jobs-2027": {
    "url": "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Jobs-2027/main/README.md",
