@@ -827,3 +827,18 @@ This run (and the several before it) confirmed the sandboxed environment's netwo
 - **TOP PICKS**: unchanged from checkpoint 8's refreshed slate (no new today-postings from this batch to reconsider). Appended this cycle's final slate to top_picks_history (kept at 20 most recent).
 - **CYCLE 25 COMPLETE**: all 17 batches (sources_refresh through supplemental_search_and_cleanup) finished. Jobs total: 1657. Next run starts Cycle 26 fresh (sources_refresh first).
 - Concurrency-safe publish: fresh re-fetch returned the same version id as this session's own prior publish — no concurrent edits.
+
+## Cycle 26 checkpoint 1 (2026-10-24): sources_refresh
+
+- Checked Google Drive for pending `flag__` files: all 39 found already in processed_flag_ids (confirmed via two-page search), nothing new to process.
+- Re-read Company/Industry sheet and FT Job Application Tracker sheet in full: no new companies to add (all already in companies.json). Cross-checked Tanay's personal "to apply/soon to be live" watchlist:
+  - NBCU Data role: only found UK internships/placements, no full-time 2027 US analyst role — not added.
+  - Capital Group "CAP Associate - US (2027)": found, but one source says the US 2027 window closed Feb 2026 — not added.
+  - "Technical Infrastructure Program Manager I (PUMP - SoapStone)" is actually an **Amazon/AWS** role (sheet mislabeled it Meta) — only found on aggregator mirrors (jobs.anitab.org, resumegeni.com), no amazon.jobs URL located, so skipped per the never-store-a-mirror-link rule rather than guessing a URL.
+  - Glade Brook Capital Investment Team Analyst (Greenwich/Miami, Spring/Summer 2027) — found again via WebSearch on Workable (legit ATS), but **could not WebFetch-confirm**: this run's network egress policy is blocking WebFetch to every non-github.com domain (confirmed ENOTFOUND on job-boards.greenhouse.io and apply.workable.com). Not added per mandatory-verification-at-discovery.
+  - Left Lane Capital: found VC Analyst postings but none explicitly 2027-labeled — too ambiguous, skipped.
+  - Alton Aviation Consultancy: still no findable posting.
+- **IMPORTANT ENVIRONMENT NOTE**: WebFetch to non-GitHub hosts is categorically blocked this run (not intermittent) — confirmed on greenhouse.io, workable.com. raw.githubusercontent.com works fine. This means every category batch this run is limited to tracker_cache/GitHub-tracker-sourced postings for new additions, and the LINK UPGRADE pass cannot progress (it would need to WebFetch company/ATS pages to confirm or replace links). Backlog check: 0 jobright.ai/aggregator-linked postings remain (already fully cleaned up in prior cycles); ~44 postings have direct company/ATS links but link_verified:false — left untouched this run since there's no way to safely upgrade them without guessing.
+- Re-pulled vanshb03/New-Grad-2027 tracker (GitHub raw, works fine) scanning for Product Manager/APM titles across all apm_rotational_tech + product_management seed companies ahead of the next two batches: only one open match (Perplexity APM Program, already tracked); every other PM/APM row for Adobe, Salesforce, Figma, Visa, Roblox, StubHub, TikTok is marked closed/locked in the tracker.
+- Started a new cycle (cycle_number 26, started 2026-10-24) since cycle 25 was fully complete.
+- No jobs added/changed this checkpoint. Top picks carried over unchanged (already well-distributed and criteria-matching).
