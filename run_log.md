@@ -848,3 +848,12 @@ This run (and the several before it) confirmed the sandboxed environment's netwo
 - All 23 seed companies (Google, Meta, Microsoft, Amazon, Uber, Airbnb, Salesforce, Adobe, Atlassian, Stripe, Notion, Figma, Robinhood, DoorDash, Instacart, Affirm, Block, LinkedIn, Snap, Pinterest, Apple, Tesla, Capital One) already checked against the freshly re-pulled GitHub tracker during checkpoint 1's sources_refresh (combined scan covering both apm_rotational_tech and product_management seed lists) — no open, unseen APM postings found (only match was Perplexity, already tracked; everything else PM/APM-titled in the tracker for these companies is closed/locked).
 - Direct ATS/WebSearch verification is not possible this run due to the network egress block on all non-GitHub hosts (see checkpoint 1 note) — no speculative additions made.
 - No companies.json changes, no job changes. Concurrency-safe publish re-fetch confirmed no external edits to the live board since checkpoint 1.
+
+## Cycle 26 checkpoint 3 (2026-10-24): product_management — 3-batch budget reached, run complete
+
+- All ~42 product_management seed companies already checked against the tracker in checkpoint 1's combined scan — no new open PM postings found beyond Perplexity (already tracked).
+- Same network-egress limitation as checkpoints 1-2: all non-GitHub WebFetch is blocked this run, so no direct ATS/company-site verification was possible for any new leads.
+- Top picks carried over unchanged (still well-distributed, criteria-matching); appended to top_picks_history as this is the last checkpoint of this run.
+- Concurrency-safe publish re-fetch confirmed no external edits to the live board across any of this run's 3 checkpoints.
+- Cycle 26 progress: 3/17 batches complete (sources_refresh, apm_rotational_tech, product_management). Next run resumes at strategy_bizops.
+- **Flag for the user**: this environment's network policy is currently blocking WebFetch to every non-GitHub domain. Until that's lifted (or an allowed-domains list is added for the ATS vendors this dashboard relies on — Greenhouse, Lever, Workday, etc.), new-posting discovery is limited to what the GitHub new-grad trackers surface, and the existing ~44-posting link-verification backlog can't be worked down.
