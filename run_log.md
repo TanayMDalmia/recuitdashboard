@@ -842,3 +842,9 @@ This run (and the several before it) confirmed the sandboxed environment's netwo
 - Re-pulled vanshb03/New-Grad-2027 tracker (GitHub raw, works fine) scanning for Product Manager/APM titles across all apm_rotational_tech + product_management seed companies ahead of the next two batches: only one open match (Perplexity APM Program, already tracked); every other PM/APM row for Adobe, Salesforce, Figma, Visa, Roblox, StubHub, TikTok is marked closed/locked in the tracker.
 - Started a new cycle (cycle_number 26, started 2026-10-24) since cycle 25 was fully complete.
 - No jobs added/changed this checkpoint. Top picks carried over unchanged (already well-distributed and criteria-matching).
+
+## Cycle 26 checkpoint 2 (2026-10-24): apm_rotational_tech
+
+- All 23 seed companies (Google, Meta, Microsoft, Amazon, Uber, Airbnb, Salesforce, Adobe, Atlassian, Stripe, Notion, Figma, Robinhood, DoorDash, Instacart, Affirm, Block, LinkedIn, Snap, Pinterest, Apple, Tesla, Capital One) already checked against the freshly re-pulled GitHub tracker during checkpoint 1's sources_refresh (combined scan covering both apm_rotational_tech and product_management seed lists) — no open, unseen APM postings found (only match was Perplexity, already tracked; everything else PM/APM-titled in the tracker for these companies is closed/locked).
+- Direct ATS/WebSearch verification is not possible this run due to the network egress block on all non-GitHub hosts (see checkpoint 1 note) — no speculative additions made.
+- No companies.json changes, no job changes. Concurrency-safe publish re-fetch confirmed no external edits to the live board since checkpoint 1.
