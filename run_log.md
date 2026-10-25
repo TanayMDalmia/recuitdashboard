@@ -876,3 +876,11 @@ This run (and the several before it) confirmed the sandboxed environment's netwo
 - TOP PICKS reviewed: all 10 existing picks (incl. NBCUniversal Page Program for entertainment) still point to unflagged, still-present jobs — kept unchanged.
 - Published dashboard, cycle.completed_this_cycle now includes entertainment (10/17 batches this cycle).
 - **Action needed from Tanay**: broaden this environment's Network access setting (environment menu → Edit → Network access) to allow job-board/ATS domains (Greenhouse, Lever, Workday, company career pages, etc.), not just GitHub — otherwise this routine cannot add or verify any new posting going forward, cycle after cycle.
+
+## Cycle 26 checkpoint 11 (2026-10-25): energy batch
+
+- Re-scanned vanshb03/New-Grad-2027 tracker for energy seed companies (NextEra Energy, Shell, Southern Star Central Gas Pipeline, Berkshire Hathaway Energy, Duke Energy): no matches (tracker is SWE-heavy, no energy-category rows at all).
+- WebSearch ("NextEra Energy OR Shell OR Berkshire Hathaway Energy OR Duke Energy new grad 2027 full time analyst rotational program"): surfaced one promising-looking lead — NextEra Energy "Financial Leadership Dev Program Associate" directly on jobs.nexteraenergy.com (https://jobs.nexteraenergy.com/job/Juno-Beach-Financial-Leadership-Dev-Program-Associate-FL-33408/1427923800/), a 3-year rotational FT program (Juno Beach/Jupiter/West Palm Beach FL or Houston). This is a direct company-ATS link, not an aggregator — but the environment's network egress policy still blocks WebFetch to jobs.nexteraenergy.com (non-GitHub host), so per the mandatory-verification-at-discovery rule it could NOT be confirmed live/open/2027-specific and was NOT added. Flagging it in sheet_sources.json as a strong candidate to re-check the moment network access is broadened, so it isn't lost.
+- Other search hits were stale (2025-start NextEra LAUNCH program) or off-target (Duke Energy summer internship, no Shell/Berkshire Hathaway Energy 2027 matches) — not added.
+- No new energy postings added this checkpoint. LINK UPGRADE pass skipped again (same WebFetch blocker). TOP PICKS reviewed, unchanged (DESRI energy pick still valid/unflagged).
+- Published dashboard, cycle.completed_this_cycle now includes energy (11/17 batches this cycle).
