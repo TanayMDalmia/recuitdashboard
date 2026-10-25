@@ -32,7 +32,8 @@
    "pe_investing",
    "venture_capital",
    "entertainment",
-   "energy"
+   "energy",
+   "financial_services"
   ],
   "cycle_number": 26
  },
@@ -28519,71 +28520,6 @@
  ],
  "top_picks_history": [
   {
-   "run_at": "2026-10-08T00:00:00Z",
-   "picks": [
-    {
-     "company": "Google",
-     "title": "Associate Product Manager, University Graduate, 2027 Start",
-     "link": "https://www.google.com/about/careers/applications/jobs/results/107272685397910214-associate-product-manager-university-graduate-2027-start",
-     "category": "apm_rotational_tech"
-    },
-    {
-     "company": "Jane Street",
-     "title": "Quantitative Trader",
-     "link": "https://www.janestreet.com/join-jane-street/position/4794171002/",
-     "category": "quant_trading"
-    },
-    {
-     "company": "Bain Capital",
-     "title": "2027 North America Private Equity Analyst-Associate Program",
-     "link": "https://baincapital.wd1.myworkdayjobs.com/en-US/External_Public/job/XMLNAME-2027-North-America-Private-Equity-Analyst-Associate-Program_REQ_108270-1",
-     "category": "pe_investing"
-    },
-    {
-     "company": "Insight Partners",
-     "title": "2027 Full Time Investment Analyst",
-     "link": "https://jobs.ashbyhq.com/insight-partners/2b216733-7804-4899-993d-be9298c110a7",
-     "category": "venture_capital"
-    },
-    {
-     "company": "DoorDash",
-     "title": "Associate, Strategy and Operations",
-     "link": "https://job-boards.greenhouse.io/doordashusa/jobs/8077587",
-     "category": "strategy_bizops"
-    },
-    {
-     "company": "Boston Red Sox",
-     "title": "Data Scientist, Baseball Analytics",
-     "link": "https://jobs.lever.co/redsox/46e29255-3049-4733-8c5a-047eefa3cbd0",
-     "category": "sports"
-    },
-    {
-     "company": "Citadel Securities",
-     "title": "Quantitative Trader (University Graduate)",
-     "link": "https://www.citadelsecurities.com/careers/details/quantitative-trader/",
-     "category": "quant_trading"
-    },
-    {
-     "company": "BlackRock",
-     "title": "2027 Full-Time Analyst Program \u2014 AMRS",
-     "link": "https://www.linkedin.com/jobs/view/2027-full-time-analyst-program-amrs-at-blackrock-4446750631",
-     "category": "financial_services"
-    },
-    {
-     "company": "NBCUniversal",
-     "title": "Page Program (Spring 2027 Cohort)",
-     "link": "https://www.nbcunicareers.com/pageprogram",
-     "category": "entertainment"
-    },
-    {
-     "company": "Point72",
-     "title": "Academy Investment Analyst Program for Upcoming Graduates (US)",
-     "link": "https://point72.com/point72-academy/",
-     "category": "pe_investing"
-    }
-   ]
-  },
-  {
    "run_at": "2026-10-08T14:06:42Z",
    "picks": [
     {
@@ -29665,6 +29601,71 @@
   },
   {
    "run_at": "2026-10-25T00:00:00Z",
+   "picks": [
+    {
+     "company": "Google",
+     "title": "Associate Product Manager, University Graduate, 2027 Start",
+     "link": "https://www.google.com/about/careers/applications/jobs/results/107272685397910214-associate-product-manager-university-graduate-2027-start",
+     "category": "apm_rotational_tech"
+    },
+    {
+     "company": "McKinsey & Company",
+     "title": "Business Analyst, Class of 2027",
+     "link": "https://jobs.mckinsey.com/careers/ApplicationMethods?folderId=15136",
+     "category": "consulting"
+    },
+    {
+     "company": "Honeywell Aerospace",
+     "title": "Leaders of Tomorrow \u2014 Early Career Programs",
+     "link": "https://www.honeywellaerospace.com/us/en/company/careers/leaders-of-tomorrow",
+     "category": "aviation"
+    },
+    {
+     "company": "Bain Capital",
+     "title": "2027 North America Private Equity Analyst-Associate Program",
+     "link": "https://baincapital.wd1.myworkdayjobs.com/en-US/External_Public/job/XMLNAME-2027-North-America-Private-Equity-Analyst-Associate-Program_REQ_108270-1",
+     "category": "pe_investing"
+    },
+    {
+     "company": "Insight Partners",
+     "title": "2027 Full Time Investment Analyst",
+     "link": "https://jobs.ashbyhq.com/insight-partners/2b216733-7804-4899-993d-be9298c110a7",
+     "category": "venture_capital"
+    },
+    {
+     "company": "BlackRock",
+     "title": "2027 Full-Time Analyst Program - AMRS",
+     "link": "https://careers.blackrock.com/job/ottawa/2027-full-time-analyst-program-amrs/45831/97843197536",
+     "category": "financial_services"
+    },
+    {
+     "company": "DoorDash",
+     "title": "Associate, Strategy and Operations",
+     "link": "https://job-boards.greenhouse.io/doordashusa/jobs/8077587",
+     "category": "strategy_bizops"
+    },
+    {
+     "company": "NBCUniversal",
+     "title": "Page Program (Spring 2027 Cohort)",
+     "link": "https://www.nbcunicareers.com/pageprogram",
+     "category": "entertainment"
+    },
+    {
+     "company": "DESRI (D. E. Shaw Renewable Investments)",
+     "title": "Analyst, Investment & Acquisitions",
+     "link": "https://ats.rippling.com/desri-careers/jobs/70d4cf77-6e7b-4f09-a9b2-987d8f2ee2e0",
+     "category": "energy"
+    },
+    {
+     "company": "Boston Red Sox / Fenway Sports Management",
+     "title": "Business Strategy and Data Analyst",
+     "link": "https://jobs.lever.co/redsox/17254fa5-04c8-4512-96db-d5078815985c",
+     "category": "sports"
+    }
+   ]
+  },
+  {
+   "run_at": "2026-10-25T14:23:05Z",
    "picks": [
     {
      "company": "Google",
