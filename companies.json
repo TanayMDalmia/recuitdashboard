@@ -22,7 +22,9 @@
   "Pinterest",
   "Apple",
   "Tesla",
-  "Capital One"
+  "Capital One",
+  "Anthropic",
+  "WHOOP"
  ],
  "product_management": [
   "Google",
@@ -137,7 +139,8 @@
   "Chicago Trading Company",
   "TransMarket Group",
   "Balyasny Asset Management",
-  "Aquatic Capital Management"
+  "Aquatic Capital Management",
+  "Two Sigma"
  ],
  "pe_investing": [
   "Bain Capital",
@@ -198,7 +201,8 @@
   "Morgan Stanley",
   "Charles Schwab",
   "Visa",
-  "Jefferies"
+  "Jefferies",
+  "GMO (Grantham, Mayo, & van Otterloo)"
  ],
  "space": [
   "NASA",
