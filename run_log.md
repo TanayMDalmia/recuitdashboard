@@ -950,3 +950,22 @@ Batches processed this run: `space`, `sports`, `aviation` (budget cap of 3 batch
 
 ### Summary for Tanay
 This run's dominant finding is environmental, not data: this session's cloud container network policy blocks all outbound HTTP(S) except GitHub and package registries (confirmed via proxy status: 403 on CONNECT to boards-api.greenhouse.io, ENOTFOUND on WebFetch to any general domain). That blocks direct ATS fetches and the mandatory WebFetch-confirm-before-adding step for anything not sourced from a GitHub tracker's own direct links, so very few new postings could be safely added this run without guessing — exactly what the standing SOURCE INTEGRITY rules are designed to prevent. Existing data was preserved and lightly improved (1 link upgraded to a first-party URL, 60 unverified postings re-attempted and documented, 4 companies added additively). To get full link-upgrade throughput back, the environment's Network access setting needs to allow general web domains (or at least common ATS vendor domains: greenhouse.io, lever.co, myworkdayjobs.com, icims.com, oraclecloud.com, taleo.net, successfactors.com, ashbyhq.com) — currently it looks limited to GitHub + package managers only.
+
+## Cycle 27 — 2026-10-27 (checkpoint: strategy_bizops, consulting, corporate_rotational; budget reached)
+
+**Network egress CONFIRMED still broken, now spanning cycles 25/26/27 (weeks).** Directly re-tested this run:
+- `WebFetch` to `www.capitalonecareers.com` → `getaddrinfo ENOTFOUND` (DNS-level block).
+- `curl` to `api.greenhouse.io` → proxy returns `403` (CONNECT tunnel failed).
+- `curl`/`WebFetch` to `raw.githubusercontent.com` → succeeds (`200`).
+
+This confirms the environment's network policy allows **only github.com-family domains** outbound. `WebSearch` (a separate first-party mechanism, not outbound HTTPS from this container) still works fine and returns real results, but every hard rule in this routine's spec that requires fetching a company/ATS page directly — mandatory verification at discovery, LINK UPGRADE confirmation, direct ATS querying — is impossible to satisfy for any non-GitHub URL. This is not a one-off flake; it has now blocked real progress for 3 consecutive cycles.
+
+Given that, this checkpoint did the following, honestly, without fabricating or guessing:
+- Re-pulled `vanshb03/New-Grad-2027` README (GitHub raw, allowed) and scanned it for every strategy_bizops/consulting/corporate_rotational seed company plus title-keyword matches. No relevant business-track postings found (see tracker_cache.json note) — tracker is SWE-heavy, consistent with prior cycles' findings.
+- Did NOT run LINK UPGRADE this checkpoint: 100 non-flagged jobs currently have `link_verified: false` (backlog scope (b)), 0 aggregator-linked (scope (a) clear), 0 bad_link flagged (scope (c) clear). Since confirming any of the 100 requires WebFetch to a non-GitHub domain, no changes were made rather than guessing at link status — leaving them as-is with their existing `link_verified:false` badge, which is the honest state.
+- jobs[] is completely unchanged this checkpoint (no additions, no removals, no flag_status changes).
+- top_picks unchanged (no jobs with first_seen = 2026-10-27, so no new candidates to consider; nothing else changed that would reorder the existing 10 picks).
+- Marked `strategy_bizops`, `consulting`, `corporate_rotational` complete in `cycle.completed_this_cycle` (cycle 27) and republished the dashboard (surgical edit, single field changed).
+- Sent the user a push notification flagging that this is now a multi-cycle, standing blocker that needs an environment settings change (Network access) to actually fix — not something further agent effort can work around.
+
+Next run resumes at `quant_trading`.
