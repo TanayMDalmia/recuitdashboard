@@ -969,3 +969,24 @@ Given that, this checkpoint did the following, honestly, without fabricating or 
 - Sent the user a push notification flagging that this is now a multi-cycle, standing blocker that needs an environment settings change (Network access) to actually fix — not something further agent effort can work around.
 
 Next run resumes at `quant_trading`.
+
+## Cycle 27 — 2026-10-28 (checkpoint: quant_trading, pe_investing, venture_capital; budget reached)
+
+**Important discovery this run: another writer published directly to the live dashboard artifact since the last git-committed checkpoint.** On the mandatory concurrency-safe-publish re-fetch, the live artifact had 1755 jobs vs. 1684 in this repo's `state.json` (71 extra rows), all `first_seen: 2026-10-28`(sic, actually stamped 2026-10-27 by that writer) and tagged with four categories that don't exist in this routine's taxonomy or `CAT_ORDER`: `tech_ai` (33), `fintech` (8), `vc` (2), `industrial_business` (1), plus some under existing categories (`quant_trading` 12, `strategy_bizops` 7, `financial_services` 4, `consulting` 2, `pe_investing` 1, `sports` 1). The live `top_picks` array had also been fully replaced (all 10 entries different from this repo's). Per standing rule 4b, did NOT drop or judge any of it:
+- Appended all 71 live-only rows verbatim (byte-for-byte fields) into `state.json`'s `jobs[]`.
+- Preserved the first 6 live-only top_picks (in their existing order) at the top of `top_picks`, then appended 4 of this run's own existing picks after them to reach 10 total.
+- Patched the dashboard's client-side JS (`CATS` / `CAT_ORDER`) and CSS (new `--cat-tech_ai`, `--cat-fintech`, `--cat-industrial_business`, `--cat-vc` color vars in all 4 theme blocks, light+dark) so the new categories actually render as sections/chips instead of being invisible dead data — no job-row fields were altered, only new section labels/colors were added so rows a different writer added are visible to Tanay.
+- Did not investigate or speculate on the source of that other write (could be a separate session Tanay ran directly against the artifact) — flagging it here for visibility; if Tanay didn't intend a second taxonomy, he may want to fold `tech_ai`/`fintech`/`industrial_business`/`vc` into the 14 standing categories by hand, or tell this routine to do so.
+
+**Network egress still confirmed broken (now spanning cycles 25-27, ~5+ weeks).** Re-tested directly this run: `curl`/`WebFetch` to `boards.greenhouse.io`, `www.capitalonecareers.com`, `api.greenhouse.io` all fail (ENOTFOUND / 403 CONNECT-tunnel-failed); `raw.githubusercontent.com` still succeeds. `WebSearch` still works. Not re-sending a push notification about this specific standing issue since it was already flagged to Tanay in the cycle 26/27 checkpoints and nothing has changed — but it is the reason this checkpoint again could not add or verify any non-tracker-sourced postings.
+
+**New finding, not previously documented:** the `vanshb03/New-Grad-2027` tracker (our primary/most-trusted source) has changed its README's Apply links from direct ATS URLs to `go.vansh.nyc/<token>` short-redirects. This degrades source priority (a) — those links can no longer be treated as "authoritative by construction," and resolving the redirect requires fetching a non-GitHub host, which is blocked by the same network policy above. Found 2 plausible new quant_trading rows this way (SIG Associate Network Engineer – Bala Cynwyd PA; Headlands Technologies Quantitative Researcher – Chicago/NY) but skipped both rather than storing an unresolvable/guessed link. Zero matches at all for pe_investing or venture_capital seed companies in the tracker (consistent with cycles 25-27 — this tracker has never had PE/VC rows).
+
+**LINK UPGRADE**: scope (a) aggregator-domain backlog is already clear (the 3 ziprecruiter.com/builtin.com-linked Old Mission/FactSet postings were already flagged `unavailable` with the correct correction note in an earlier cycle). Scope (b) backlog (~100 `link_verified:false`, unflagged postings) and scope (c) (0 `bad_link`-flagged) were not touched this checkpoint — any real verification needs WebFetch to the postings' own domains, which is blocked, so no guesses were made.
+
+- Added 0 new quant_trading/pe_investing/venture_capital postings from WebSearch/own research this checkpoint (consistent with cycles 25-27: no way to satisfy mandatory-verification-at-discovery under the current network block).
+- Marked `quant_trading`, `pe_investing`, `venture_capital` complete in `cycle.completed_this_cycle` (cycle 27).
+- top_picks recomputed per above (6 preserved + 4 own).
+- Republished the dashboard (same artifact URL) with the merged `jobs[]` (1755 total, no drops), new top_picks, and the CSS/JS category patch.
+
+Next run resumes at `entertainment`.
