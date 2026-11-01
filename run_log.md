@@ -1144,3 +1144,14 @@ Next run resumes at `entertainment`.
 - **New postings added**: 0.
 - **TOP PICKS**: unchanged (0 new jobs today).
 - **Concurrency-safe publish**: fresh re-fetch matched pre-check exactly (1823 jobs, no live-only ids). Published via Artifact tool (version 228, `1793546699-5cdc`).
+
+## Cycle 29 — product_management checkpoint (2026-11-01); 3-batch budget reached
+- **Companies checked**: all 44 companies.json seed companies plus existing jobs[] companies for this category.
+- **WebSearch (2 queries)**: "Workday Associate Product Manager new grad 2027" and "'Product Manager' 'new grad' 2027 ServiceNow OR Snowflake OR MongoDB OR Datadog careers" — surfaced one new lead not yet tracked: Snowflake "Product Manager - Cortex Code Enablement" (Menlo Park, new-grad/AI-focused) — but only via aggregator mirrors (resumegeni.com, mediabistro.com, tealhq.com, weloveproduct). Attempted to resolve Snowflake's own careers domain (careers.snowflake.com) directly — WebFetch failed with the same standing network block. Per the never-store-a-mirror-link and mandatory-verification rules, NOT added; flagged in sheet_sources.json for re-check once network access is widened.
+- **Standing network blocker**: reconfirmed again this batch (careers.snowflake.com ENOTFOUND).
+- **LINK UPGRADE**: 4 unverified&unflagged postings remain in this category (Meta RPM, LPL Financial, TikTok Content Product, Audible ADBL196). Left unchanged — same blocker.
+- **New postings added**: 0.
+- **TOP PICKS**: unchanged (0 new jobs today across the whole run).
+- **Concurrency-safe publish**: fresh re-fetch matched pre-check exactly (1823 jobs, no live-only ids). Published via Artifact tool (version 229, `1793546769-6833`).
+- **3-batch run budget reached.** `completed_this_cycle` = [sources_refresh, apm_rotational_tech, product_management]. Next run resumes at `strategy_bizops`.
+- **Run summary**: 0 new job postings added across all 3 batches (12th consecutive cycle blocked by the standing network egress policy — only github.com/raw.githubusercontent.com reachable; every other host tested this run — boards.greenhouse.io, boards-api.greenhouse.io, stripe.com, www.capitalonecareers.com, jobs.generalcatalyst.com, careers.snowflake.com — failed ENOTFOUND/403). 0 new flags processed (all 39 already handled). 0 new companies/industries from the Sheets. LINK UPGRADE backlog unchanged at 100 (apm:5, pm:4, rest in other categories) pending network fix.
