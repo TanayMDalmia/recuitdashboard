@@ -1134,3 +1134,13 @@ Next run resumes at `entertainment`.
 - **TOP PICKS**: 0 new postings today; kept existing 10 `top_picks` unchanged (not the cycle's last checkpoint, so no `top_picks_history` append).
 - **Concurrency-safe publish**: fresh re-fetch immediately before publish returned the identical version (`1793496294-7c63`) as the pre-check fetch — no concurrent writes, no reconciliation needed. jobs[] published at 1823 (unchanged, not shorter than live).
 - **Published** via Artifact tool to the existing dashboard URL (version 227, `1793546590-d05f`).
+
+## Cycle 29 — apm_rotational_tech checkpoint (2026-11-01)
+- **Companies checked**: all 25 companies.json seed companies plus the 38 additional companies already represented in jobs[] for this category (86 existing apm_rotational_tech postings total).
+- **Tracker cache**: vanshb03 README re-scanned (see sources_refresh entry) — Wise and Huntington Ingalls open rows found but both use unresolvable `go.vansh.nyc` redirect links; not added.
+- **WebSearch (2 queries)**: "Anthropic APM program 2027 new grad" and "Capital One Associate Product Manager rotational program 2027" — no new verifiable postings. The one plausible lead (Capital One "Product Development Program Associate - 2027", req 97421687328) is already tracked in jobs[] (added 2026-10-13, still `link_verified:false`).
+- **Standing network blocker**: reconfirmed (see sources_refresh entry) — blocks verification for any candidate not already GitHub-sourced.
+- **LINK UPGRADE**: 5 unverified&unflagged postings remain in this category (WHOOP Pace Setters, ID.me, NetBrain Technologies, Instacart APM, Capital One PDP 2027). Could not attempt resolution — WebFetch blocked for all 5 target domains. Left unchanged (not mass-flagged).
+- **New postings added**: 0.
+- **TOP PICKS**: unchanged (0 new jobs today).
+- **Concurrency-safe publish**: fresh re-fetch matched pre-check exactly (1823 jobs, no live-only ids). Published via Artifact tool (version 228, `1793546699-5cdc`).
