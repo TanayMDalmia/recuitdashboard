@@ -1333,3 +1333,10 @@ Next run resumes at `entertainment`.
 - LINK UPGRADE: jobright.ai backlog is now 0 (fully cleared in earlier cycles). ~100 postings remain with link_verified=false/no flag_status (case b of the LINK UPGRADE scope) but none could be re-verified or replaced this checkpoint for the same network reason; no destructive flagging applied (tooling limitation, not evidence of staleness).
 - 0 new postings added. Top picks unchanged (inputs unchanged). Concurrency-safe publish: live board was byte-identical to local state.json before this checkpoint (no external edits to merge). Published as version 250.
 - Cycle 31 progress: sources_refresh, apm_rotational_tech, product_management, strategy_bizops, consulting done (5/17 batches).
+
+## Cycle 31 — corporate_rotational (2026-11-09)
+- 2 WebSearch queries covering GE/GE Vernova/GE Appliances, Honeywell, 3M, IBM, Danaher, J&J, PepsiCo, John Deere, Eaton, Cummins. Found live-looking leads: GE Appliances Edison Engineering Development Program (EEDP, 2027 start, multiple engineering tracks) and GE Vernova 2027-start rotational/EEDP/Digital Technology Leadership programs with a direct careers.gevernova.com link, plus a Honeywell IT Early Career Rotational Program note (2027-2028 cycle expected to open ~Sep-Oct 2026). No P&G/3M/Danaher/J&J/PepsiCo/John Deere/Eaton/Cummins-specific 2027 postings surfaced.
+- None of these leads could be WebFetch-verified (same standing network blocker — only github.com/api.github.com/raw.githubusercontent.com resolve, reconfirmed in the consulting checkpoint this run), so none were added, per the mandatory-verification rule.
+- LINK UPGRADE: same as consulting checkpoint — jobright.ai backlog is 0; ~100 link_verified=false postings remain but can't be re-verified this run; no destructive flagging (tooling limitation, not evidence of staleness).
+- 0 new postings added. Top picks unchanged. Concurrency-safe publish: no external edits since last checkpoint. Published as version 251.
+- Cycle 31 progress: sources_refresh, apm_rotational_tech, product_management, strategy_bizops, consulting, corporate_rotational done (6/17 batches).
