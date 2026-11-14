@@ -1510,3 +1510,31 @@ TOP PICKS: no jobs added this checkpoint (alumni_outreach doesn't add postings),
 CONCURRENCY-SAFE PUBLISH: fresh Artifact read of the live dashboard immediately before this checkpoint was byte-for-byte identical (md5-confirmed) to the version read at the start of this run (same version 1794585937-7b3c, same 1,907 jobs) — no concurrent-writer rows to merge. Published jobs count (1,907) unchanged from live pre-publish count. Spliced the updated job-state JSON into the existing published template (same technique as recent cycles) rather than hand-authoring the ~1.87MB HTML, then published that file. cycle.completed_this_cycle now 16/17 for cycle 32 (added alumni_outreach). Next (and final) batch for this cycle: supplemental_search_and_cleanup.
 
 STANDING RECOMMENDATION UNCHANGED (19 cycles running): same as above — widen the Default environment's allowlist to unblock the core pipeline. Notified this cycle (see above) as an exception to the usual no-notification default, given the severity/duration.
+
+
+## 2026-11-14 — Cycle 32, checkpoint (supplemental_search_and_cleanup — closes cycle 32)
+
+Final batch of cycle 32. Budget allowed up to 3 batches this run; only 2 remained (alumni_outreach, already checkpointed above; supplemental_search_and_cleanup, this checkpoint), so both were completed in this run.
+
+NETWORK BLOCKER: unchanged, confirmed again directly this checkpoint (WebFetch to boards.greenhouse.io failed with ENOTFOUND, consistent with every prior check). Did not re-propose a network/environment change (already declined repeatedly this session).
+
+SUPPLEMENTAL SEARCH: identified the companies with zero existing postings within their category despite being on the seed list (venture_capital: a16z, Founders Fund, Sequoia, Thrive, Index, Lightspeed, Accel, GV, Tiger Global, Coatue, NEA, Battery, Breakthrough Energy, Left Lane — 14 of 18 seed companies uncovered; pe_investing: Carlyle, TPG, Thoma Bravo, Citadel Equities/Surveyor, Glade Brook; aviation: RTX, American Airlines, JetBlue, Textron Aviation, General Dynamics/Gulfstream, Embraer, Alton Aviation; sports: Celtics, Patriots, NBA, NFL, MLB). Ran 3 targeted WebSearch queries covering the most promising names (top VC firms; RTX/American/JetBlue finance leadership programs; NBA/Celtics/Patriots business analyst roles). Findings:
+- a16z: only a Cursor (portfolio company) new-grad SWE role surfaced, wrong company and out of category scope. No a16z-direct full-time analyst program found.
+- Sequoia / Thoma Bravo: no concrete postings found, only generic third-party recruiting-process guides.
+- RTX: found real evidence of an ongoing Finance Leadership Development Program (multiple cohorts, Accounting/FP&A/Internal Audit/Program Controls tracks) but no 2027-specific requisition or direct link; the one RTX program with a confirmed June 2027 start (Business Development LDP) requires a master's degree, out of scope. No American Airlines or JetBlue program found at all.
+- Celtics: only a 2027 internship guide (unpaid/hourly, not full-time new-grad), sourced to a third-party aggregator, not the team's own site.
+None of these leads had a company-first-party, specific-requisition URL I could both locate and WebFetch-verify (WebFetch to every candidate domain — greenhouse, RTX's own careers.rtx.com, teamworkonline-style sports job sites — is blocked by the same standing network restriction). Per the mandatory-verification rule, skipped all of them rather than adding an unconfirmed posting. Zero additions, consistent with the pattern of the last ~7 checkpoints.
+
+Also checked tracker_cache.json (GitHub-sourced, not subject to the WebFetch block) for anything unused in the thin categories: its cached vanshb03 rows (4 total, last pulled 2026-11-12 during this cycle's sources_refresh) contained only Chicago Trading Company and Appian rows, both already present in state.jobs (Appian is a software-engineering title, out of ORFE scope and correctly never added). No new rows to pull from the reliable GitHub source either.
+
+CLEANUP (drop postings no longer open): no reliable new closure signal available without WebFetch, so no rows were dropped this checkpoint (consistent with recent cycles — flagged/unavailable postings continue to be identified only through Tanay's own flags or the (now-blocked) link-upgrade pass, never through unverified guessing).
+
+LINK UPGRADE: scope (a)/(c) backlog remain empty; scope (b) unverified-but-active backlog unchanged at 91 rows, blocked by the same restriction.
+
+TOP PICKS: no jobs added this checkpoint either, so the existing 8-pick set is unchanged. This is the cycle's last checkpoint, so appended the current top_picks to top_picks_history (now 20 most recent entries, oldest trimmed) per the mandatory per-checkpoint rule — this entry is identical to the prior one since nothing changed, consistent with the picks being the best-available backfill for several checkpoints running.
+
+CONCURRENCY-SAFE PUBLISH: fresh Artifact read immediately before this checkpoint was byte-for-byte identical to the version just published at the prior (alumni_outreach) checkpoint — no concurrent-writer rows to merge. Published jobs count (1,907) unchanged. Spliced the updated job-state JSON into the existing published template, same as the prior checkpoint.
+
+CYCLE 32 CLOSED: cycle.completed_this_cycle now equals cycle.batches_order (17/17). Next run will detect this and start cycle 33 from sources_refresh.
+
+STANDING RECOMMENDATION UNCHANGED (19 cycles running, now spanning cycles 27-32): widen the Default environment's network allowlist (boards.greenhouse.io, job-boards.greenhouse.io, jobs.lever.co, *.myworkdayjobs.com, *.taleo.net, *.icims.com, jobs.ashbyhq.com, LinkedIn) to unblock the core pipeline. Flagged to Tanay via push notification at the start of this run (see alumni_outreach checkpoint entry above) as a one-time exception to the no-notification default, given the duration/severity. Will not re-notify about this same blocker next cycle unless something materially changes.
