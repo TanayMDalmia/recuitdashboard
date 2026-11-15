@@ -1612,3 +1612,22 @@ STANDING RECOMMENDATION UNCHANGED (21 cycles running, spanning cycles 27-33): wi
 STANDING RECOMMENDATION UNCHANGED (22+ cycles running, spanning cycles 24-33): widen the Default environment's network allowlist (boards.greenhouse.io, job-boards.greenhouse.io, jobs.lever.co, *.myworkdayjobs.com, *.taleo.net, *.icims.com, jobs.ashbyhq.com, optiver.com, careers-sig.icims.com, LinkedIn) to unblock the core pipeline. **Not re-escalating to Tanay via notification this run** — this prompt explicitly says not to send notifications/messages, and nothing material has changed since the last time this blocker was reported (already surfaced once, per standing decision in prior entries).
 
 Next run should pick up with pe_investing.
+
+---
+## Cycle 33 — pe_investing batch + checkpoint (run 2026-11-15, same session)
+
+**pe_investing batch:**
+- tracker_cache.json: confirmed (again) zero pe_investing matches across vanshb03/zapplyjobs/SimplifyJobs — all three trackers remain SWE/quant-heavy with no PE-firm rows, consistent with every prior cycle back to 25.
+- companies.json pe_investing seed list unchanged (16 companies).
+- Ran 2 targeted WebSearch queries covering Blackstone/KKR/Apollo/Carlyle/Vista/Thoma Bravo/General Atlantic/Warburg Pincus plus Long Ridge/Turn River/Partners Group/Glade Brook. Found several credible-looking first-party/ATS leads: Turn/River Capital "Investment Analyst (2027)" (SF, 2yr full-time track, direct career.com + mirrors), Glade Brook Capital "Investment Team Analyst" (Greenwich CT/Miami FL, spring/summer 2027 start, apply.workable.com/glade-brook — direct Workable ATS link), Long Ridge Equity Partners Greenhouse board (job-boards.greenhouse.io/longridge) with a Growth Equity Analyst/Summer Analyst 2027 posting, Partners Group 2027 Financial Analyst Program (already past its stated May 31 2026 application deadline per search results, so likely closed even if reachable). Also reconfirmed: General Atlantic reportedly delaying 2027 PE associate recruiting into 2026 per a trade-press report (applies caution to that firm specifically).
+- **None added.** workable.com, career.com, and greenhouse.io are all non-GitHub hosts and remain blocked under this session's network policy (re-confirmed via this run's earlier direct WebFetch tests to job-boards.greenhouse.io and janestreet.com, both ENOTFOUND — same host-allowlist mechanism blocks these too). Mandatory discovery-time verification impossible, so skipped silently per source-integrity rules rather than guessing.
+- Zero additions this batch — consistent with every pe_investing pass since cycle 25.
+
+**CHECKPOINT 2:**
+1. Merge: no job-list changes. `cycle.completed_this_cycle` → added `pe_investing`.
+2. LINK UPGRADE: skipped (verification still impossible; no safe in-dataset dedup identified this pass).
+3. TOP PICKS: no jobs first_seen today; existing 8-pick set carries forward unchanged. Not the cycle's last checkpoint.
+4. CONCURRENCY-SAFE PUBLISH: fresh WebFetch of live dashboard immediately before publish (version id 1794755917-d080, exact match to what this session published at checkpoint 1 — zero drift). Diffed jobs[] (1,907 vs 1,907): zero live-only, zero mine-only. Republished via job-state-JSON substitution → version 276 (version id 1794756010-b7ae).
+5. Committing now.
+
+Next run should pick up with venture_capital.
