@@ -1631,3 +1631,27 @@ Next run should pick up with pe_investing.
 5. Committing now.
 
 Next run should pick up with venture_capital.
+
+---
+## Cycle 33 — venture_capital batch + checkpoint (run 2026-11-15, same session) — 3-BATCH BUDGET REACHED
+
+**venture_capital batch:**
+- tracker_cache.json: confirmed (again) zero venture_capital matches across all three GitHub trackers — SWE/quant/PM-only, no VC-firm rows, consistent with every prior cycle back to 25.
+- companies.json venture_capital seed list unchanged (18 companies).
+- Ran 2 targeted WebSearch queries covering Index Ventures/Accel/NEA/Battery Ventures/Coatue, plus Left Lane Capital/Breakthrough Energy Ventures/GV. Leads found: Insight Partners "2027 Full Time Investment Analyst" (job-boards.greenhouse.io/g2vp — wrong company match in search snippet, actual Insight Partners board unclear from results), Bessemer Venture Partners "Full Time Analyst 2027" (job-boards.greenhouse.io/bvpanalyst, multiple reqs — status conflicting between pages, possibly closed), Volition Capital 2027 Analyst (Boston, aggregator-only - startup.jobs/growthequityinterviewguide, no first-party link found), G2VP full-time VC analyst 2027 (Portola Valley, CA, job-boards.greenhouse.io/g2vp — G2VP is not currently in our venture_capital seed list; worth adding to companies.json for a future cycle once verification is possible), Left Lane Capital VC Analyst (growthequityinterviewguide/inforcapital mirrors only, no first-party link found).
+- **None added.** Every usable first-party lead sits on job-boards.greenhouse.io, which remains blocked (re-confirmed via this run's earlier direct WebFetch ENOTFOUND tests). Aggregator-only leads (growthequityinterviewguide.com, startup.jobs, inforcapital.com) are leads-only per the source-integrity rules regardless of network access. Skipped silently.
+- Zero additions this batch — consistent with every venture_capital pass since cycle 25.
+- Noted for a future sources_refresh: consider adding G2VP (Greycroft spinout VC firm) to companies.json's venture_capital list given a plausible, recurring 2027 analyst program — holding off until it can be verified rather than adding speculatively.
+
+**CHECKPOINT 3 (last checkpoint this run — 3-batch budget reached):**
+1. Merge: no job-list changes. `cycle.completed_this_cycle` → added `venture_capital`. Cycle 33 progress: 9/17 batches done (sources_refresh, apm_rotational_tech, product_management, strategy_bizops, consulting, corporate_rotational, quant_trading, pe_investing, venture_capital). Remaining: entertainment, energy, financial_services, space, sports, aviation, alumni_outreach, supplemental_search_and_cleanup.
+2. LINK UPGRADE: skipped again this checkpoint — verification remains impossible for every non-GitHub host; no new in-dataset dedup opportunities spotted across quant_trading/pe_investing/venture_capital this run.
+3. TOP PICKS: no jobs first_seen today across any of the 3 batches processed this run, so the existing 8-pick set carries forward unchanged (all still link_verified, unflagged, none newly stale). Not the cycle's last checkpoint (8 batches remain) — top_picks_history untouched.
+4. CONCURRENCY-SAFE PUBLISH: fresh WebFetch of live dashboard immediately before publish (version id 1794756010-b7ae, exact match to this session's checkpoint-2 publish — zero drift, no concurrent writer). Diffed jobs[] (1,907 vs 1,907): zero live-only, zero mine-only rows. Published count (1,907) unchanged throughout this entire run (0 additions, 0 removals). Republished via job-state-JSON substitution → version 277 (version id 1794756061-ecae).
+5. Committing/pushing now.
+
+**Run summary (3 batches processed this run: quant_trading, pe_investing, venture_capital):** 0 new postings added, 0 link upgrades, 0 flags processed (sources_refresh already ran earlier this cycle). Root cause unchanged across all 3 batches: this session's cloud environment has `network: {"type":"limited","allowed_hosts":[]}` (confirmed via `get_environment` and direct WebFetch ENOTFOUND tests against job-boards.greenhouse.io and www.janestreet.com at the start of this run) — only GitHub, package managers, and MCP servers are reachable. WebSearch still works (runs server-side) and surfaced multiple plausible, well-formed 2027 new-grad leads this run (SIG icims.com, Point72/Insight Partners/Bessemer/Long Ridge/G2VP greenhouse.io, Glade Brook workable.com, Turn/River career.com) but every one sits on a host this environment cannot reach, so the mandatory discovery-time WebFetch verification could not be performed for any of them. Per the source-integrity rules, all were skipped silently rather than added unverified.
+
+STANDING RECOMMENDATION UNCHANGED (22+ cycles running, spanning cycles 24-33): widen the Default environment's network allowlist to include at minimum: boards.greenhouse.io, job-boards.greenhouse.io, jobs.lever.co, *.myworkdayjobs.com, *.taleo.net, *.icims.com, jobs.ashbyhq.com, apply.workable.com, LinkedIn, and ideally company domains directly. This would unblock the entire new-postings and link-verification pipeline that every one of this routine's source-integrity rules currently depends on. **Not re-escalating to Tanay via notification this run**: the task prompt explicitly says not to send notifications or messages, and nothing material has changed since this exact blocker was last surfaced to him (already pushed once in a prior cycle per the standing decision recorded above).
+
+Next run should pick up with entertainment.
