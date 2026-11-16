@@ -1694,3 +1694,25 @@ Next up: energy.
 5. Committing now.
 
 Next up: financial_services (3rd and last batch this run — 3-batch budget reached after this one).
+
+---
+## Cycle 33 — financial_services batch + checkpoint (run 2026-11-16, same session) — 3-BATCH BUDGET REACHED
+
+**financial_services batch:**
+- companies.json financial_services seed list unchanged (11 companies: JPMorgan, Bloomberg, FactSet, Evercore, BlackRock, Goldman Sachs, Morgan Stanley, Charles Schwab, Visa, Jefferies, GMO).
+- SimplifyJobs/New-Grad-Positions tracker (already pulled fresh this run): Charles Schwab "Junior Software Developer" (locked, SWE), Visa "Software Engineer New Grad 2027"/"Associate Product Manager New Grad" (both locked), FactSet "Software Engineer 1 - Infrastructure" London UK (locked, non-US). No open, US, business/finance-analyst-track row for any seed company.
+- 2 targeted WebSearch queries (JPMorgan/BlackRock/Goldman Sachs full-time analyst programs; Bloomberg/FactSet/Evercore new-grad analyst programs). Findings: Goldman Sachs' "New Analyst Program" page exists (goldmansachs.com/careers) but open status for the 2027 full-time cohort unconfirmed from search snippets; JPMorgan 2027 Global Investment Banking / Markets Analyst Program listings found but with apply-by dates already passed (01/11/2026, 10/1/26) — stale; BlackRock APAC 2027 Full-Time Analyst Program confirmed open (Sydney) but that's a non-US office, out of scope for this dashboard; Evercore 2027 Summer Analyst Program (internship, not full-time) and a UK-based M&A Advisory Analyst (2027) row at efinancialcareers.com — wrong cohort/geography. None resolved to a clean, US, full-time, 2027-start, currently-open, first-party-verifiable posting. Every usable first-party lead (goldmansachs.com, jpmorganchase.com careers pages) sits on a host this environment's network policy blocks, so mandatory discovery-time WebFetch verification remains impossible regardless.
+- Zero additions — same root cause as every batch this run (23rd straight blocked cycle).
+
+**CHECKPOINT 3 (last checkpoint this run — 3-batch budget reached):**
+1. Merge: no job-list changes. `cycle.completed_this_cycle` → added `financial_services`. Cycle 33 progress: 12/17 batches done (sources_refresh through financial_services). Remaining: space, sports, aviation, alumni_outreach, supplemental_search_and_cleanup.
+2. LINK UPGRADE: same as checkpoints 1-2 — scope (a)/(c) empty, scope (b) 87 unverified jobs all on blocked hosts, no safe in-dataset dedup found this pass either. Skipped.
+3. TOP PICKS: no jobs first_seen today across any of the 3 batches processed this run, so the existing 8-pick set carries forward unchanged. Not the cycle's last checkpoint (5 batches remain) — top_picks_history untouched.
+4. CONCURRENCY-SAFE PUBLISH: fresh Artifact read of the live dashboard immediately before publish (version id 1794795687-1a10, exact match to checkpoint 2's publish — zero drift, no concurrent writer across this whole run). Published count (1,907) unchanged throughout this entire run (0 additions, 0 removals). Published → version 280 (version id 1794795721-d8ba).
+5. Committing/pushing now.
+
+**Run summary (3 batches processed this run: entertainment, energy, financial_services):** 0 new postings added, 0 link upgrades, 0 flags processed (sources_refresh already ran in cycle 33's first run). Root cause unchanged: this session's cloud environment has `network: {"type":"limited","allowed_hosts":[]}` — confirmed via `get_environment` at the start of this run, and reconfirmed via every WebSearch lead this run resolving only to non-GitHub hosts that cannot be WebFetch-verified. **New this run:** attempted a concrete fix via `update_environment` (requesting the 20 highest-traffic ATS/company hosts already present in this dataset's own link distribution — boards.greenhouse.io, job-boards.greenhouse.io, job-boards.eu.greenhouse.io, jobs.lever.co, jobs.ashbyhq.com, jobs.smartrecruiters.com, www.workatastartup.com, apply.workable.com, www.linkedin.com, www.amazon.jobs, plus 10 specific company domains) — refused because this is a scheduled run with no live user present to approve it. Per the refusal's own guidance, not retried. Not sending a push notification about this per the task's explicit "do not send notifications" instruction, and because this exact blocker was already escalated once in an earlier cycle with no change since.
+
+STANDING RECOMMENDATION UNCHANGED (23+ cycles running, spanning cycles 24-33): **Tanay can unblock this entire pipeline himself** by either (a) running this routine with "Run now" so a live session can approve the environment-widening prompt, or (b) going to this cloud environment's settings himself and adding at minimum: boards.greenhouse.io, job-boards.greenhouse.io, jobs.lever.co, jobs.ashbyhq.com, jobs.smartrecruiters.com, *.myworkdayjobs.com, *.taleo.net, *.icims.com, apply.workable.com, and www.linkedin.com to the network allowlist. This would unblock the entire new-postings and link-verification pipeline that every one of this routine's source-integrity rules currently depends on.
+
+Next run should pick up with space.
