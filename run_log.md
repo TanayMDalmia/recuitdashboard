@@ -1676,3 +1676,21 @@ Next run should pick up with entertainment.
 5. Committing now.
 
 Next up: energy.
+
+---
+## Cycle 33 — energy batch + checkpoint (run 2026-11-16, same session)
+
+**energy batch:**
+- companies.json energy seed list unchanged (5 companies: NextEra Energy, Shell, Southern Star Central Gas Pipeline, Berkshire Hathaway Energy, Duke Energy).
+- SimplifyJobs/New-Grad-Positions tracker (already pulled fresh this run): only energy-seed matches are Southern Star Central Gas Pipeline "Software Engineer 1" (locked) and 4 Berkshire Hathaway Energy "Software Engineer 1" variants (all locked, all SWE anyway). No NextEra Energy, Shell, or Duke Energy rows at all. vansh tracker re-confirmed still go.vansh.nyc redirect-wrapped (unusable).
+- 2 targeted WebSearch queries (NextEra/Shell/Duke Energy financial leadership programs; Berkshire Hathaway Energy rotational analyst). Found NextEra Energy's recurring "LAUNCH — Financial Leadership Development Program" / "Finance & Accounting Rotational Development Program" (one snippet specifically mentioned an August 2027 start cohort) at jobs.nexteraenergy.com — a real, plausible, recurring program, but the host is non-GitHub and blocked by this environment's network policy, so the mandatory discovery-time WebFetch verification cannot be performed. Also found a generic American Electric Power (not in our seed list) rotational program and various BHE experienced-hire/internship roles, none matching. Shell and Duke Energy: no 2027 full-time program found in results at all.
+- Zero additions — same network-block root cause as every batch this run. Noted for a future verified cycle: NextEra's Financial Leadership Development Program / LAUNCH program recurs year over year and is worth checking first once jobs.nexteraenergy.com is reachable.
+
+**CHECKPOINT 2:**
+1. Merge: no job-list changes. `cycle.completed_this_cycle` → added `energy`. Cycle 33 progress: 11/17 batches done.
+2. LINK UPGRADE: same as checkpoint 1 — scope (a)/(c) empty, scope (b) 87 unverified jobs all on blocked hosts, no safe in-dataset dedup found. Skipped.
+3. TOP PICKS: no jobs first_seen today; existing 8-pick set carries forward unchanged. Not the cycle's last checkpoint.
+4. CONCURRENCY-SAFE PUBLISH: fresh Artifact read of the live dashboard immediately before publish (version id 1794795614-08ff, exact match to checkpoint 1's publish — zero drift). Diffed jobs[] (1,907 vs 1,907): zero live-only, zero mine-only. Published → version 279 (version id 1794795687-1a10).
+5. Committing now.
+
+Next up: financial_services (3rd and last batch this run — 3-batch budget reached after this one).
