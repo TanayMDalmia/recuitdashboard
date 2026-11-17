@@ -1787,3 +1787,19 @@ Next up: supplemental_search_and_cleanup (last batch of cycle 33).
 5. Committing now.
 
 Next up: apm_rotational_tech batch.
+
+## Run 2026-11-17 (continued) — cycle 34, apm_rotational_tech batch + checkpoint 2
+
+**apm_rotational_tech batch:** reviewed all 25 seed companies (Google, Meta, Microsoft, Amazon, Uber, Airbnb, Salesforce, Adobe, Atlassian, Stripe, Notion, Figma, Robinhood, DoorDash, Instacart, Affirm, Block, LinkedIn, Snap, Pinterest, Apple, Tesla, Capital One, Anthropic, WHOOP) against the freshly-pulled SimplifyJobs Product Management table (0 new unlocked matches at any apm_rotational_tech seed company beyond what's already tracked) and 2 targeted WebSearch queries:
+- Query 1 ("Associate Product Manager" new grad 2027 at Capital One/Anthropic/Apple/Tesla): surfaced Capital One's "Product Development Program Associate - 2027" (McLean/Richmond/Plano/NYC/Chicago, req 97421687328) — a first-party capitalonecareers.com URL, but this exact lead was already found and left unaddable in a prior cycle (2026-11-01) because capitalonecareers.com cannot be WebFetch-verified under the standing network block; reconfirmed blocked again this run. Not added. Nothing for Anthropic/Apple/Tesla.
+- Query 2 (Google/Meta/Stripe/Atlassian APM 2027): surfaced a Google APM "University Graduate, 2027 Start" posting with a different numeric job ID (101007950268506822, Bengaluru + unspecified US locations) than the one already tracked (107272685397910214, NY/Mountain View/San Bruno/San Jose) — attempted direct WebFetch to google.com to check whether it's a genuinely distinct US posting or a duplicate/India-only req; google.com is also blocked (ENOTFOUND), so left unresolved rather than guess. Meta, Stripe, Atlassian: nothing found.
+- **0 additions this batch** — consistent with the standing network-verification blocker.
+
+**CHECKPOINT (2 of up to 3 this run):**
+1. Merge: 0 job changes. `completed_this_cycle`: [`sources_refresh`, `apm_rotational_tech`].
+2. LINK UPGRADE: continued the backlog (86 unflagged unverified, scope a/c still empty). Attempted direct WebFetch on 2 more candidates (WHOOP APM Pace Setters at whoop.com, Capital One Business Analyst Associate Feb-2027 at capitalonecareers.com) — both ENOTFOUND, same blocker. No changes.
+3. TOP PICKS: no jobs first_seen today; existing 8-pick set carries forward. Not the last checkpoint this run.
+4. CONCURRENCY-SAFE PUBLISH: fresh read immediately before publish matched the version just published at checkpoint 1 exactly (1794928949-0b93) — no concurrent edits. Published → version 286 (version id 1794929120-84e2).
+5. Committing now.
+
+Next up: product_management batch.
