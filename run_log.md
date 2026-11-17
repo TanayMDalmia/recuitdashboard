@@ -1803,3 +1803,19 @@ Next up: apm_rotational_tech batch.
 5. Committing now.
 
 Next up: product_management batch.
+
+## Run 2026-11-17 (continued) — cycle 34, product_management batch + checkpoint 3 — run complete (3/3 batches this run)
+
+**product_management batch:** reviewed all 41 seed companies. The fresh SimplifyJobs/New-Grad-Positions Product Management table pull (from this run's sources_refresh) surfaced 1 new, directly-sourced, currently-open posting not yet tracked: **TikTok — "Product Solutions and Operations New Grad - Global Monetization Product and Technology"** (San Jose, CA, https://lifeattiktok.com/search/7702517151362976053). Direct company-site link captured verbatim from the tracker's structured table — authoritative by construction per the source-priority rules, `link_verified: true` without needing WebFetch confirmation. **Added.**
+- 2 targeted WebSearch queries this batch: Audible "Product Manager" ADBL196 / AUI "Associate Product Manager" "AI Agents" (Tanay's Sheet2 leads) — found only senior/2+-years-experience Audible PM roles, nothing matching "ADBL196" or an AUI entry; no addable match. ServiceNow/Workday/Intuit/Snowflake/PayPal product manager new grad 2027 — found only MBA-intern roles (ServiceNow) and a 3rd-party guide reference to Intuit's RPM program (already tracked); nothing new/addable.
+- Cross-checked remaining Sheet2 leads against jobs[]: TikTok PM Graduate (Sales/Ops Mgmt Platform), WHOOP APM Pace Setters, and Red Ventures APM-AI (both Charlotte NC and NYC) are all already tracked — confirmed no gaps there.
+- **1 addition this batch.**
+
+**CHECKPOINT (3 of 3 this run — run budget reached):**
+1. Merge: added TikTok PM posting (`jobs[]` 1,933 → 1,934). `completed_this_cycle`: [`sources_refresh`, `apm_rotational_tech`, `product_management`] (3/17 batches this cycle).
+2. LINK UPGRADE: same backlog as prior 2 checkpoints this run (86 unflagged unverified, scope a/c empty) — no further WebFetch attempts made this checkpoint (budget already spent on checkpoints 1–2); backlog remains above the ~20 threshold, so LINK UPGRADE continues running every checkpoint next run too.
+3. TOP PICKS: 1 job first_seen today (TikTok PM, San Jose CA — not NYC/Boston, no particular alumni-signal boost for TikTok) — doesn't outrank the existing 8-pick set (Google APM, Protiviti, Meta RPM, Bain Capital PE, Jane Street, NBCUniversal Page Program, Warburg Pincus, Insight Partners) on the stated criteria, so kept unchanged. Not the cycle's last checkpoint (14 batches remain) — `top_picks_history` untouched.
+4. CONCURRENCY-SAFE PUBLISH: fresh read immediately before publish matched the version just published at checkpoint 2 exactly (1794929120-84e2) — no concurrent edits across the whole run. Published → version 287 (version id 1794929189-9683). Job count confirmed non-decreasing throughout (1,933 → 1,934, additions only).
+5. Committing now.
+
+**Run summary (3 batches processed: sources_refresh, apm_rotational_tech, product_management):** cycle rolled from 33 (complete) to 34. 1 new posting added (TikTok PM, San Jose CA, directly tracker-sourced). Standing network-egress blocker reconfirmed unchanged (now also spanning cycle 34): boards.greenhouse.io, stripe.com, whoop.com, linkedin.com, capitalonecareers.com, google.com all ENOTFOUND this run; only github.com/raw.githubusercontent.com and (newly, but not job-relevant) anthropic.com reachable. Not escalating via push notification — same unchanged blocker already escalated in prior cycles with the standing decision to only re-notify on material change, and the one new data point (anthropic.com reachable) isn't material to the job pipeline. Next run should pick up with strategy_bizops.
