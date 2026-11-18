@@ -1819,3 +1819,17 @@ Next up: product_management batch.
 5. Committing now.
 
 **Run summary (3 batches processed: sources_refresh, apm_rotational_tech, product_management):** cycle rolled from 33 (complete) to 34. 1 new posting added (TikTok PM, San Jose CA, directly tracker-sourced). Standing network-egress blocker reconfirmed unchanged (now also spanning cycle 34): boards.greenhouse.io, stripe.com, whoop.com, linkedin.com, capitalonecareers.com, google.com all ENOTFOUND this run; only github.com/raw.githubusercontent.com and (newly, but not job-relevant) anthropic.com reachable. Not escalating via push notification — same unchanged blocker already escalated in prior cycles with the standing decision to only re-notify on material change, and the one new data point (anthropic.com reachable) isn't material to the job pipeline. Next run should pick up with strategy_bizops.
+
+## Run 2026-11-18 — cycle 34, strategy_bizops batch + checkpoint 1
+
+**strategy_bizops batch:** reviewed all 12 companies in companies.json (Google, Meta, Uber, DoorDash, Amazon, Netflix, Spotify, Airbnb, Stripe, Coinbase, Affirm, Tellius) against this cycle's tracker_cache.json (only 4 explicit-2027 rows cached this cycle — Chicago Trading Company x2, Appian x2 — none in this category). Confirmed standing network-egress blocker is still total: `get_environment` shows this session's network is "limited" with an empty allowed-hosts list, so every job/ATS domain fails `ENOTFOUND` (tested boards.greenhouse.io, job-boards.greenhouse.io, careers.alvarezandmarsal.com this run — all blocked, consistent with 24+ prior cycles). Only github.com/raw.githubusercontent.com resolve. WebSearch (hosted, not subject to this block) still works and surfaced leads — Meta Business Engineer (University Grad) via a jointaro.com mirror, Affirm "Analyst, Early Career (Full Stack)" on greenhouse — but per the mandatory-verification rule these can't be WebFetch-confirmed and the direct ATS/company links can't be reached, so **0 additions** (per standing instruction: skip silently rather than guess).
+- Per the standing decision already recorded in prior cycles (blocker escalated previously, no material change since), **not re-proposing an environment/network change or sending a push notification this run** — only re-escalate if something materially changes.
+
+**CHECKPOINT (1 of up to 3 this run):**
+1. Merge: 0 job changes. `completed_this_cycle`: [`sources_refresh`, `apm_rotational_tech`, `product_management`, `strategy_bizops`] (4/17 batches this cycle).
+2. LINK UPGRADE: backlog unchanged (0 jobright-linked, 86 unflagged-unverified, 0 bad_link — scope (a) empty, scope (b) 86 still above the ~20 threshold so LINK UPGRADE continues every checkpoint). Attempted 1 WebFetch (careers.alvarezandmarsal.com, Alvarez & Marsal CPI Analyst) — ENOTFOUND, same blocker. No changes.
+3. TOP PICKS: no jobs first_seen today; existing 8-pick set carries forward unchanged. Not the cycle's last checkpoint (13 batches remain) — `top_picks_history` untouched.
+4. CONCURRENCY-SAFE PUBLISH: fresh read of the live artifact immediately before publishing matched local state byte-for-byte (same version 1794929189-9683) — no concurrent edits, no live-only rows to merge. Published → version 288 (version id 1794968460-f3c1). Job count unchanged (1,934 → 1,934).
+5. Committing now.
+
+Next up: consulting batch.
