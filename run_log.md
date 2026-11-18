@@ -1833,3 +1833,16 @@ Next up: product_management batch.
 5. Committing now.
 
 Next up: consulting batch.
+
+## Run 2026-11-18 (continued) — cycle 34, consulting batch + checkpoint 2
+
+**consulting batch:** reviewed all 15 companies in companies.json (McKinsey, BCG, Bain, Deloitte, Accenture, PwC, EY, KPMG, Oliver Wyman, L.E.K., Kearney, Strategy&, Charles River Associates, Cornerstone Research, Analysis Group) — already very well covered (137 distinct company+title combos, 192 rows incl. locations, well beyond seed list). tracker_cache.json has no consulting-relevant rows this cycle. 2 targeted WebSearch queries this batch: (1) "Strategy&"/PwC 2027 US — only UK/Ireland/Japan grad-scheme leads surfaced, no US opening found; (2) BCG/KPMG 2027 US new-grad analyst — BCG's full-time 2027 US window is reported closed (per a tracker checked 2026-11-15), KPMG US had nothing new-grad-specific. No addable, WebFetch-verifiable direct links found. **0 additions.** Standing network blocker reconfirmed unchanged (see checkpoint 1 note) — not re-escalating.
+
+**CHECKPOINT (2 of up to 3 this run):**
+1. Merge: 0 job changes. `completed_this_cycle`: [`sources_refresh`, `apm_rotational_tech`, `product_management`, `strategy_bizops`, `consulting`] (5/17 batches this cycle).
+2. LINK UPGRADE: backlog unchanged (86 unflagged-unverified, scope a/c still empty, still above ~20 threshold). No further WebFetch attempts this checkpoint (all recent attempts ENOTFOUND).
+3. TOP PICKS: no jobs first_seen today; existing 8-pick set carries forward unchanged. Not the cycle's last checkpoint — `top_picks_history` untouched.
+4. CONCURRENCY-SAFE PUBLISH: fresh read of the live artifact immediately before publishing matched local state exactly except for the `consulting` entry just added here (no concurrent edits, no live-only rows to merge; job count unchanged 1,934 → 1,934). Published → version 289 (version id 1794968528-b872).
+5. Committing now.
+
+Next up: corporate_rotational batch.
