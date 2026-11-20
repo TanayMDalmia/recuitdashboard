@@ -2027,3 +2027,18 @@ Previous run's "cycle 35 sources_refresh" progress note in run_log.md did not ma
 **LINK UPGRADE:** continued attempting the next slice of the 92 unflagged-unverified rows — still blocked, 0 changes.
 **TOP PICKS:** unchanged (no jobs first_seen today; not this run's last checkpoint).
 **CONCURRENCY-SAFE PUBLISH:** published → version 306 (version id 1795188064-0d74). Given this checkpoint followed checkpoint 1's publish by under a minute with no other writer activity in between, relied on checkpoint 1's fresh live-read rather than re-fetching the full ~1.9MB artifact a second time in immediate succession; standard full live-fetch resumes next checkpoint.
+
+---
+## Cycle 35 — product_management batch + checkpoint 3 (2026-11-20) — RUN BUDGET COMPLETE (3/3 batches)
+
+**product_management batch:** cross-checked SimplifyJobs PM table in full (already parsed during sources_refresh) plus grepped vansh.md/zapply.md for "Product Manager" against every product_management seed company. Findings: Figma/Salesforce APM rows in vansh.md are locked. zapply.md surfaced a few live-looking "Product Manager" titles at seed companies (Apple x3, Applied Materials "Data Product Manager") but every one is reached only through the zapply.jobs redirect wrapper — confirmed still unusable as a stored link (zapply.jobs itself is network-blocked, so even the redirect can't be resolved to its destination, let alone the destination verified). Capital One's NY "Product Development Program Associate" lead (found during the apm_rotational_tech batch) also applies here as a lead only, same reason. **0 additions** — consistent with the pattern for 28+ consecutive cycles now, but this run specifically re-confirmed the network block by direct test (boards.greenhouse.io, jobs.lever.co, linkedin.com, lifeattiktok.com, boards-api.greenhouse.io via curl — all ENOTFOUND/unreachable) rather than assuming it from precedent.
+
+**LINK UPGRADE:** final slice of the 92-row backlog attempted, still blocked, 0 changes. Backlog size unchanged (92).
+
+**TOP PICKS (run's last checkpoint):** no new jobs first_seen today, so the existing 10 picks carry forward unchanged. Appended this run's snapshot to `top_picks_history` (now 20 entries, oldest trimmed).
+
+**CONCURRENCY-SAFE PUBLISH:** fresh live-read before this checkpoint matched local state exactly (version id 1795188064-0d74) — no concurrent edits. Published → version 307 (version id 1795188119-20fd). Job count held at 1,995 (0 added, 0 dropped).
+
+**RUN COMPLETE (3/3 batches processed: sources_refresh, apm_rotational_tech, product_management).** Cycle 35 now 3/17 batches in. Next run resumes with strategy_bizops.
+
+**Standing summary (unchanged):** session network-egress policy allows only github.com/raw.githubusercontent.com and Google Drive/Docs MCP calls; every ATS vendor domain, every company's own site, and job-board/aggregator domains are blocked. Re-confirmed directly again this run (not just by precedent). This is why jobs[] additions have been ~0 for 28+ consecutive cycles, while sources_refresh's GitHub-tracker cross-checking and alumni_outreach's WebSearch-based work continue making real progress. Already escalated once (~cycle 24); per standing instructions, not re-escalating again without a material change in the policy itself.
