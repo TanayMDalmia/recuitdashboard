@@ -1978,3 +1978,25 @@ Next: supplemental_search_and_cleanup (last batch of cycle 34), then cycle 35 if
 **CONCURRENCY-SAFE PUBLISH:** fresh re-read of the live artifact matched the prior publish exactly (version id 1795141402-0c27) — no concurrent edits. Published → version 303 (version id 1795141478-2908). Job count held at 1,995.
 
 Cycle 34 is now complete (17/17 batches). Budget allows 1 more batch this run — proceeding into cycle 35's sources_refresh.
+
+---
+## Cycle 35 — sources_refresh batch + checkpoint (2026-11-20) — RUN BUDGET COMPLETE (3/3 batches)
+
+Cycle 34 finished (17/17 batches); started cycle 35.
+
+**sources_refresh batch:**
+- Flags: re-checked Drive for pending `flag__*` files — still 0 new (all 39 found already processed).
+- Sheets: re-read Company/Industry Recruiting Dashboard Input (3 tabs) fully — unchanged from every prior re-read (all companies/industries already in companies.json, Energy still has no sheet-listed companies, no new industry to add to batches_order). Re-read FT Job Application Tracker (both tabs) for applied_note/watchlist cross-check: checked Tanay's personal "To Apply to that's live" watchlist (Sheet2) against jobs[] -- all 13 items on the current watchlist (Stripe PM, TikTok PM Graduate, Jefferies 2027 Risk Mgmt, Audible PM, WHOOP APM, GMO Investment Research Associate, Red Ventures APM-AI, Sony Pictures FP&A Analyst, AUI APM, Keystone Associates & Consultants, Two Sigma Data Scientist, Anthropic, Roblox APM) are already tracked in jobs[] under matching company+title -- nothing new to add.
+- GitHub trackers: re-pulled all 3 cached sources. vanshb03/New-Grad-2027 and zapplyjobs/New-Grad-Jobs-2027 remain fully redirect-wrapped (go.vansh.nyc / zapply.jobs), both confirmed still ENOTFOUND under the standing network block -- lead-only, unusable. SimplifyJobs/New-Grad-Positions (the one source with direct, non-redirected ATS links) re-pulled fresh (800,875-byte README, down from 2580 to 587 total listed roles -- looks like the maintainers did a cleanup pass). Parsed its Product Management (50 rows) and Quantitative Finance (54 rows) tables programmatically and cross-checked every unlocked row against seed lists + existing jobs[] -- every match (Applied Materials x2 [Master's-required anyway], IXL Learning, LPL Financial Holdings, SIG, Akuna Capital, Hudson River Trading, Old Mission, Citadel/Citadel Securities, TransMarket Group) was already tracked under an identical URL. Zero new additions.
+
+**Network status (re-confirmed again this run):** go.vansh.nyc also tested directly this run (ENOTFOUND), consistent with every other non-GitHub/non-Google host. This is now a very long-running (28+ cycle) persistent restriction; not re-escalating per standing instructions.
+
+**LINK UPGRADE:** same 92 unflagged-unverified rows remain (0 resolved this checkpoint, same blocker).
+
+**TOP PICKS (run's last checkpoint):** no change to the 10 picks from the alumni_outreach checkpoint. Appended this run's snapshot to `top_picks_history` (now 20 entries, oldest trimmed).
+
+**CONCURRENCY-SAFE PUBLISH:** fresh re-read of the live artifact matched the prior publish exactly (version id 1795141478-2908) — no concurrent edits. Published → version 304 (version id 1795141679-a404). Job count held at 1,995.
+
+**RUN COMPLETE (3/3 batches processed: alumni_outreach, supplemental_search_and_cleanup, sources_refresh).** Cycle 34 finished; cycle 35 now 1/17 batches in. Next run resumes with apm_rotational_tech.
+
+**Standing summary:** the core blocker across this entire run (and ~28 consecutive cycles before it) is the session's network-egress policy, which allows only github.com/raw.githubusercontent.com and Google Drive/Docs MCP calls -- every ATS vendor domain (greenhouse, lever, workday, taleo, ashbyhq), every company's own site, and even GitHub-tracker redirect shorteners (go.vansh.nyc, zapply.jobs) are blocked. This is why the jobs[] pipeline has produced ~0 net new verified postings for a long stretch, while alumni_outreach (WebSearch-only) and sources_refresh's cross-checking work continue to make real, if incremental, progress. Already escalated once (~cycle 24); per the task's own standing instructions, not re-escalating again without a material change.
