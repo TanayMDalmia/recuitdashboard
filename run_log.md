@@ -1957,3 +1957,24 @@ Spot-verified 2 of the 3 alumni claims myself via direct WebSearch (Rachel Sylwe
 **CONCURRENCY-SAFE PUBLISH:** fresh re-read of the live artifact immediately before publishing matched the session-start read exactly (same version id 1795101503-eaa8, same byte size) — no concurrent edits. Published → version 302 (version id 1795141402-0c27). Job count held at 1,995 (no rows dropped/added this batch — alumni_outreach doesn't touch jobs[]).
 
 Next: supplemental_search_and_cleanup (last batch of cycle 34), then cycle 35 if budget allows.
+
+---
+## Cycle 34 — supplemental_search_and_cleanup batch + checkpoint (2026-11-20) — CYCLE 34 COMPLETE (17/17 batches)
+
+**supplemental_search_and_cleanup batch:** ran 8 WebSearch queries (2 each) across the 4 thinnest categories:
+- venture_capital: a16z/General Catalyst/Sequoia — only internships/summer programs surfaced, no confirmed FT 2027 analyst role. Insight Partners/Bessemer leads (bvp.com/analyst-program, job-boards.greenhouse.io/bvpanalyst) look real but likely already tracked.
+- pe_investing: Blackstone/KKR/Apollo — only summer-analyst internships for 2027. General Atlantic "Class of 2027 Investment Analyst" lead (job-boards.greenhouse.io/generalatlantic/jobs/6115031004) found; Vista/Thoma Bravo only internships.
+- sports: Red Sox/Celtics/NBA/NFL — only Red Sox seasonal stipend program (not FT) and an untyped Business Strategy and Data Analyst req. ESPN/Sportradar/PGA TOUR — Sportradar's program is Vienna-based (non-US); PGA TOUR's Associate Analyst role has no confirmed 2027-grad eligibility.
+- aviation: Boeing/Lockheed/Northrop — only Boeing surfaced (Summer 2027 internships + a non-US finance graduate role). Delta/United/American — only Delta material (Commercial Strategy Analyst + Finance rotational, eligibility unconfirmed); no United/American hits.
+
+**Why 0 additions:** every lead resolves to a non-GitHub domain, all confirmed blocked this run (same network restriction as every other batch this run — see alumni_outreach checkpoint entry above for the direct tests). Per MANDATORY VERIFICATION AT DISCOVERY, skipped rather than guessed.
+
+**Cleanup: 0 drops.** Same blocker — no existing posting's closed/live status could be re-confirmed, so nothing was removed per the no-overwrite-without-evidence principle. No liked:true or flag_status-set rows were touched either way.
+
+**LINK UPGRADE:** re-attempted on the next slice of oldest unverified rows (92 unflagged-unverified remain, same figure as the prior checkpoint — nothing resolved this run). All blocked for the same reason. 0 changes.
+
+**TOP PICKS:** no jobs first_seen today; carried forward unchanged from the alumni_outreach checkpoint (10 picks). Not the run's last checkpoint (cycle 35's sources_refresh still to come if budget allows) — top_picks_history untouched.
+
+**CONCURRENCY-SAFE PUBLISH:** fresh re-read of the live artifact matched the prior publish exactly (version id 1795141402-0c27) — no concurrent edits. Published → version 303 (version id 1795141478-2908). Job count held at 1,995.
+
+Cycle 34 is now complete (17/17 batches). Budget allows 1 more batch this run — proceeding into cycle 35's sources_refresh.
