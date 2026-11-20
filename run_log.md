@@ -2000,3 +2000,21 @@ Cycle 34 finished (17/17 batches); started cycle 35.
 **RUN COMPLETE (3/3 batches processed: alumni_outreach, supplemental_search_and_cleanup, sources_refresh).** Cycle 34 finished; cycle 35 now 1/17 batches in. Next run resumes with apm_rotational_tech.
 
 **Standing summary:** the core blocker across this entire run (and ~28 consecutive cycles before it) is the session's network-egress policy, which allows only github.com/raw.githubusercontent.com and Google Drive/Docs MCP calls -- every ATS vendor domain (greenhouse, lever, workday, taleo, ashbyhq), every company's own site, and even GitHub-tracker redirect shorteners (go.vansh.nyc, zapply.jobs) are blocked. This is why the jobs[] pipeline has produced ~0 net new verified postings for a long stretch, while alumni_outreach (WebSearch-only) and sources_refresh's cross-checking work continue to make real, if incremental, progress. Already escalated once (~cycle 24); per the task's own standing instructions, not re-escalating again without a material change.
+
+---
+## Cycle 35 — sources_refresh batch + checkpoint 1 (2026-11-20)
+
+Previous run's "cycle 35 sources_refresh" progress note in run_log.md did not make it into the published artifact's embedded cycle state (live artifact still showed cycle 34 complete 17/17 on fresh fetch this run) — per STEP 0 ("artifact is primary source of truth"), treated the live artifact as authoritative and started cycle 35 fresh from completed_this_cycle=[].
+
+**sources_refresh batch:**
+- Flags: searched Drive for `flag__*` files — all 39 found are already in processed_flag_ids. 0 new.
+- Sheets: re-read Company/Industry Recruiting Dashboard Input (3 tabs) — unchanged (no new companies/industries; Energy still empty on the sheet).
+- GitHub trackers: re-pulled all 3 sources fresh via raw.githubusercontent.com (works). SimplifyJobs/New-Grad-Positions (800,875 bytes) — parsed Product Management section fully: cross-checked every active row (Bask Health, HPE, TikTok x3, LSEG, Addepar, Applied Materials x2 [🎓 Master's-required, correctly excluded], IXL Learning, M&T Bank, ID.me, Roblox, LPL Financial Holdings, Micron, Uncountable) against companies.json seed lists for apm_rotational_tech/product_management — every in-scope match (LPL, TikTok x3, Applied Materials x2, IXL Learning, Roblox) already tracked under an identical or equivalent URL. Addepar/Bask Health/HPE/LSEG/M&T Bank/ID.me/Micron/Uncountable are not in either category's companies.json seed list, so out of scope for this batch (would require a flag/custom_note or the supplemental batch to add as new companies). vanshb03 and zapplyjobs READMEs re-confirmed still fully redirect-wrapped (go.vansh.nyc / zapply.jobs) — lead-only, unusable as final links.
+
+**Network status (re-confirmed directly this run, not just asserted from precedent):** WebFetch to boards.greenhouse.io, jobs.lever.co, www.linkedin.com, and lifeattiktok.com all failed with ENOTFOUND (session network policy only allows github.com/raw.githubusercontent.com and Google Drive/Docs). `curl` from Bash to boards-api.greenhouse.io also failed (exit via proxy). This is the same persistent restriction logged for 28+ consecutive cycles; already escalated once (~cycle 24) and the task's standing instructions say not to re-escalate again without a material change, so not re-escalating.
+
+**LINK UPGRADE:** scope (a) aggregator/mirror backlog is now empty (0 jobright.ai-linked rows remain). Scope (b): 92 unflagged-unverified rows remain. Attempted the oldest slice — all blocked by the network restriction (no fetch possible, not even an error page), so per the no-overwrite-without-evidence principle, 0 rows were changed (a fetch failure is not evidence a posting is actually down).
+
+**TOP PICKS:** no change — not this run's last checkpoint (apm_rotational_tech/product_management still to come).
+
+**CONCURRENCY-SAFE PUBLISH:** fresh fetch of the live artifact matched local state exactly (version id 1795141679-a404, cycle 34 complete, 1,995 jobs) — no concurrent edits, nothing to merge. Started cycle 35 (completed_this_cycle=["sources_refresh"]). Published → version 305 (version id 1795187977-cf7a) via JSON-splice into the existing page (CSS/JS unchanged; only the embedded #job-state JSON was replaced) rather than regenerating the full HTML by hand.
