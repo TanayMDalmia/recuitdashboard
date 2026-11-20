@@ -1928,3 +1928,32 @@ Next up: corporate_rotational batch.
 5. Committing and pushing now.
 
 **Run summary (3 batches processed: space, sports, aviation):** 0 new postings added — same persistent network-egress restriction documented for 26+ consecutive cycles now (direct WebFetch to any non-GitHub host returns ENOTFOUND/403; reconfirmed again this run via curl and via two direct WebFetch attempts against SpaceX/Varda Greenhouse links and a Red Sox Lever link surfaced by this run's own searches). WebSearch continues to work and surfaced several plausible first-party leads this run (SpaceX/Varda Greenhouse reqs, Red Sox Lever reqs, GE Aerospace/Boeing/RTX finance rotational programs) but none could pass mandatory-verification-at-discovery. STANDING RECOMMENDATION UNCHANGED: widening this environment's network allowlist to include at least boards.greenhouse.io, job-boards.greenhouse.io, jobs.lever.co, and major company/ATS domains would unblock this pipeline. Not re-escalating via push notification this run — already escalated once (~cycle 24), no material change since, and the task's own standing instructions say not to send notifications this run. Next run should pick up with alumni_outreach (2 batches remain: alumni_outreach, supplemental_search_and_cleanup — the cycle's last checkpoint).
+
+---
+## Cycle 34 — alumni_outreach batch + checkpoint (2026-11-20)
+
+**Network status re-confirmed this run:** direct-tested WebFetch and raw curl against boards.greenhouse.io, boards-api.greenhouse.io, api.lever.co, www.spacex.com, www.google.com — all ENOTFOUND/403. Only raw.githubusercontent.com/github.com and Google Drive/Docs MCP calls are reachable. WebSearch itself works fine. This is the same persistent block documented for 26+ consecutive cycles, already escalated once (~cycle 24); not re-escalating per standing instructions (task explicitly says not to send notifications).
+
+**sources_refresh flag check:** searched Drive for pending `flag__*` files — all 39 found are already in `processed_flag_ids`; 0 new flags to process this run.
+
+**alumni_outreach batch:** researched 8 companies with no prior alumni_outreach entry (priority: no-entry-yet companies first), via WebSearch only (no WebFetch needed for this batch's hiring-signal/alumni-search steps):
+- Sierra Space — no hiring signal found; 1 alum (Isabel Kim, Princeton MAE, 2024 Matthew Isakowitz Fellow hosted by Sierra Space — verified via Princeton MAE department page + fellowship's own profile page).
+- Varda Space Industries — no signal, no alumni found.
+- Textron Aviation — hiring signal: company-wide Leadership Development Program lists a Summer 2027 cohort (txtav.com/careers/studentsandgrads). No alumni found.
+- Breakthrough Energy Ventures — no signal, no alumni found.
+- Turn River Capital — hiring signal: 2027 entry-level Investment Analyst program advertised for the Class of 2027. No alumni found.
+- Long Ridge Equity Partners — hiring signal: own Greenhouse board has a Growth Equity Analyst posting explicitly for the Class of 2027. 2 alumni found and verified (Rachel Sylwester, Princeton '22, Investor; Devin Stearns, VP).
+- BlackEdge Capital — hiring signal: open campus call for the 2027 class across trading/tech, Chicago. No alumni found.
+- TransMarket Group — hiring signal: own Greenhouse board targets the Dec 2026-Spring 2027 grad class for a Chicago trading role. No alumni found.
+
+Spot-verified 2 of the 3 alumni claims myself via direct WebSearch (Rachel Sylwester/Long Ridge, Isabel Kim/Sierra Space) before merging — both confirmed genuine Princeton connections. Corrected one email draft's tense (Isabel Kim's internship was 2024, not current) before publishing.
+
+**TRACKER SHEET CROSS-CHECK (step d):** read the Alumni Outreach Tracker sheet — 1 real row (Maria Tokarska / Disney), "Reached Out Yet?" = No, but she already has a non-empty `email_draft` in state (manually_added:true from a prior run) — no action needed, nothing new to add.
+
+**LINK UPGRADE:** scope (a) aggregator-linked rows: 0 remaining (confirmed via scan — no jobright.ai or similar domains in any stored link). Scope (b) unverified rows: 92 unflagged-unverified remain; attempted but blocked — all are non-GitHub domains (linkedin.com, ashbyhq.com, lever.co, greenhouse.io, capitalonecareers.com, etc.), confirmed unreachable this run. 0 changes.
+
+**TOP PICKS:** no jobs first_seen today. Backfilled by adding 2 picks reflecting this run's new hiring signals: Long Ridge Equity Partners (Growth Equity Analyst, NYC) and TransMarket Group (Junior Quantitative Trader, Chicago) — both already-tracked, verified-link postings at companies newly flagged with an active hiring signal. top_picks now 10 total. Not the run's last checkpoint — top_picks_history untouched.
+
+**CONCURRENCY-SAFE PUBLISH:** fresh re-read of the live artifact immediately before publishing matched the session-start read exactly (same version id 1795101503-eaa8, same byte size) — no concurrent edits. Published → version 302 (version id 1795141402-0c27). Job count held at 1,995 (no rows dropped/added this batch — alumni_outreach doesn't touch jobs[]).
+
+Next: supplemental_search_and_cleanup (last batch of cycle 34), then cycle 35 if budget allows.
