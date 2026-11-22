@@ -2105,3 +2105,25 @@ Previous run's "cycle 35 sources_refresh" progress note in run_log.md did not ma
 5. Committing and pushing now.
 
 **Run summary (3 batches processed: quant_trading, pe_investing, venture_capital):** 0 new postings added — same persistent network-egress restriction, now spanning roughly 11 full cycles with zero organic additions from this routine's own direct sourcing (all growth in that period came from the other writer/routine or from Tanay's own flags, adopted per rule 4b). Sent a push notification this run (first in a long while) because a concrete, specific fix now exists and is sitting as a pending approval request — worth surfacing rather than silently repeating "already escalated once." Next run should pick up with entertainment.
+
+---
+## Cycle 35 — entertainment / energy / financial_services batches + checkpoint (2026-11-22, run 6) — RUN BUDGET COMPLETE (3/3 batches)
+
+**Pre-run network reconfirmation:** `get_environment` showed network type "limited", `allowed_hosts: []` (unchanged). Direct-tested WebFetch against boards.greenhouse.io and www.disneycareers.com this run — both ENOTFOUND. WebSearch continues to work fine (server-side, not subject to this sandbox's egress allowlist). Same persistent block, now spanning this entire cycle and the ~11+ cycles before it. Not re-proposing `update_environment` this run: it was already proposed (refused automatically, "nobody is present on this routine run") and already escalated via push notification last run (cycle 35 run 5) with no material change since — re-escalating again with nothing new to report would just be noise.
+
+**entertainment:** 1 WebSearch query (Sony/Pixar/Warner Bros/NBCUniversal/EA/Riot Games/A24 2027 rotational/business programs). Every lead surfaced (Riot Games Masters-only rotational pipeline, Sony Music Data Strategy & Analytics Rotation Trainee, Sony Pictures franchise-development trainee, NBCUniversal/Disney items) was either already tracked in jobs[] or out of scope (Masters-only, intern-style, no confirmable 2027 full-time date). Checked against existing jobs[] (152 entertainment rows already tracked) by company+title — no genuinely new match. **0 additions.**
+
+**energy:** 1 WebSearch query (NextEra/Shell/Duke Energy/Berkshire Hathaway Energy 2027 leadership-development programs). NextEra Financial Leadership Development Program, Shell Graduate Programme, and Duke Energy internship/co-op results were all already tracked (jobs[] already carries 60+ energy rows covering NextEra LAUNCH/Ignite, Shell Graduate Program, TotalEnergies, Chevron FDP, etc.). No Berkshire Hathaway Energy result at all. **0 additions.**
+
+**financial_services:** 1 WebSearch query (JPMorgan/Bloomberg/FactSet/Evercore/BlackRock/Goldman Sachs/Morgan Stanley 2027 full-time analyst programs). Confirmed via direct lookup against jobs[] that the BlackRock 2027 Full-Time Analyst Program (AMRS), JPMorgan 2027 Global IB/Asset Management/Markets Full-Time Analyst Programs, and Goldman Sachs New Analyst Program are all already tracked (financial_services already has 180+ rows). No Bloomberg, FactSet, Evercore, or Morgan Stanley results surfaced this run. **0 additions.**
+
+**LINK UPGRADE (ran this checkpoint, backlog still above threshold: 0 aggregator-linked, 91 unflagged-unverified, 0 bad_link):** Checked the domain distribution of the 91 unverified-backlog postings this run (52 linkedin.com, 7 job-boards.greenhouse.io, 4 careers.alvarezandmarsal.com, 3 jobs.lever.co, plus singletons across citi.com/barclays/axon/wellsfargo/whoop/amazon/twosigma/bankofamerica/etc.) — every single domain is non-GitHub and confirmed unreachable under the standing network block. **0 changes.**
+
+**CHECKPOINT:**
+1. Merge: 0 job changes across all 3 batches (2,025 jobs held).
+2. LINK UPGRADE: 0 changes (blocked, see above).
+3. TOP PICKS: no jobs first_seen today; existing pick set carries forward unchanged. Not this cycle's last checkpoint (5 batches remain: space, sports, aviation, alumni_outreach, supplemental_search_and_cleanup) — `top_picks_history` untouched.
+4. CONCURRENCY-SAFE PUBLISH: fresh read of the live artifact immediately before publishing matched local state.json exactly (same version id 1795274386-2008 as the prior commit's publish) — no concurrent edits since last run, so no rows to adopt under rule 4b. Applied a surgical edit updating only `cycle.completed_this_cycle` (+entertainment/energy/financial_services, 12/17 batches this cycle) and `last_refreshed`; everything else byte-identical. Published → version 313 (version id 1795313879-2ce0). Job count held at 2,025 (0 dropped, 0 added).
+5. Committing and pushing now.
+
+**Run summary (3 batches processed: entertainment, energy, financial_services):** 0 new postings added — same persistent network-egress restriction, now spanning the entire 35th cycle with zero organic additions from this routine's own direct sourcing. Did not re-send a push notification this run since the blocker and its concrete fix (widening the environment's network allowlist) were already surfaced to Tanay last run with no new development to report. Next run should pick up with space.
