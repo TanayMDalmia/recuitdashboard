@@ -2208,3 +2208,13 @@ Next run continues cycle 36 at `consulting`.
 **TOP PICKS:** no jobs first_seen today; existing top_picks (10 entries, mostly 2026-11-20/22 postings) remain the best available and are left unchanged.
 
 **CONCURRENCY-SAFE PUBLISH:** fresh fetch of the live board confirmed no changes since this run's initial read (same version id). Published dashboard v323 (cycle.completed_this_cycle now includes consulting; last_refreshed 2026-11-24).
+
+## Cycle 36, checkpoint 6 (corporate_rotational batch) — 2026-11-24
+
+**corporate_rotational batch:** checked tracker_cache.json — no matches for this category's seeds (General Electric, Procter & Gamble, Danaher, Johnson & Johnson, PepsiCo, Colgate-Palmolive, Honeywell, 3M, Medtronic, Cummins, IBM, John Deere, Eaton, Emerson Electric, Textron, Capital One). Ran 2 WebSearch queries (one covering GE/P&G/Honeywell/3M/Medtronic/Cummins/IBM, one covering J&J/PepsiCo/Danaher/Emerson/John Deere/Textron) — no 2027 rotational-program leads surfaced for any of these companies; results skewed to unrelated government/academic graduate programs. Capital One's existing Business Analyst Associate postings were already re-confirmed (via search) to be the same Feb/Aug 2027 cohorts already tracked (two rows already flagged unavailable/404 from the 2026-11-18 link check). **0 additions.**
+
+**LINK UPGRADE:** same network-blocked status as checkpoint 5; no changes.
+
+**TOP PICKS:** unchanged — no new postings today.
+
+**CONCURRENCY-SAFE PUBLISH:** re-fetched live board, confirmed no external edits since checkpoint 5. Published dashboard v324 (cycle.completed_this_cycle now includes corporate_rotational).
