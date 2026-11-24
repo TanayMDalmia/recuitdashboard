@@ -2218,3 +2218,15 @@ Next run continues cycle 36 at `consulting`.
 **TOP PICKS:** unchanged — no new postings today.
 
 **CONCURRENCY-SAFE PUBLISH:** re-fetched live board, confirmed no external edits since checkpoint 5. Published dashboard v324 (cycle.completed_this_cycle now includes corporate_rotational).
+
+## Cycle 36, checkpoint 7 (quant_trading batch — run close) — 2026-11-24
+
+**quant_trading batch:** checked tracker_cache.json (only existing CTC rows, already tracked). Ran 2 WebSearch queries against companies.json's quant_trading seeds. Several genuinely promising NEW direct-ATS leads surfaced via Google's own search results (exact hrefs, not retyped) for seed companies already in companies.json: Five Rings (job-boards.greenhouse.io/fiveringsllc/jobs/5255367008), Chicago Trading Company (job-boards.greenhouse.io/chicagotradingcampus/jobs/4716504005, /4716507005, /4716509005 — a different board slug than the already-tracked ctccampusboard reqs), DRW (job-boards.greenhouse.io/drweng/jobs/7957241), IMC (job-boards.greenhouse.io/imc/jobs/4907368101). None were added: WebFetch to greenhouse.io is blocked in this environment (confirmed directly, see checkpoint 5 note), so rule 5's mandatory live-verification can't be performed. Logging these specific URLs here so a future run with network access can verify and add them without re-searching. **0 additions this run.**
+
+**LINK UPGRADE:** unchanged from checkpoints 5-6 — network-blocked, no action taken (no postings marked unavailable on the basis of an unreachable host, per established precedent that ENOTFOUND is not evidence of closure).
+
+**TOP PICKS:** unchanged (no new postings today). Appended current top_picks to top_picks_history (run_at 2026-11-24T00:00:00Z), trimmed to most recent 20 entries — this is the last checkpoint of this run.
+
+**CONCURRENCY-SAFE PUBLISH:** re-fetched live board immediately before this publish, confirmed no external edits since checkpoint 6. Published dashboard v325 (cycle.completed_this_cycle now includes quant_trading — 7 of 17 batches done this cycle: sources_refresh, apm_rotational_tech, product_management, strategy_bizops, consulting, corporate_rotational, quant_trading). Remaining this cycle: pe_investing, venture_capital, entertainment, energy, financial_services, space, sports, aviation, alumni_outreach, supplemental_search_and_cleanup.
+
+**Standing issue for the user, carried across runs:** this environment's network access is "limited" with zero allowed hosts, so WebFetch cannot reach any ATS/company career site (confirmed again this run: boards.greenhouse.io → ENOTFOUND). This has blocked essentially all new postings and all link-upgrade verification for 29+ consecutive cycles. Proposing to widen network access automatically was refused because no person is present on this scheduled run. To unblock: start this routine with "Run now" and approve the network-widening prompt live, or go to the cloud environment's settings (title bar → Edit → Network access) and switch to Unrestricted, or add the specific ATS hosts (boards.greenhouse.io, job-boards.greenhouse.io, jobs.lever.co, myworkdayjobs.com, etc.) to the Limited allowlist.
