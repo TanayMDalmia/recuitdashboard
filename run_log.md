@@ -2270,3 +2270,28 @@ Next run continues cycle 36 at `consulting`.
 **CONCURRENCY-SAFE PUBLISH:** re-fetched the live board immediately before publishing — confirmed identical to local state.json (2085 jobs, same job_ids, same resume_sources/alumni_tracker_sheet/doc urls, same processed_flag_ids) — no external edits to merge. Published dashboard v327 (cycle.completed_this_cycle now includes energy, financial_services, space — 13 of 17 batches done this cycle). Remaining: sports, aviation, alumni_outreach, supplemental_search_and_cleanup.
 
 **Next run** should pick up with `sports`.
+
+## Cycle 36, run (2026-11-25, continued)
+
+**Batches processed:** sports, aviation, alumni_outreach (3/3 budget).
+
+**Network status re-verified from scratch this run:** `get_environment` confirms this session's network is still `{"type":"limited","allowed_hosts":[]}` -- unchanged. WebFetch to boards.greenhouse.io and careers.delawarenorth.com both fail with ENOTFOUND, confirming the standing blocker that has now persisted 31+ consecutive cycles. WebSearch continues to work fine (routes through Anthropic's backend, not a direct host fetch). Not re-sending a push notification -- this exact blocker was already escalated to Tanay multiple times previously (most recently logged cycle 35/36), and the standing decision is to only re-notify on a material change. Nothing has changed.
+
+**sports / aviation batches:** tracker_cache.json confirmed (again) to have zero rows for these categories. Direct ATS fetch and WebSearch-plus-verification are both blocked by the network restriction above (no WebFetch means no MANDATORY VERIFICATION AT DISCOVERY is possible), so 0 new postings added across both batches, consistent with every run since the blocker began.
+
+**alumni_outreach batch:** this batch does NOT require WebFetch (WebSearch-only per its own instructions), so it ran fully and produced real new content despite the network blocker:
+- Picked 8 companies: 3 with no prior entry (Left Lane Capital, Southern Star Central Gas Pipeline, Tellius) + 5 oldest-stale (>60 days: SpaceX, Point72, Jane Street, JPMorgan, Google, all last checked 2026-08-05/08-09).
+- Hiring signal: refreshed Google's signal (live APM University Graduate 2027 Start posting + 16-month Network Operations Residency program); added a new signal for Tellius (its $16M Series B explicitly earmarked for talent acquisition across sales/marketing/product engineering); kept existing valid signals for SpaceX/Point72/Jane Street/JPMorgan unchanged (re-confirmed still accurate via fresh searches) and left Left Lane Capital / Southern Star Central Gas Pipeline at null (nothing credible/specific enough found).
+- New alumni found and added (alongside existing ones, none dropped): Sullivan Meyer ('24, SpaceX/Starship, via Princeton Zero Lab page) and Shannen Prindle ('23, SpaceX Structures Engineer/Starship Launch Tower, via Brooke Owens Fellowship bio); Kenny Huang ('23, Jane Street Strategy & Product, via his own public resume PDF); Christine Li (Princeton CS, Google PM on YouTube Music, via Product School profile). No new alumni confirmed for Point72 or JPMorgan this round (searches returned only weak/unconfirmable matches, correctly skipped). Left Lane Capital, Southern Star Central Gas Pipeline, and Tellius recorded with `alums: []` (genuinely searched, none found) per the "real result" rule.
+- Tracker sheet cross-check (step d): read the Alumni Outreach Tracker sheet -- one real row (Maria Tokarska / Disney / PM / not yet reached out), but she already has a non-empty `email_draft` in state (added manually in a prior run), so correctly skipped per the dedupe rule. 0 rows added this step.
+- alumni_outreach now covers 238 companies (was 235).
+
+**Flags:** re-checked Google Drive for `flag__*` files -- still exactly 39, all already in `processed_flag_ids`. No new flags.
+
+**LINK UPGRADE:** not run this checkpoint -- every candidate upgrade requires WebFetch to confirm a real posting, which remains blocked for all external hosts. Backlog unchanged (0 aggregator-linked, 0 bad_link, ~75 unverified-but-unflagged).
+
+**TOP PICKS:** no postings had `first_seen` today (0 job additions this run), so top_picks carried forward unchanged. Not the last checkpoint of the cycle (supplemental_search_and_cleanup remains), so top_picks_history was not appended.
+
+**CONCURRENCY-SAFE PUBLISH:** re-fetched the live board immediately before publishing -- confirmed identical to the pre-edit local state (2085 jobs, same job_ids, same resume_sources/alumni_tracker_sheet/processed_docreq_ids/doc urls) -- no external edits to merge, no rows dropped. Updated cycle.completed_this_cycle to 16 of 17 batches (sports, aviation, alumni_outreach added). Published dashboard v329 by swapping the embedded job-state JSON in the previously-published HTML (no visual/structural changes needed since nothing about the jobs schema changed) and republishing to the same artifact URL.
+
+**Next run** should pick up with `supplemental_search_and_cleanup` -- the last batch of cycle 36. That batch is also subject to the network blocker for anything requiring WebFetch verification, so expect another 0-addition run on the jobs side unless the environment's network access changes.
